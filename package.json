@@ -1,0 +1,58 @@
+{
+    "name"         : "GrUSP",
+    "version"      : "1.0.0",
+    "description"  : "Associazione Gruppo Utenti Sviluppatori PHP Italiani",
+    "contributors" : [
+        {
+            "name"  : "Enrico Stradaioli",
+            "url"   : "http://www.stradaioli.com"
+        },{
+            "name"  : "Francesco Fullone",
+            "email" : "ff@ideato.it",
+            "url"   : "http://www.ideato.it"
+        },{
+            "name"  : "Vittorio Vittori",
+            "email" : "me@vittoriovittori.com",
+            "url"   : "http://vittoriovittori.com"
+        }
+    ],
+    "license"  : "MIT",
+    "homepage" : "http://grusp.org",
+    "keywords" : [
+        "association",
+        "develop",
+        "developer",
+        "grusp",
+        "php"
+    ],
+    "repository" : {
+        "type" : "git",
+        "url"  : "https://github.com/GrUSP/GrUSP.org.git"
+    },
+    "main" : "compile.less",
+    "devDependencies" : {
+
+        "matchdep"   : "*",
+        "casperjs"   : "*",
+        "phantomjs"  : "*",
+        "resemblejs" : "*",
+        "phantomcss" : "*",
+
+        "csslint" : "*",
+        "less"    : "*",
+
+        "grunt"                 : "~0.4.1",
+        "grunt-autoprefixer"    : "*",
+        "grunt-contrib-watch"   : "*",
+        "grunt-contrib-less"    : "*",
+        "grunt-contrib-csslint" : "*",
+        "grunt-contrib-clean"   : "*",
+        "grunt-contrib-copy"    : "*"
+    },
+    "engines" : {
+        "node" : ">=0.8.0"
+    },
+    "bugs" : {
+        "url" : "https://github.com/GrUSP/GrUSP.org/issues"
+    }
+}
