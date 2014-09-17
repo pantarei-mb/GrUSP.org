@@ -1,0 +1,63 @@
+
+.addCardsSet(@selector, @hdFullCount:4, @hdReadyCount:3, @tabletLandscapeCount:3, @tabletPortraitCount:2, @smartphoneLandscapeCount:1, @smartphonePortraitCount:1, @columnGap:0) {
+
+    .@{selector} {
+        .column-gap(@columnGap);
+        .column-fill(auto);
+    }
+
+    .@{selector} > * {
+        display : inline-block;
+    }
+
+    .addCardsSetSmartphone(@selector, 1);
+    .addCardsSetTabletPortrait(@selector, @tabletPortraitCount);
+    .addCardsSetTabletLandscape(@selector, @tabletLandscapeCount);
+    .addCardsSetHdReady(@selector, @hdReadyCount);
+    .addCardsSetHdFull(@selector, @hdFullCount);
+}
+
+/* private */.addCardsSetSmartphone(@selector, @count) when (@use-tablet-portrait = true) {
+    @media @from-smartphone-landscape {
+        // Tablet portrait
+        .@{selector} {
+            .column-count(@count);
+        }
+    }
+}
+
+/* private */.addCardsSetTabletPortrait(@selector, @count) when (@use-tablet-portrait = true) {
+    @media @from-tablet-portrait {
+        // Tablet portrait
+        .@{selector} {
+            .column-count(@count);
+        }
+    }
+}
+
+/* private */.addCardsSetTabletLandscape(@selector, @count) when (@use-tablet-landscape = true) {
+    @media @from-tablet-landscape {
+        // Tablet landscape
+        .@{selector} {
+            .column-count(@count);
+        }
+    }
+}
+
+/* private */.addCardsSetHdReady(@selector, @count) when (@use-hd-ready = true) {
+    @media @from-hd-ready {
+        // HD Ready
+        .@{selector} {
+            .column-count(@count);
+        }
+    }
+}
+
+/* private */.addCardsSetHdFull(@selector, @count) when (@use-hd-full = true) {
+    @media @from-hd-full {
+        // Full HD
+        .@{selector} {
+            .column-count(@count);
+        }
+    }
+}

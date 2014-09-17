@@ -1,0 +1,25 @@
+.conf {
+
+    .setConfColor(@selector, @color) {
+        &.@{selector} {
+            .bg {
+                background-color : @color;
+            }
+        }
+    }
+
+    .conf-container {
+        background-color : white;
+        padding          : @global-step;
+        border-left      : 1px solid @colorGreyLight;
+        border-right     : 1px solid @colorGreyLight;
+    }
+
+    .bg {
+        height : (@global-step * 9);
+    }
+
+    .setConfColor(kerning, #FF4848);
+    .setConfColor(php-day, #6FCBDC);
+    .setConfColor(js-day,  #7F72B1);
+}

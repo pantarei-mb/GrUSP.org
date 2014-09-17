@@ -1,5 +1,5 @@
 
-// font sizes for h# elements 
+// font sizes for h# elements
 @h1 : 32px;
 @h2 : 28px;
 @h3 : 24px;
@@ -9,10 +9,10 @@
 
 // Font sizes
 @font-size       : 16px;
-@font-small-size : 13px;
+@font-small-size : 12px;
 
 // Fonts families global vars
-@font-sans      : 'helvetica neue', helvetica, arial, sans-serif;
+@font-sans      : 'pluto sans', 'helvetica neue', helvetica, arial, sans-serif;
 @font-serif     : georgia, 'times new roman', times, serif;
 @font-monospace : menlo, monaco, 'courier new', monospace;
 @font-small     : 'lucida grande', tahoma, verdana, arial, sans-serif;
@@ -21,11 +21,11 @@
 @font-default : @font-sans;
 @font-heading : @font-sans;
 
-@global-step : 24px;
+@global-step : 32px;
 
 @font-line-height : @global-step;
 @font-weight      : 300;
-@font-color       : #898989;
+@font-color       : @colorGruspBlack;
 
 // Global padding configuration
 @horizontal-padding : @global-step;
@@ -74,18 +74,24 @@
 
 // Prepends the @root-path var before every URL with .backgroundImage mixin
 @use-root-path : true;
-@root-path : "/css/frontsize-less/themes/@{theme}/img/";
+@root-path     : "/";
+@images-path   : "img/theme/";
+@fonts-path    : "fonts/";
 
 // set font scaling to change the font size depending by different resolutions
 .setFontScaling(body, 20px, 18px, 16px, 16px, 16px, 16px);
 .setLineHeightScaling(body, @global-step);
 
 .addFontsRule(small-fonts, @font-default, 14px, antialiased, @font-default, 14px, antialiased, @font-default, 14px, antialiased);
-.addFontRule(mini-font, @font-small, 16px, 11px, 11px, 11px, 11px, 11px, antialiased, 1);
+.addFontRule(small-font, @font-small, @font-small-size, @font-small-size, @font-small-size, @font-small-size, @font-small-size, @font-small-size, @global-step);
 
+/*
 .addContainerRow(row);
 .addColumnsSet(12);
 .addMarginOffset(12);
+*/
+
+.addCardsSet(cards);
 
 // set the margins
 // put .global-steps & .global-steps-padding always at the bottom of the configuration

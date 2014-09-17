@@ -20,13 +20,14 @@ $ grunt all
 module.exports = function(grunt) {
     grunt.initConfig({
 
-        compileFile     : "compile.less",
-        compileFileTest : "compile_test.less",
+        frontsizePath   : "css/frontsize-less-2.0.0/",
+        compileFile     : "<%= frontsizePath %>compile.less",
+        compileFileTest : "<%= frontsizePath %>compile-test.less",
         themeName       : "default",
-        themeImg        : "themes/default/img/",
-        testCss         : "test/frontsize.test.css",
-        autoprefixerCss : "test/frontsize.autoprefixer.css",
-        productionCss   : "test/frontsize.min.css",
+        themeImg        : "<%= frontsizePath %>themes/<%= themeName %>/img/",
+        testCss         : "<%= frontsizePath %>test/frontsize.test.css",
+        autoprefixerCss : "<%= frontsizePath %>test/frontsize.autoprefixer.css",
+        productionCss   : "css/frontsize.min.css",
         productionImg   : "img/theme/",
 
         less: {

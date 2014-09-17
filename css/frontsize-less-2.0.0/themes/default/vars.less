@@ -6,4 +6,43 @@
 // ==                                   ===================================================================================================================================
 // ========================================================================================================================================================================
 
-@yourCustomVar:#FFFFFF;
+@colorGruspYellow : #FFF576;
+@colorGruspViolet : #7F72B1;
+@colorGruspPurple : #4C3E8B;
+@colorGruspBlack  : #333333;
+
+@colorGreyLight : #E8E8E8;
+
+@fontsPath : "@{root-path}@{fonts-path}";
+
+@font-face {
+    font-family   : "Pluto Sans";
+    font-style    : normal;
+    font-weight   : 300;
+    src           : local("Pluto Sans Light") format("opentype"),
+                    url("@{fontsPath}PlutoSansLight.otf?") format("opentype");
+}
+
+@font-face {
+    font-family   : "Pluto Sans";
+    font-style    : normal;
+    font-weight   : 400;
+    src           : local("Pluto Sans Regular") format("opentype"),
+                    url("@{fontsPath}PlutoSansRegular.otf?") format("opentype");
+}
+
+@font-face {
+    font-family   : "Pluto Sans";
+    font-style    : normal;
+    font-weight   : 500;
+    src           : local("Pluto Sans Medium") format("opentype"),
+                    url("@{fontsPath}PlutoSansMedium.otf?") format("opentype");
+}
+
+@font-face {
+    font-family   : "Pluto Sans";
+    font-style    : normal;
+    font-weight   : 900;
+    src           : local("Pluto Sans Heavy") format("opentype"),
+                    url("@{fontsPath}PlutoSansHeavy.otf?") format("opentype");
+}
