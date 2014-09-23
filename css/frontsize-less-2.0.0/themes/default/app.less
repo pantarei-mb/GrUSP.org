@@ -36,7 +36,7 @@
 @state-important        : true;
 @state-faded-opacity    : 0.5;
 @state-disabled-opacity : 0.5;
-@state-table-padding    : 12px;
+@state-table-padding    : 0;
 
 // Set different width for the smartphones, tablets and hd resolutions
 @smartphone-portrait-step  : 320px;  // smartphones portrait     320~380
@@ -58,7 +58,7 @@
 @use-state-padding     : true;
 @use-state-positioning : true;
 @use-state-sizing      : true;
-@use-state-selectors   : true;
+@use-state-selectors   : false;
 @use-state-table       : true;
 @use-state-text        : true;
 @use-state-visibility  : true;
@@ -82,7 +82,7 @@
 .setFontScaling(body, 20px, 18px, 16px, 16px, 16px, 16px);
 .setLineHeightScaling(body, @global-step);
 
-.addFontsRule(small-fonts, @font-default, 14px, antialiased, @font-default, 14px, antialiased, @font-default, 14px, antialiased);
+//.addFontsRule(small-fonts, @font-default, 14px, antialiased, @font-default, 14px, antialiased, @font-default, 14px, antialiased);
 .addFontRule(small-font, @font-small, @font-small-size, @font-small-size, @font-small-size, @font-small-size, @font-small-size, @font-small-size, @global-step);
 
 /*
@@ -91,7 +91,7 @@
 .addMarginOffset(12);
 */
 
-.addCardsSet(cards);
+//.addCardsSet(cards);
 
 // set the margins
 // put .global-steps & .global-steps-padding always at the bottom of the configuration

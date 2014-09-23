@@ -1,0 +1,9 @@
+.mobile-button {
+    @size : 32px;
+    .sprite("main-nav.svg", @size, @size, 512px 512px);
+
+    .setSprite(open,  0, 0, @size);
+    .setSprite(close, 0, 1, @size);
+
+    cursor : pointer;
+}

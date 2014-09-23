@@ -6,17 +6,23 @@
         <meta http-equiv="X-UA-Compatible" content="chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <meta property="og:url" content="http://grusp.github.io/grusp.org/index.html">
+        <title>GrUSP - {{ page.title }}</title>
+
+        <meta property="og:url" content="{{ site.baseurl }}/index.html">
         <meta property="og:site_name" content="grusp.org">
         <meta property="og:title" content="GrUSP">
         <meta property="og:description" content="Associazione Gruppo Utenti Sviluppatori PHP Italiani">
-        <meta property="og:image" content="http://grusp.github.io/grusp.org/img/theme/grusp-social.jpg">
+        <meta property="og:image" content="{{ site.baseurl }}/img/theme/grusp-social.jpg">
 
-        <link rel="stylesheet" type="text/css" href="css/frontsize.min.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/frontsize.min.css" media="screen" />
+
         <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        <title>GrUSP - {{ page.title }}</title>
+
+        <script type="text/javascript" src="js/lib/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/lib/jquery.wookmark.min.js"></script>
+
     </head>
     <body>
         {{ content }}

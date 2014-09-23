@@ -11,8 +11,39 @@
     .conf-container {
         background-color : white;
         padding          : @global-step;
+        border-bottom    : 1px solid @colorGreyLight;
         border-left      : 1px solid @colorGreyLight;
         border-right     : 1px solid @colorGreyLight;
+    }
+
+    .title, time, .location, b {
+        display : block;
+    }
+
+    .location, b {
+        font-weight : 500;
+    }
+
+    .title {
+        font-size      : 32px;
+        font-weight    : 900;
+        text-transform : uppercase;
+    }
+
+    time {
+        font-size : 24px;
+    }
+
+    .location {
+        margin-bottom : @global-step;
+    }
+
+    p {
+        margin-top : (@global-step - (@global-step / 4));
+    }
+
+    b {
+        margin-top : @global-step;
     }
 
     .bg {

@@ -38,16 +38,24 @@
         "resemblejs" : "*",
         "phantomcss" : "*",
 
-        "csslint" : "*",
-        "less"    : "*",
+        "grunt" : ">=0.4.1",
 
-        "grunt"                 : "~0.4.1",
+        "csslint" : "*",
+        "grunt-contrib-csslint" : "*",
+
+        "less"    : "*",
+        "grunt-contrib-less"    : "*",
+
         "grunt-autoprefixer"    : "*",
         "grunt-contrib-watch"   : "*",
-        "grunt-contrib-less"    : "*",
-        "grunt-contrib-csslint" : "*",
         "grunt-contrib-clean"   : "*",
-        "grunt-contrib-copy"    : "*"
+        "grunt-contrib-copy"    : "*",
+
+        "pageres" : "*",
+        "grunt-pageres" : "*",
+
+        "svgo" : "*",
+        "grunt-svgmin" : "*"
     },
     "engines" : {
         "node" : ">=0.8.0"

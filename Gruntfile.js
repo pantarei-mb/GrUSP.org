@@ -152,6 +152,34 @@ module.exports = function(grunt) {
                     }
                 ]
             }
+        },
+
+        pageres: {
+            grusp: {
+                options: {
+                    crop  : true,
+                    dest  : "shots",
+                    sizes : ["1920x1080", "1280x768", "1024x768", "768x1024", "480x320", "320x480"],
+                    url   : "0.0.0.0:4000"
+                }
+            }
+        },
+
+        svgmin: {
+            options: {
+                plugins: [
+                    { removeEmptyAttrs           : false },
+                    { removeUselessStrokeAndFill : false },
+                    { removeViewBox              : false }
+                ]
+            },
+            src: {
+                files: {
+                    "src/social-sprite.svg" : "<%= themeImg %>/social-sprite.svg",
+                    "src/grusp-logo-full.svg" : "<%= themeImg %>/grusp-logo-full.svg",
+                    "src/go-to-bottom-arrow.svg" : "<%= themeImg %>/go-to-bottom-arrow.svg"
+                }
+            }
         }
 
     });
@@ -193,6 +221,14 @@ module.exports = function(grunt) {
     grunt.registerTask("assets", [
         "clean:assets",
         "copy:assets"
+    ]);
+
+    grunt.registerTask("svg", [
+        "svgmin:src"
+    ]);
+
+    grunt.registerTask("shot", [
+        "pageres:grusp"
     ]);
 
     grunt.registerTask("test", [

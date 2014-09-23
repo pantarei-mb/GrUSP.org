@@ -1,0 +1,31 @@
+.tag {
+    @padding : (@global-step / 4);
+
+    color            : white;
+    background-color : @colorGruspBlack;
+    font-size        : 14px;
+    font-weight      : 400;
+    margin           : 0 @padding @padding 0;
+    padding          : 2px @padding 0 @padding;
+
+    .border-radius(8px);
+
+    .transition(
+        color 0.175s ease-out,
+        background-color 0.175s ease-out;
+    );
+
+    &:hover {
+        color            : @colorGruspYellow;
+        background-color : @colorGruspViolet;
+    }
+
+    &.grey {
+
+        @colorGrey : mix(@colorGruspBlack, white, 15%);
+
+        color            : @colorGruspBlack;
+        background-color : @colorGrey;
+        line-height      : (@global-step - @padding);
+    }
+}
