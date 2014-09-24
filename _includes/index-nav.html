@@ -1,8 +1,8 @@
-<nav class="main-nav">
+<div class="main-nav">
     <div class="opened-menu table no-line-height">
         <ul>
             <li class="fill">
-                <a class="no-line-height" href="#">
+                <a class="no-line-height" href="{{ site.baseurl }}/">
                     <img class="grusp-logo" src="{{ site.baseurl }}/img/theme/grusp-logo-text-white.svg">
                 </a>
             </li>
@@ -11,12 +11,26 @@
             </li>
         </ul>
     </div>
-    <div class="slide-menu">
-        <div class="contents">
-            contents here
+    <div class="slide-menu closed">
+        <div class="text-center contents">
+            <div class="language uppercase">
+                <a class="selected" href="#">Italiano</a> / <a href="#">English</a>
+            </div>
+            <nav class="navigation margin-top uppercase">
+                <div><a class="header-button" href="{{ site.baseurl }}/">Home</a></div>
+                <div><a class="header-button" href="{{ site.baseurl }}/about.html">About</a></div>
+                <div><a class="header-button" href="{{ site.baseurl }}/#">Videos</a></div>
+            </nav>
+            <div class="margin-top">
+                <img src="{{ site.baseurl }}/img/theme/grusp-logo-cat-head-black-border.svg">
+                <p class="margin-top small-font half to-center fill-till-tablet-landscape">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>
+                    Aenean commodo ligula eget dolor.
+                </p>
+            </div>
         </div>
     </div>
-</nav>
+</div>
 
 
 <script type="text/javascript">

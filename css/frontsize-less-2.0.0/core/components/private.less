@@ -1,0 +1,18 @@
+._important()
+    when (@state-important = true) {
+    @important : ~"!important";
+}.important()
+    when not (@state-important = true) {
+    @important : ~"";
+}
+._important();
+
+
+._property(@property, @value:false, @default:false)
+    when not (@value = false) {
+    @{property}: @value;
+}._property(@property, @value:false, @default:false)
+    when (@value = false)
+    and not (@default = false) {
+    @{property}: @default;
+}

@@ -74,7 +74,7 @@
 
 // Prepends the @root-path var before every URL with .backgroundImage mixin
 @use-root-path : true;
-@root-path     : "/";
+@root-path     : "/GrUSP.org/";
 @images-path   : "img/theme/";
 @fonts-path    : "fonts/";
 
@@ -82,21 +82,23 @@
 .setFontScaling(body, 20px, 18px, 16px, 16px, 16px, 16px);
 .setLineHeightScaling(body, @global-step);
 
-//.addFontsRule(small-fonts, @font-default, 14px, antialiased, @font-default, 14px, antialiased, @font-default, 14px, antialiased);
 .addFontRule(small-font, @font-small, @font-small-size, @font-small-size, @font-small-size, @font-small-size, @font-small-size, @font-small-size, @global-step);
 
-/*
+
 .addContainerRow(row);
 .addColumnsSet(12);
 .addMarginOffset(12);
-*/
 
-//.addCardsSet(cards);
+.addTextColumnGrid(
+    text-column-grid,
+    3, 3, 3, 2, 1, 1,
+    (@global-step * 2), inline-block
+);
 
 // set the margins
 // put .global-steps & .global-steps-padding always at the bottom of the configuration
 .addViewportsSteps(use-steps, 500px, 100px, 50px, 0);
 
 // used for the nav top spacing, set it after global-steps-padding
-// .addPaddingSelector(tiny, 8px, 8px);
+// .addPaddingSelector(social-padding, 8px, 8px);
 // .addMarginSelector (tiny, 8px, 8px);

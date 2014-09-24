@@ -8,13 +8,13 @@
 
         <title>GrUSP - home</title>
 
-        <meta property="og:url" content="/index.html">
+        <meta property="og:url" content="/GrUSP.org/index.html">
         <meta property="og:site_name" content="grusp.org">
         <meta property="og:title" content="GrUSP">
         <meta property="og:description" content="Associazione Gruppo Utenti Sviluppatori PHP Italiani">
-        <meta property="og:image" content="/img/theme/grusp-social.jpg">
+        <meta property="og:image" content="/GrUSP.org/img/theme/grusp-social.jpg">
 
-        <link rel="stylesheet" type="text/css" href="/css/frontsize.min.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/GrUSP.org/css/frontsize.min.css" media="screen" />
 
         <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -25,12 +25,12 @@
 
     </head>
     <body>
-        <nav class="main-nav">
+        <div class="main-nav">
     <div class="opened-menu table no-line-height">
         <ul>
             <li class="fill">
-                <a class="no-line-height" href="#">
-                    <img class="grusp-logo" src="/img/theme/grusp-logo-text-white.svg">
+                <a class="no-line-height" href="/GrUSP.org/">
+                    <img class="grusp-logo" src="/GrUSP.org/img/theme/grusp-logo-text-white.svg">
                 </a>
             </li>
             <li>
@@ -38,12 +38,26 @@
             </li>
         </ul>
     </div>
-    <div class="slide-menu">
-        <div class="contents">
-            contents here
+    <div class="slide-menu closed">
+        <div class="text-center contents">
+            <div class="language uppercase">
+                <a class="selected" href="#">Italiano</a> / <a href="#">English</a>
+            </div>
+            <nav class="navigation margin-top uppercase">
+                <div><a class="header-button" href="/GrUSP.org/">Home</a></div>
+                <div><a class="header-button" href="/GrUSP.org/about.html">About</a></div>
+                <div><a class="header-button" href="/GrUSP.org/#">Videos</a></div>
+            </nav>
+            <div class="margin-top">
+                <img src="/GrUSP.org/img/theme/grusp-logo-cat-head-black-border.svg">
+                <p class="margin-top small-font half to-center fill-till-tablet-landscape">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>
+                    Aenean commodo ligula eget dolor.
+                </p>
+            </div>
         </div>
     </div>
-</nav>
+</div>
 
 
 <script type="text/javascript">
@@ -79,12 +93,12 @@ $(function(){
 </script>
 
 <header>
-    <div class="use-steps text-center margin-vertical">
+    <div class="header-grusp use-steps text-center margin-bottom">
         <div class="grusp-logo-full margin-bottom">
             we are
             <h1 class="hidden">GrUSP</h1>
         </div>
-        <p class="small-font half to-center fill-till-tablet-landscape">
+        <p class="small-font half to-center fill-till-tablet-landscape padding-horizontal">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
             Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
             Nulla consequat massa quis enim.
@@ -93,9 +107,17 @@ $(function(){
     </div>
 </header>
 
+<div class="row bg-columns absolute">
+    <div class="hd-3-of-12 tablet-4-of-12 not-till-tablet-landscape"></div>
+    <div class="hd-3-of-12 tablet-4-of-12 not-till-tablet-landscape"></div>
+    <div class="hd-3-of-12 tablet-4-of-12 not-till-tablet-landscape"></div>
+    <div class="hd-3-of-12 not-till-hd-ready"></div>
+</div>
 
-<div class="cards yellow-bg wookmark">
+
+<div class="cards wookmark">
     <div class="conf-header">Conferences</div>
+
     <div class="kerning conf">
     <div class="bg"></div>
 
@@ -345,79 +367,29 @@ $(function(){
     </div>
 </div>
 
+
 </div>
 
-<footer>
-    footer
+<footer class="main-footer text-center">
+    <img src="/GrUSP.org/img/theme/grusp-logo-cat-head-grey-border.svg">
+    <div class="social-buttons margin-top padding-vertical">
+        <a class="social-black facebook" href="#"></a>
+        <a class="social-black twitter" href="#"></a>
+        <a class="social-black google" href="#"></a>
+        <a class="social-black youtube" href="#"></a>
+        <a class="social-black vimeo" href="#"></a>
+        <a class="social-black flickr" href="#"></a>
+    </div>
+    <p class="small-font half to-center fill-till-tablet-landscape padding-padding-horizontal">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br>
+        Nulla consequat massa quis enim.<br>
+    </p>
+    <a class="margin-top padding-top" href="/GrUSP.org/"><img src="/GrUSP.org/img/theme/grusp-logo-lettering-black.svg"></a>
 </footer>
 
 
-<script type="text/javascript">
-    $(function(){
-
-        var $wookmark, options, viewports;
-
-        $wookmark = $(".wookmark > *");
-
-        viewports = [
-            {
-                columns : 5,
-                size    : 1800
-            },{
-                columns : 4,
-                size    : 1280
-            },{
-                columns : 3,
-                size    : 1024
-            },{
-                columns : 2,
-                size    : 768
-            },{
-                columns : 1,
-                size    : 480
-            },{
-                columns : 1,
-                size    : 320
-            }
-        ];
-
-        options = {
-            align           : "left",
-            autoResize      : true,
-            container       : $(".wookmark"),
-            flexibleWidth   : true,
-            fillEmptySpace  : false,
-            itemWidth       : "25%",
-            offset          : 0,
-            outerOffset     : 0,
-            onLayoutChanged : function() { checkColumnWidth(options, viewports); }
-        }
-
-        function getColumnPerc(size) {
-            for (var i = 0; viewports.length > i; i += 1) {
-                if (size >= viewports[i].size) {
-                    return ((100 / viewports[i].columns).toFixed(4)).toString() + "%";
-                }
-            };
-
-            return "0%"
-        }
-
-        function checkColumnWidth(options) {
-            var columnPerc, windowWidth;
-
-            windowWidth = parseInt($(window).width());
-            columnPerc  = getColumnPerc(windowWidth);
-
-            if (options.itemWidth !== columnPerc) {
-                options.itemWidth = columnPerc;
-                $wookmark.wookmark(options);
-            }
-        }
-
-        $(".wookmark > *").wookmark(options);
-    });
-</script>
+<script type="text/javascript" src="/GrUSP.org/js/index.js"></script>
 
     </body>
 </html>

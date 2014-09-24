@@ -1,0 +1,16 @@
+.main-footer {
+    padding : (@global-step * 2) @global-step (@global-step * 2) @global-step;
+
+    .social-buttons {
+        > * {
+            .setViewportsMargin(
+                @hdFullMargin              : 0 (@global-step / 4) 0 (@global-step / 4),
+                @hdReadyMargin             : 0 (@global-step / 4) 0 (@global-step / 4),
+                @tabletLandscapeMargin     : 0 (@global-step / 4) 0 (@global-step / 4),
+                @tabletPortraitMargin      : 0 (@global-step / 4) 0 (@global-step / 4),
+                @smartphoneLandscapeMargin : 0 (@global-step / 4) 0 (@global-step / 4),
+                @smartphonePortraitMargin  : 0
+            );
+        }
+    }
+}
