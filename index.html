@@ -1,27 +1,17 @@
 ---
 layout: layout
-title: home
+title: welcome
 ---
 
-{% include index-nav.html %}
-{% include index-header.html %}
-{% include index-fake-columns.html %}
-
-<div class="cards wookmark">
-    <div class="conf-header">Conferences</div>
-
-    {% include conf/2014-06-kerning-conference.html %}
-    {% include conf/2014-05-php-day.html %}
-    {% include conf/2014-05-js-day.html %}
-    {% include conf/2014-05-php-day.html %}
-    {% include conf/2014-06-kerning-conference.html %}
-    {% include conf/2014-05-js-day.html %}
-    {% include conf/2014-05-js-day.html %}
-    {% include conf/2014-05-php-day.html %}
-    {% include conf/2014-06-kerning-conference.html %}
-
-</div>
-
-{% include index-footer.html %}
-
-<script type="text/javascript" src="{{ site.baseurl }}/js/index.js"></script>
+<script type="text/javascript">
+    var language = "en";
+    if (typeof navigator.browserLanguage !== "undefined") {
+        language = navigator.browserLanguage;
+    } else if (typeof navigator.language !== "undefined") {
+        language = navigator.language;
+    }
+    if (language !== "it" && language !== "en") {
+        language = "en";
+    }
+    window.location.href = language + "/";
+</script>

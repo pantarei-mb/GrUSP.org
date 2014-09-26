@@ -20,16 +20,16 @@
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
-        <script type="text/javascript" src="js/lib/jquery-2.1.1.min.js"></script>
-        <script type="text/javascript" src="js/lib/jquery.wookmark.min.js"></script>
-
+        <script type="text/javascript" src="/GrUSP.org/js/lib/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="/GrUSP.org/js/lib/jquery.wookmark.min.js"></script>
+        <script type="text/javascript" src="/GrUSP.org/js/nav.js"></script>
     </head>
     <body>
         <div class="main-nav">
     <div class="opened-menu table no-line-height">
         <ul>
             <li class="fill">
-                <a class="no-line-height" href="/GrUSP.org/">
+                <a class="no-line-height" href="/GrUSP.org/it/">
                     <img class="grusp-logo" src="/GrUSP.org/img/theme/grusp-logo-text-white.svg">
                 </a>
             </li>
@@ -41,12 +41,12 @@
     <div class="slide-menu closed">
         <div class="text-center contents">
             <div class="language uppercase">
-                <a class="selected" href="#">Italiano</a> / <a href="#">English</a>
+                <a class="selected" href="/GrUSP.org/it/">Italiano</a> / <a href="/GrUSP.org/en/">English</a>
             </div>
             <nav class="navigation margin-top uppercase">
-                <div><a class="header-button" href="/GrUSP.org/">Home</a></div>
-                <div><a class="header-button" href="/GrUSP.org/about.html">About</a></div>
-                <div><a class="header-button" href="/GrUSP.org/#">Videos</a></div>
+                <div><a class="header-button" href="/GrUSP.org/it/">Home</a></div>
+                <div><a class="header-button" href="/GrUSP.org/it/about.html">About</a></div>
+                <div><a class="header-button" href="http://vimeo.com/grusp" target="_blank">Video</a></div>
             </nav>
             <div class="margin-top">
                 <img src="/GrUSP.org/img/theme/grusp-logo-cat-head-black-border.svg">
@@ -58,39 +58,6 @@
         </div>
     </div>
 </div>
-
-
-<script type="text/javascript">
-$(function(){
-    var menuHeight, windowHeight;
-
-    function getMenuHeight() {
-        menuHeight   = $(".main-nav .opened-menu").outerHeight();
-        windowHeight = $(window).height();
-        return windowHeight - menuHeight;
-    }
-
-    $(window).on("resize", function() {
-        if ($(".main-nav .mobile-button").hasClass("close")) {
-            $(".slide-menu").height(getMenuHeight());
-        }
-    });
-
-    $(document).on("click", ".main-nav .mobile-button", function(){
-        if ($(this).hasClass("open")) {
-            $(this).removeClass("open").addClass("close");
-            $(".slide-menu").removeClass("closed").css({
-                height : getMenuHeight()
-            });
-        } else {
-            $(this).removeClass("close").addClass("open");
-            $(".slide-menu").addClass("closed").css({
-                height : 0
-            });
-        }
-    });
-});
-</script>
 
 
 <div class="use-steps header-grusp">
@@ -313,20 +280,23 @@ $(function(){
 
 <footer class="main-footer text-center">
     <img src="/GrUSP.org/img/theme/grusp-logo-cat-head-grey-border.svg">
+
     <div class="social-buttons margin-top padding-vertical">
-        <a class="social-black facebook" href="#"></a>
-        <a class="social-black twitter" href="#"></a>
-        <a class="social-black google" href="#"></a>
-        <a class="social-black youtube" href="#"></a>
-        <a class="social-black vimeo" href="#"></a>
-        <a class="social-black flickr" href="#"></a>
-    </div>
+    <a class="social-black facebook" target="_blank" href="https://www.facebook.com/GrUSP"></a>
+    <a class="social-black twitter"  target="_blank" href="https://twitter.com/grusp"></a>
+    <a class="social-black google"   target="_blank" href="https://plus.google.com/communities/101680963704972624324"></a>
+    <a class="social-black youtube"  target="_blank" href="http://www.youtube.com/results?search_query=grusp"></a>
+    <a class="social-black vimeo"    target="_blank" href="http://vimeo.com/grusp"></a>
+    <a class="social-black flickr"   target="_blank" href="https://www.flickr.com/search/?tags=grusp"></a>
+</div>
+
+
     <p class="small-font half to-center fill-till-tablet-landscape padding-padding-horizontal">
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
         Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br>
         Nulla consequat massa quis enim.<br>
     </p>
-    <a class="margin-top padding-top" href="/GrUSP.org/"><img src="/GrUSP.org/img/theme/grusp-logo-lettering-black.svg"></a>
+    <a class="margin-top padding-top" href="/GrUSP.org/it/"><img src="/GrUSP.org/img/theme/grusp-logo-lettering-black.svg"></a>
 </footer>
 
 
