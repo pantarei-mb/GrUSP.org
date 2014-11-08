@@ -55,6 +55,7 @@ Thumbs.db
 
 .idea/
 
+_site
 _site/*
 _site/css/frontsize-less-2.0.0
 _site/node_modules
