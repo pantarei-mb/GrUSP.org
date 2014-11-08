@@ -1,0 +1,47 @@
+---
+layout: layout
+title: PUGs
+---
+
+{% include it/index-nav.html %}
+
+<div class="use-steps header-grusp">
+    <div class="full margin-top">
+        <img class="grusp-logo-about fill-till-smartphone-landscape" src="{{ site.baseurl }}/img/theme/grusp-logo-lettering-black.svg">
+    </div>
+    <div class="row visible">
+        <div class="hd-6-of-12">
+            Negli anni abbiamo favorito la nascita di diversi PHP user group locali, i quali hanno totale autonomia di gestione e coordinano le conferenze locali a nome del GrUSP. Qui di seguito una lista dei PUGs attualmente presenti sul territorio italiano.
+        </div>
+        <div class="hd-6-of-12 not-till-tablet-portrait">
+            <span class="block fill relative">
+                <img class="absolute fill" src="{{ site.baseurl }}/img/theme/grusp-logo-cat-head-grey-border.svg">
+            </span>
+        </div>
+        <span class="fill clear"></span>
+    </div>
+
+</div>
+
+<section class="white-bg padding-vertical">
+    <div class="use-steps with-padding">
+        <div class="row">
+            <div class="hd-6-of-12 tablet-12-of-12 smartphone-offset-disabled">
+            </div>
+        </div>
+        <div class="row">
+
+            {% for pug in site.data.pugs %}
+            <div class="hd-6-of-12 tablet-12-of-12 smartphone-offset-disabled">
+                <a href="{{ pug.url }}"><img src="{{ pug.logo }}"></a>
+                <h2>{{ pug.citta }}</h2>
+                <p>si incontra: {{ pug.incontro }}, per maggiori informazioni {{ pug.referente }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% include it/index-footer.html %}
+
+<script type="text/javascript" src="{{ site.baseurl }}/js/index.js"></script>

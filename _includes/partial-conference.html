@@ -1,0 +1,32 @@
+{% for conf in site.data.conferences %}
+<div class="{{ conf.class }} conf">
+    <div class="bg"></div>
+
+    <div class="conf-container">
+        <strong class="title">{{ conf.name }}</strong>
+        <time datetime="{{ conf.datetime }}">{{ conf.date }}</time>
+        <span class="location">{{ conf.location }}</span>
+
+        {% if conf.video %}<a class="tag" href="{{ conf.video }}">Guarda i video</a>{% endif %}
+        {% if conf.cfp %}<a class="tag" href="{{ conf.cfp }}">Call for Paper</a>{% endif %}
+        {% if conf.cfs %}<a class="tag" href="{{ conf.cfs }}">Call for Sponsor</a>{% endif %}
+
+        <p>
+            {{ conf.description }}
+        </p>
+
+        <b>Previous editions</b>
+        {% for edition in conf.editions %}
+                <a class="tag grey" href="{{ edition.url }}">{{ edition.year }}</a>
+
+        {% endfor %}
+
+        <div class="margin-top">
+            <a class="social facebook" href="{{ conf.fb }}"></a>
+            <a class="social vimeo" href="{{ conf.video }}"></a>
+            <a class="social flickr" href="{{ conf.photos }}"></a>
+            <a class="social twitter" href="http://twitter.com/{{ conf.twitter }}"></a>
+        </div>
+    </div>
+</div>
+{% endfor %}

@@ -1,0 +1,26 @@
+- citta: Roma
+  url: http://roma.grusp.org
+  logo:
+  referente:
+  incontro: Ultimo giovedì del mese
+- citta: Milano
+  url: http://milano.grusp.org
+  logo:
+  referente:
+  incontro: Ultimo giovedì del mese
+- citta: Friuli
+  url: http://friuli.grusp.org
+  logo:
+  referente:
+  incontro: Ultimo giovedì del mese
+- citta: Modena-ReggioEmilia
+  url: http://more.grusp.org
+  logo:
+  referente:
+  incontro: Ultimo giovedì del mese
+- citta: Torino
+  url: http://torino.grusp.org
+  logo:
+  referente:
+  incontro: Ultimo giovedì del mese
+

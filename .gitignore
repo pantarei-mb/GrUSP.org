@@ -53,6 +53,9 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
+.idea/
+
+_site/*
 _site/css/frontsize-less-2.0.0
 _site/node_modules
 _site/test

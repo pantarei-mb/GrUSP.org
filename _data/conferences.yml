@@ -1,0 +1,117 @@
+- class: kerning
+  name: Kerning
+  cfp:
+  cfs:
+  datetime: 05-06-2015
+  date: June 2nd-5th, 2015
+  location: Faenza (RA)
+  description: The first international conference in Italy about Typography and web typography
+  video: http://vimeo.com/grusp
+  fb: http://fb.com/kerning
+  twitter: kerningconf
+  photos: http://flickr.com
+  editions: [ { url: 'http://2013.kerning.it', year: 2013 }, { url: 'http://2014.kerning.it', year: 2014 }]
+- class: jsday
+  name: JsDay
+  datetime: 16-05-2015
+  date: May 16th, 17th 2015
+  cfp:
+  cfs:
+  location: Verona
+  description: The first international conference in Italy about Javascript
+  video: http://vimeo.com/grusp
+  fb: http://fb.com/jsday
+  twitter: jsconfit
+  photos: http://flickr.com
+  editions: [ { url: 'http://2011.jsday.it', year: 2011 }, { url: 'http://2012.jsday.it', year: 2012 }, { url: 'http://2013.jsday.it', year: 2013 }, { url: 'http://2014.jsday.it', year: 2014 }]
+- class: phpday
+  name: PHPDay
+  datetime: 18-05-2015
+  date: May 18th, 19th 2015
+  location: Verona
+  cfp:
+  cfs:
+  description: The first international conference in Italy about PHP
+  video: http://vimeo.com/grusp
+  fb: http://fb.com/phpday
+  twitter: phpday
+  photos: http://flickr.com
+  editions: [ { url: 'http://2011.phpday.it', year: 2011 }, { url: 'http://2012.phpday.it', year: 2012 }, { url: 'http://2013.phpday.it', year: 2013 }, { url: 'http://2014.phpday.it', year: 2014 }]
+- class: cssday
+  name: CSSDay
+  datetime: 27-03-2015
+  date: March 27th 2015
+  cfp:
+  cfs:
+  location: Faenza (RA)
+  description: La prima conferenza italiana dedicata ai CSS
+  video: http://vimeo.com/grusp
+  fb: http://fb.com/grusp
+  twitter: grusp
+  photos: http://flickr.com
+  editions:
+- class: bsw
+  name: BetterSoftware
+  datetime: 13-10-2014
+  date: October 13rd-14th, 2014
+  location: Firenze
+  cfp:
+  cfs:
+  description: The international conference for IT Managers
+  video: http://vimeo.com/grusp
+  fb: http://fb.com/zfdayit
+  twitter: better_software
+  photos: http://flickr.com
+  editions: [ { url: 'http://www.bettersoftware.it/2013', year: 2013 },{ url: 'http://www.bettersoftware.it/2014', year: 2014 }]
+- class: mageday
+  name: MageDay
+  cfp:
+  cfs:
+  datetime: 08-11-2014
+  date: November 7th, 2014
+  location: Parma
+  description: La conferenza italiana dedicata agli sviluppatori Magento
+  video: http://vimeo.com/grusp
+  fb: http://fb.com/mageday
+  twitter: magedayit
+  photos: http://flickr.com
+  editions: [ { url: 'http://2013.mageday.it', year: 2013 }, { url: 'http://2014.mageday.it', year: 2014 }]
+- class: sfday
+  name: SymfonyDay
+  cfp:
+  cfs:
+  datetime: 10-10-2014
+  date: October 10th, 2014
+  location: Milano
+  description: La conferenza italiana dedicata agli sviluppatori Symfony
+  video: http://vimeo.com/grusp
+  fb: http://fb.com/symfonydayit
+  twitter: symfonydayit
+  photos: http://flickr.com
+  editions: [ { url: 'http://2012.symfonyday.it', year: 2012 },{ url: 'http://2013.symfonyday.it', year: 2013 }, { url: 'http://2014.symfonyday.it', year: 2014 }]
+- class: nosqlday
+  name: NoSQLDay
+  datetime: 21-11-2014
+  date: November 21st, 2014
+  location: Udine
+  cfp:
+  cfs:
+  description: The international conference on NoSQL technologies
+  video: http://vimeo.com/grusp
+  fb: http://fb.com/nosqldayit
+  twitter: nosqldayit
+  photos: http://flickr.com
+  editions: [ { url: 'http://2013.nosqlday.it', year: 2013 },{ url: 'http://2014.nosqlday.it', year: 2014 }]
+- class: zfday
+  name: ZFDay
+  cfp:
+  cfs:
+  datetime: 21-11-2013
+  date: November 21st, 2013
+  location: Torino
+  description: La conferenza dedicata allo Zend Framework
+  video: http://vimeo.com/grusp
+  fb: http://fb.com/zfdayit
+  twitter: zfdayit
+  photos: http://flickr.com
+  editions: [ { url: 'http://2013.zfday.it', year: 2013 },{ url: 'http://2014.zfday.it', year: 2014 }]
