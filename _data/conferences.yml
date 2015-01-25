@@ -58,8 +58,8 @@
   cfp:
   cfs:
   description: The international conference for IT Managers
-  video: http://vimeo.com/grusp
-  fb: http://fb.com/zfdayit
+  video: https://www.youtube.com/user/BetterSoftware
+  fb: https://www.facebook.com/BetterSoftware
   twitter: better_software
   photos: http://flickr.com
   editions: [ { url: 'http://www.bettersoftware.it/2013', year: 2013 },{ url: 'http://www.bettersoftware.it/2014', year: 2014 }, {url: 'http://2015.bettersoftware.it', year: 2015} ]
