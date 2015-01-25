@@ -22,10 +22,10 @@
         {% endfor %}
 
         <div class="margin-top">
-            <a class="social facebook" href="{{ conf.fb }}"></a>
-            <a class="social vimeo" href="{{ conf.video }}"></a>
-            <a class="social flickr" href="{{ conf.photos }}"></a>
-            <a class="social twitter" href="http://twitter.com/{{ conf.twitter }}"></a>
+            {% if conf.fb %} <a class="social facebook" href="{{ conf.fb }}"></a>{% endif %}
+            {% if conf.video %}<a class="social vimeo" href="{{ conf.video }}"></a>{% endif %}
+            {% if conf.photos %}<a class="social flickr" href="{{ conf.photos }}"></a>{% endif %}
+            {% if conf.twutter %}<a class="social twitter" href="http://twitter.com/{{ conf.twitter }}"></a>{% endif %}
         </div>
     </div>
 </div>
