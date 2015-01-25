@@ -115,3 +115,14 @@
   twitter: zfdayit
   photos: http://flickr.com
   editions: [ { url: 'http://2013.zfday.it', year: 2013 },{ url: 'http://2014.zfday.it', year: 2014 }]
+- class: idi
+  name: Incontro DevOps
+  cfp:
+  cfs:
+  datetime: 10-04-2015
+  date: April 10th, 2015
+  location: Bologna
+  description: Incontro DevOps italiani
+  twitter: incontrodevops
+  editions: [ { url: 'http://idi2013.devops.it', year: 2013 },{ url: 'http://idi2014.devops.it', year: 2014 }, { url: 'http://www.incontrodevops.it', year. 2015}]
+
