@@ -52,8 +52,8 @@
   editions:
 - class: bsw
   name: BetterSoftware
-  datetime: 13-10-2014
-  date: October 13rd-14th, 2014
+  datetime: 16-11-2015
+  date: November 16th-17th, 2015
   location: Firenze
   cfp:
   cfs:
@@ -62,7 +62,7 @@
   fb: http://fb.com/zfdayit
   twitter: better_software
   photos: http://flickr.com
-  editions: [ { url: 'http://www.bettersoftware.it/2013', year: 2013 },{ url: 'http://www.bettersoftware.it/2014', year: 2014 }]
+  editions: [ { url: 'http://www.bettersoftware.it/2013', year: 2013 },{ url: 'http://www.bettersoftware.it/2014', year: 2014 }, {url: 'http://2015.bettersoftware.it', year: 2015} ]
 - class: mageday
   name: MageDay
   cfp:
