@@ -13,8 +13,8 @@
   editions: [ { url: 'http://2013.kerning.it', year: 2013 }, { url: 'http://2014.kerning.it', year: 2014 }]
 - class: jsday
   name: JsDay
-  datetime: 16-05-2015
-  date: May 16th, 17th 2015
+  datetime: 13-05-2015
+  date: May 13th, 14th 2015
   cfp:
   cfs:
   location: Verona
@@ -26,8 +26,8 @@
   editions: [ { url: 'http://2011.jsday.it', year: 2011 }, { url: 'http://2012.jsday.it', year: 2012 }, { url: 'http://2013.jsday.it', year: 2013 }, { url: 'http://2014.jsday.it', year: 2014 }]
 - class: phpday
   name: PHPDay
-  datetime: 18-05-2015
-  date: May 18th, 19th 2015
+  datetime: 15-05-2015
+  date: May 15th, 16th 2015
   location: Verona
   cfp:
   cfs:
