@@ -2,17 +2,17 @@
   url: http://roma.grusp.org
   logo:
   referente:
-  incontro: Ultimo giovedì del mese
+  incontro: ND
 - citta: Milano
   url: http://milano.grusp.org
   logo:
   referente:
-  incontro: Ultimo giovedì del mese
+  incontro: ND
 - citta: Friuli
   url: http://friuli.grusp.org
   logo:
   referente:
-  incontro: Ultimo giovedì del mese
+  incontro: ND
 - citta: Modena-ReggioEmilia
   url: http://more.grusp.org
   logo:
@@ -22,5 +22,34 @@
   url: http://torino.grusp.org
   logo:
   referente:
-  incontro: Ultimo giovedì del mese
-
+  incontro: ND
+- citta: Palermo
+  url: http://palermo.grusp.org
+  logo:
+  referente:
+  incontro: ND
+- citta: Bologna
+  url: http://bologna.grusp.org
+  logo:
+  referente:
+  incontro: ND
+- citta: Marche
+  url: http://marche.grusp.org
+  logo:
+  referente:
+  incontro: ND
+- citta: Venezia
+  url: http://venezia.grusp.org
+  logo:
+  referente:
+  incontro: ND
+- citta: Alessandria
+  url: http://alessandria.grusp.org
+  logo:
+  referente:
+  incontro: ND  
+- citta: Novara
+  url: http://novara.grusp.org
+  logo:
+  referente:
+  incontro: ND    
