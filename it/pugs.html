@@ -34,7 +34,7 @@ title: PUGs
             {% for pug in site.data.pugs %}
             <div class="hd-6-of-12 tablet-12-of-12 smartphone-offset-disabled">
                 <a href="{{ pug.url }}"><img src="{{ pug.logo }}"></a>
-                <h2>{{ pug.citta }}</h2>
+                <h2><a href="{{ pug.url }}">{{ pug.citta }}</a></h2>
                 <p>si incontra: {{ pug.incontro }}, per maggiori informazioni {{ pug.referente }}</p>
             </div>
             {% endfor %}
