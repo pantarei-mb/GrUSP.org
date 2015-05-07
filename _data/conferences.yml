@@ -10,7 +10,7 @@
   fb: http://fb.com/kerning
   twitter: kerningconf
   photos: http://flickr.com
-  editions: [ { url: 'http://2013.kerning.it', year: 2013 }, { url: 'http://2014.kerning.it', year: 2014 }]
+  editions: [ { url: 'http://2013.kerning.it', year: 2013 }, { url: 'http://2014.kerning.it', year: 2014 }, { url: 'http://2015.kerning.it', year: 2015 }]
 - class: jsday
   name: JsDay
   datetime: 13-05-2015
@@ -20,10 +20,10 @@
   location: Verona
   description: The first international conference in Italy about Javascript
   video: http://vimeo.com/grusp
-  fb: http://fb.com/jsday
+  fb: https://www.facebook.com/jsday.conference
   twitter: jsconfit
   photos: http://flickr.com
-  editions: [ { url: 'http://2011.jsday.it', year: 2011 }, { url: 'http://2012.jsday.it', year: 2012 }, { url: 'http://2013.jsday.it', year: 2013 }, { url: 'http://2014.jsday.it', year: 2014 }]
+  editions: [ { url: 'http://2011.jsday.it', year: 2011 }, { url: 'http://2012.jsday.it', year: 2012 }, { url: 'http://2013.jsday.it', year: 2013 }, { url: 'http://2014.jsday.it', year: 2014 }, { url: 'http://2015.jsday.it', year: 2015 }]
 - class: phpday
   name: PHPDay
   datetime: 15-05-2015
@@ -33,10 +33,10 @@
   cfs:
   description: The first international conference in Italy about PHP
   video: http://vimeo.com/grusp
-  fb: http://fb.com/phpday
+  fb: https://www.facebook.com/pages/phpDay/243655080964
   twitter: phpday
   photos: http://flickr.com
-  editions: [ { url: 'http://2011.phpday.it', year: 2011 }, { url: 'http://2012.phpday.it', year: 2012 }, { url: 'http://2013.phpday.it', year: 2013 }, { url: 'http://2014.phpday.it', year: 2014 }]
+  editions: [ { url: 'http://2011.phpday.it', year: 2011 }, { url: 'http://2012.phpday.it', year: 2012 }, { url: 'http://2013.phpday.it', year: 2013 }, { url: 'http://2014.phpday.it', year: 2014 }, { url: 'http://2015.phpday.it', year: 2015 }]
 - class: cssday
   name: CSSDay
   datetime: 27-03-2015
