@@ -49,7 +49,7 @@
   fb: http://fb.com/grusp
   twitter: grusp
   photos: http://flickr.com
-  editions:
+  editions: [ { url: 'http://2015.cssday.it', year: 2015 } ]
 - class: bsw
   name: BetterSoftware
   datetime: 16-11-2015
