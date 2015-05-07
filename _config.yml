@@ -1,4 +1,4 @@
-baseurl: /GrUSP.org
+baseurl: /
 markdown: kramdown
 highlighter: pygments
 rdiscount:
