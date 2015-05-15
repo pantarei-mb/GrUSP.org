@@ -37,19 +37,6 @@
   twitter: phpday
   photos: http://flickr.com
   editions: [ { url: 'http://2011.phpday.it', year: 2011 }, { url: 'http://2012.phpday.it', year: 2012 }, { url: 'http://2013.phpday.it', year: 2013 }, { url: 'http://2014.phpday.it', year: 2014 }]
-- class: cssday
-  name: CSSDay
-  datetime: 27-03-2015
-  date: March 27th 2015
-  cfp:
-  cfs:
-  location: Faenza (RA)
-  description: La prima conferenza italiana dedicata ai CSS
-  video: http://vimeo.com/grusp
-  fb: http://fb.com/grusp
-  twitter: grusp
-  photos: http://flickr.com
-  editions:
 - class: bsw
   name: BetterSoftware
   datetime: 16-11-2015
@@ -63,13 +50,28 @@
   twitter: better_software
   photos: http://flickr.com
   editions: [ { url: 'http://www.bettersoftware.it/2013', year: 2013 },{ url: 'http://www.bettersoftware.it/2014', year: 2014 }, {url: 'http://2015.bettersoftware.it', year: 2015} ]
+- class: cssday
+  name: CSSDay
+  datetime: 27-03-2015
+  date: March 27th 2015
+  cfp:
+  cfs:
+  location: Faenza (RA)
+  description: La prima conferenza italiana dedicata ai CSS
+  video: http://vimeo.com/grusp
+  fb: http://fb.com/grusp
+  twitter: grusp
+  photos: http://flickr.com
+  editions:
 - class: mageday
   name: MageDay
   cfp:
   cfs:
   datetime: 08-11-2014
-  date: November 7th, 2014
-  location: Parma
+  date:
+  #November 7th, 2014
+  location:
+  #Parma
   description: La conferenza italiana dedicata agli sviluppatori Magento
   video: http://vimeo.com/grusp
   fb: http://fb.com/mageday
@@ -81,9 +83,11 @@
   cfp:
   cfs:
   datetime: 10-10-2014
-  date: October 10th, 2014
-  location: Milano
-  description: La conferenza italiana dedicata agli sviluppatori Symfony
+  date:
+  #October 10th, 2014
+  location:
+  #Milano
+  description: La conferenza italiana dedicata agli sviluppatori symfony
   video: http://vimeo.com/grusp
   fb: http://fb.com/symfonydayit
   twitter: symfonydayit
@@ -124,5 +128,5 @@
   location: Bologna
   description: Incontro DevOps italiani
   twitter: incontrodevops
-  editions: [ { url: 'http://idi2013.devops.it', year: 2013 },{ url: 'http://idi2014.devops.it', year: 2014 }, { url: 'http://www.incontrodevops.it', year. 2015}]
+  editions: [ { url: 'http://idi2013.devops.it', year: 2013 },{ url: 'http://idi2014.devops.it', year: 2014 }, { url: 'http://www.incontrodevops.it', year: 2015}]
 

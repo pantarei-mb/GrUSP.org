@@ -4,8 +4,8 @@
 
     <div class="conf-container">
         <strong class="title">{{ conf.name }}</strong>
-        <time datetime="{{ conf.datetime }}">{{ conf.date }}</time>
-        <span class="location">{{ conf.location }}</span>
+        {% if conf.date %}<time datetime="{{ conf.datetime }}">{{ conf.date }}</time>{% endif %}
+        {% if conf.location %}<span class="location">{{ conf.location }}</span>{% endif %}
 
         {% if conf.video %}<a class="tag" href="{{ conf.video }}">Guarda i video</a>{% endif %}
         {% if conf.cfp %}<a class="tag" href="{{ conf.cfp }}">Call for Paper</a>{% endif %}
@@ -17,8 +17,7 @@
 
         <b>Previous editions</b>
         {% for edition in conf.editions %}
-                <a class="tag grey" href="{{ edition.url }}">{{ edition.year }}</a>
-
+            <a class="tag grey" href="{{ edition.url }}">{{ edition.year }}</a>
         {% endfor %}
 
         <div class="margin-top">
