@@ -1,7 +1,7 @@
 - citta: Roma
   url: http://roma.grusp.org
-  logo: 
-  referente: Massimiliano Arione
+  logo: http://roma.grusp.org/wp-content/uploads/2015/07/logo-pug-roma-h500.png
+  referente: Massimiliano Arione @garakkio
   incontro: ogni ultimo martedì del mese
 - citta: Milano
   url: http://milano.grusp.org
@@ -47,14 +47,14 @@
   url: http://alessandria.grusp.org
   logo:
   referente:
-  incontro: ND  
+  incontro: ND
 - citta: Novara
   url: http://novara.grusp.org
   logo:
   referente:
-  incontro: ND    
+  incontro: ND
 - citta: Napoli
   url: http://napoli.grusp.org
   logo:
   referente:
-  incontro: ND    
+  incontro: ND
