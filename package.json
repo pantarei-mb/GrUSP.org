@@ -43,8 +43,8 @@
         "csslint" : "*",
         "grunt-contrib-csslint" : "*",
 
-        "less"    : "*",
-        "grunt-contrib-less"    : "*",
+        "less"    : "1.7.1",
+        "grunt-contrib-less"    : "0.12.0",
 
         "grunt-autoprefixer"    : "*",
         "grunt-contrib-watch"   : "*",

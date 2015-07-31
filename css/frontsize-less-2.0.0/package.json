@@ -1,40 +1,36 @@
 {
-    "name"            : "frontsize-less",
-    "version"         : "2.0.0",
-    "description"     : "A CSS front-end framework built to build and ease your life.",
-    "author"          : "Vittorio Vittori",
-    "license"         : "MIT",
-    "keywords": [
-        "css",
-        "front-end",
-        "less",
-        "framework",
-        "responsive",
-        "theme"
-    ],
-    "main" : "compile.less",
-    "devDependencies" : {
-
-        "matchdep"   : "*",
-
-        "casperjs"   : "*",
-        "phantomjs"  : "*",
-        "resemblejs" : "*",
-        "phantomcss" : "*",
-
-        "csslint" : "*",
-        "less"    : "*",
-
-        "grunt"                 : "~0.4.1",
-        "grunt-autoprefixer"    : "*",
-        "grunt-contrib-watch"   : "*",
-        "grunt-contrib-less"    : "*",
-        "grunt-contrib-csslint" : "*"
-    },
-    "engines" : {
-        "node" : ">=0.8.0"
-    },
-    "bugs" : {
-        "url" : "https://github.com/ideatosrl/frontsize-less/issues"
-    }
+  "name": "frontsize-less",
+  "version": "2.0.0",
+  "description": "A CSS front-end framework built to build and ease your life.",
+  "author": "Vittorio Vittori",
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "front-end",
+    "less",
+    "framework",
+    "responsive",
+    "theme"
+  ],
+  "main": "compile.less",
+  "devDependencies": {
+    "casperjs": "*",
+    "csslint": "*",
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^3.0.3",
+    "grunt-contrib-csslint": "^0.5.0",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "less": "*",
+    "matchdep": "*",
+    "phantomcss": "*",
+    "phantomjs": "*",
+    "resemblejs": "*"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ideatosrl/frontsize-less/issues"
+  }
 }
