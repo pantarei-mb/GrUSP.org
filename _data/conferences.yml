@@ -71,7 +71,7 @@
 - class: jsday
   url: http://www.jsday.it
   name: JsDay
-  datetime: 11-05-2015
+  datetime: 11-05-2016
   date: May 11th, 12th 2016
   cfp:
   cfs:
@@ -86,7 +86,7 @@
   name: PHPDay
   url: http://www.phpday.it
   datetime: 13-06-2016
-  date: May 13rd, 14th 2015
+  date: May 13rd, 14th 2016
   location: Verona
   cfp:
   cfs:
