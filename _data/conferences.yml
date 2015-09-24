@@ -21,7 +21,7 @@
   date: October 9th, 2015
   location: Reggio Emilia
   description: La conferenza italiana dedicata agli sviluppatori Symfony
-  video: http://vimeo.com/grusp
+  video: https://vimeo.com/channels/431863
   fb: http://fb.com/symfonydayit
   twitter: symfonydayit
   photos: http://flickr.com
@@ -77,7 +77,7 @@
   cfs:
   location: Verona
   description: The first international conference in Italy about Javascript
-  video: http://vimeo.com/grusp
+  video: https://vimeo.com/channels/jsday
   fb: https://www.facebook.com/jsday.conference
   twitter: jsconfit
   photos: http://flickr.com
@@ -91,7 +91,7 @@
   cfp:
   cfs:
   description: The first international conference in Italy about PHP
-  video: http://vimeo.com/grusp
+  video: https://vimeo.com/channels/phpday
   fb: https://www.facebook.com/pages/phpDay/243655080964
   twitter: phpday
   photos: http://flickr.com
@@ -105,11 +105,33 @@
   cfs:
   location: Faenza (RA)
   description: La prima conferenza italiana dedicata ai CSS
-  video: http://vimeo.com/grusp
+  video: https://vimeo.com/channels/italiancssday
   fb: http://fb.com/grusp
   twitter: grusp
   photos: http://flickr.com
-  editions: [ { url: 'http://2015.cssday.it', year: 2015 } ]
+  editions: [ { url: 'http://2015.cssday.it', year: 2015 }, { url: 'http://2016.cssday.it', year: 2016 } ]
+- class: idi
+  name: Incontro DevOps
+  url: http://www.incontrodevops.it
+  cfp:
+  cfs:
+  datetime: 01-04-2016
+  date: April 1st, 2016
+  location: Bologna
+  description: Incontro DevOps italiani
+  twitter: incontrodevops
+  editions: [ { url: 'http://idi2013.devops.it', year: 2013 },{ url: 'http://idi2014.devops.it', year: 2014 }, { url: 'http://www.incontrodevops.it', year. 2015}, { url: 'http://www.incontrodevops.it', year. 2016}]
+- class: docker
+  name: DockerDay
+  url: http://www.dockerday.it
+  cfp:
+  cfs:
+  datetime: 08-04-2016
+  date: April 8th, 2016
+  location: 
+  description: DockerDay
+  twitter: 
+  editions: [ { url: 'http://2016.dockerday.it', year: 2016 } ]
 - class: nosqlday
   url: http://2014.nosqlday.it
   name: NoSQLDay
@@ -138,17 +160,6 @@
   twitter: zfdayit
   photos: http://flickr.com
   editions: [ { url: 'http://2013.zfday.it', year: 2013 },{ url: 'http://2014.zfday.it', year: 2014 }]
-- class: idi
-  name: Incontro DevOps
-  url: http://www.incontrodevops.it
-  cfp:
-  cfs:
-  datetime: 10-04-2015
-  date: April 10th, 2015
-  location: Bologna
-  description: Incontro DevOps italiani
-  twitter: incontrodevops
-  editions: [ { url: 'http://idi2013.devops.it', year: 2013 },{ url: 'http://idi2014.devops.it', year: 2014 }, { url: 'http://www.incontrodevops.it', year. 2015}]
 - class: mageday
   name: MageDay
   url: http://www.mageday.it
