@@ -27,7 +27,7 @@
   photos: http://flickr.com
   editions: [ { url: 'http://2012.symfonyday.it', year: 2012 },{ url: 'http://2013.symfonyday.it', year: 2013 }, { url: 'http://2014.symfonyday.it', year: 2014 }]
 - class: wpday
-  url: http://www.sfday.it
+  url: http://2015.wpday.it/
   name: wpDay
   cfp: https://docs.google.com/forms/d/1SOf71hZ-YBLZlrqImhe3lYNRKQs9qTVSJiN41TX-U04
   cfs: "info@grusp.org?subject=Voglio sponsorizzare il WPDAY"
