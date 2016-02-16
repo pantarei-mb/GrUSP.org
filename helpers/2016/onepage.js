@@ -21,4 +21,4 @@
     });
 
     $mp.append($("<DIV>").addClass("clear"));
-})({{ site.data.media_partners | sort: 'name' | jsonify }});
+})({{ site.data.media_partners_2016 | sort: 'name' | jsonify }});
