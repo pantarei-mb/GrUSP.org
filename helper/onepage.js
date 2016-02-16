@@ -1,3 +1,5 @@
+---
+---
 (function (data) {
     var $mp = $("#media-partners");
     var tag = $mp.data("tag");
