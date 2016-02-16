@@ -2,10 +2,10 @@
 ---
 (function (data) {
     var $mp = $("#media-partners");
-    var tag = $mp.data("tag");
+    var tags = $mp.data("tags") ?  $mp.data("tags").split(/ +/) : [];
 
     $.each(data, function(k, v) {
-        if (v.tags && (!tag || $.inArray(tag, v.tags) == -1)) {
+        if (v.tag && -1 == $.inArray(v.tag, tags)) {
             return;
         }
 
@@ -14,7 +14,7 @@
             .attr("title", v.name)
             .addClass("banner")
             .append($("<IMG>")
-                .attr("src", v.img)
+                .attr("src", "{{ site.baseurl }}/img/media-partners/" + v.img)
                 .attr("title", v.name)
             )
         );

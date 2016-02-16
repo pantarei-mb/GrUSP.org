@@ -5,4 +5,8 @@
 - name: Faventia Sales
   img: faventia.png
   url: http://www.faventiasales.it/
-  tags: [ faenza ]
+  tag: faenza
+
+- name: "Apogeo Editore: libri, ebook, news dal mondo dell'informatica e delle nuove tecnologie"
+  img: apogeo.svg
+  url: http://www.apogeonline.com/
