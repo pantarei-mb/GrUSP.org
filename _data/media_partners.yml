@@ -1,0 +1,8 @@
+- name: Codemotion
+  img: codemotion.png
+  url: http://www.codemotionworld.com/
+
+- name: Faventia Sales
+  img: faventia.png
+  url: http://www.faventiasales.it/
+  tags: [ faenza ]
