@@ -19,3 +19,7 @@
   img: cloudconf.svg
   url: http://www.cloudconf.it/
 
+- name: "Tom's Hardware"
+  img: toms-hardware.svg
+  url: http://www.tomshw.it/
+
