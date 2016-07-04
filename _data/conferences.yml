@@ -17,15 +17,15 @@
   name: SymfonyDay
   cfp: https://docs.google.com/a/grusp.org/forms/d/13Y0yD6SC9j0lcBXhkF_ld5NDbp7_uIXd6TX1VEhcPJw/viewform
   cfs: "info@grusp.org?subject=Voglio sponsorizzare il SymfonyDAY"
-  datetime: 9-10-2015
-  date: October 9th, 2015
-  location: Reggio Emilia
+  datetime: 28-10-2016
+  date: October 28th, 2016
+  location: Roma
   description: La conferenza italiana dedicata agli sviluppatori Symfony
   video: https://vimeo.com/channels/431863
   fb: http://fb.com/symfonydayit
   twitter: symfonydayit
   photos: http://flickr.com
-  editions: [ { url: 'http://2012.symfonyday.it', year: 2012 },{ url: 'http://2013.symfonyday.it', year: 2013 }, { url: 'http://2014.symfonyday.it', year: 2014 }]
+  editions: [ { url: 'http://2012.symfonyday.it', year: 2012 },{ url: 'http://2013.symfonyday.it', year: 2013 }, { url: 'http://2014.symfonyday.it', year: 2014 }, { url: 'http://2015.symfonyday.it', year: 2015 }]
 - class: wpday
   url: http://2015.wpday.it/
   name: wpDay
