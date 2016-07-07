@@ -2,7 +2,7 @@
   url: http://www.bettersoftware.it
   name: BetterSoftware
   datetime: 16-11-2015
-  date: November 16th-17th, 2015
+  date: June 13th-14th, 2016
   location: Firenze
   cfp: http://www.bettersoftware.it/call-paper
   cfs: http://www.bettersoftware.it/sponsor
@@ -11,7 +11,7 @@
   fb: https://www.facebook.com/BetterSoftware
   twitter: better_software
   photos: http://flickr.com
-  editions: [ { url: 'http://www.bettersoftware.it/2013', year: 2013 },{ url: 'http://www.bettersoftware.it/2014', year: 2014 }, {url: 'http://2015.bettersoftware.it', year: 2015} ]
+  editions: [ { url: 'http://www.bettersoftware.it/2013', year: 2013 },{ url: 'http://www.bettersoftware.it/2014', year: 2014 }, {url: 'http://WWW.bettersoftware.it/2015', year: 2015}, {url: 'http://WWW.bettersoftware.it', year: 2016} ]
 - class: sfday
   url: http://www.symfonyday.it
   name: SymfonyDay
@@ -40,16 +40,16 @@
   twitter: wpdayit
   photos: http://flickr.com
   editions: [ { url: 'http://2013.wpday.it', year: 2013 } ]
-- class: reactday
+- class: reactjsday
   url: http://www.reactjsday.it
   name: ReactJsDay
-  cfp: https://docs.google.com/a/grusp.org/forms/d/1Mq6ZJ1N2TaNrLk7e_X1OhH2mKQHKCnlZTgdRvbmc48Q/viewform
+  cfp: https://docs.google.com/forms/d/12bm0Ah7WuFyz0kZxDF62PQtfy0j4jBUwA92srQg0bhY/viewform
   cfs: "info@grusp.org?subject=Voglio sponsorizzare il ReactJsDAY"
-  datetime: 30-10-2015
-  date: October 30th, 2015
+  datetime: 07-10-2016
+  date: October 7th, 2016
   location: Verona
   description: La conferenza italiana dedicata agli sviluppatori ReactJs
-  video: http://vimeo.com/grusp
+  video: https://vimeo.com/channels/986495
   fb: http://fb.com/symfonydayit
   twitter: reactjsdayit
   photos: http://flickr.com
@@ -120,18 +120,22 @@
   location: Bologna
   description: Incontro DevOps italiani
   twitter: incontrodevops
+  fb: https://fb.com/incontrodevops/
+  video: https://vimeo.com/album/3949155
   editions: [ { url: 'http://idi2013.devops.it', year: 2013 },{ url: 'http://idi2014.devops.it', year: 2014 }, { url: 'http://www.incontrodevops.it', year. 2015}, { url: 'http://www.incontrodevops.it', year. 2016}]
-- class: docker
-  name: DockerDay
-  url: http://www.dockerday.it
+- class: containerday
+  name: ContainerDay
+  url: http://www.containerday.it
   cfp:
   cfs:
   datetime: 08-04-2016
   date: April 8th, 2016
-  location: 
-  description: DockerDay
-  twitter: 
-  editions: [ { url: 'http://2016.dockerday.it', year: 2016 } ]
+  location: Verona
+  description: ContainerDay
+  twitter: containerdayit
+  fb: http://fb.com/ContainerDay/
+  video: https://vimeo.com/channels/1054035
+  editions: [ { url: 'http://2016.containerday.it', year: 2016 } ]
 - class: nosqlday
   url: http://2014.nosqlday.it
   name: NoSQLDay
