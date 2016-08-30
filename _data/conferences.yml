@@ -99,8 +99,8 @@
 - class: cssday
   url: http://www.cssday.it
   name: CSSDay
-  datetime: 25-03-2016
-  date: March 25th 2016
+  datetime: 17-03-2017
+  date: March 17th 2017
   cfp:
   cfs:
   location: Faenza (RA)
@@ -109,7 +109,7 @@
   fb: http://fb.com/grusp
   twitter: grusp
   photos: http://flickr.com
-  editions: [ { url: 'http://2015.cssday.it', year: 2015 }, { url: 'http://2016.cssday.it', year: 2016 } ]
+  editions: [ { url: 'http://2015.cssday.it', year: 2015 }, { url: 'http://2016.cssday.it', year: 2016 }, { url: 'http://2017.cssday.it', year: 2017 } ]
 - class: idi
   name: Incontro DevOps
   url: http://www.incontrodevops.it
