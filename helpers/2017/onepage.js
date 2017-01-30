@@ -5,8 +5,14 @@
     var tags = $mp.data("tags") ?  $mp.data("tags").split(/ +/) : [];
 
     $.each(data, function(k, v) {
-        if (v.tag && -1 == $.inArray(v.tag, tags)) {
-            return;
+        if (v.tags) {
+            var c = v.tags.filter(function(n) {
+                return tags.indexOf(n) != -1;
+            });
+
+            if (!c.length) {
+                return;
+            }
         }
 
         $mp.append($("<A>")

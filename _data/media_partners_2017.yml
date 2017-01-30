@@ -42,3 +42,8 @@
 - name: "Web Developer Italiani"
   img: webdeveloperitaliani.svg
   url: https://www.facebook.com/groups/webdeveloperitaliani/
+
+- name: Faventia Sales
+  img: faventia.png
+  url: http://www.faventiasales.it/
+  tags: [ faenza ]
