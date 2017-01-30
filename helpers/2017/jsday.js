@@ -20,10 +20,12 @@
         hi = d.createElement("IMG");
         hi.setAttribute("src", "{{ site.baseurl }}/img/media-partners/" + v.img);
         hi.setAttribute("alt", v.name);
+        hi.setAttribute("class", "media-partner__logo");
 
         ha = d.createElement("A");
         ha.setAttribute("href", v.url);
         ha.setAttribute("title", v.name);
+        ha.setAttribute("class", "media-partner__card");
         ha.appendChild(hi);
 
         hd = d.createElement("DIV");
