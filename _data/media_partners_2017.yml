@@ -30,6 +30,7 @@
 - name: "Frontenders Ticino"
   img: frontenders-ticino.svg
   url: http://www.frontenders.ch/
+  tags: [ frontend ]
 
 - name: "Programmers in Padua"
   img: programmers-in-padua.svg
@@ -47,3 +48,13 @@
   img: faventia.png
   url: http://www.faventiasales.it/
   tags: [ faenza ]
+
+- name: FEVR
+  img: fevr.svg
+  url: http://www.fevr.it/
+  tags: [ frontend ]
+
+- name: Milano Frontenders Meetup
+  img: mfm.svg
+  url: https://milanofrontend.it/
+  tags: [ frontend ]

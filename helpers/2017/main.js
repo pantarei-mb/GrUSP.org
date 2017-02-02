@@ -2,7 +2,7 @@
 ---
 (function ($, data) {
     var $mp = $("#media_partner");
-    var tags = [ "main" ];
+    var tags = $mp.data("tags") ?  $mp.data("tags").split(/ +/) : [ "main" ];
 
     $.each(data, function(k, v) {
         if (v.tags) {
