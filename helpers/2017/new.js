@@ -2,7 +2,7 @@
 ---
 (function (d, data) {
     var mp = d.getElementsByClassName('sponsors__partner')[0];
-    var tags = [ "main" ];
+    var tags = mp.getAttribute('data-tags') ? mp.getAttribute('data-tags').split(/ +/) : ["main"];
 
     data.forEach(function(v, k) {
         var hd, ha, hi;
