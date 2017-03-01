@@ -1,6 +1,6 @@
 {% for conf in site.data.conferences %}
 <div class="{{ conf.class }} conf">
-    <div class="bg"></div>
+    <div class="bg" style="background-image:url('/img/logos/{{ conf.logo }}'); background-position: 50%; background-repeat: no-repeat; background-size: contain; display: block;" class="conf__logo"></div>
 
     <div class="conf-container">
         <a href="{{ conf.url }}"><strong class="title">{{ conf.name }}</strong></a>

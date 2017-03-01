@@ -1,6 +1,6 @@
-baseurl: //www.grusp.org
+baseurl: /
 markdown: kramdown
-highlighter: rouge 
+highlighter: rouge
 rdiscount:
 extensions: [smart]
 exclude: ["node_modules", "css/frontsize-less-2.0.0"]
