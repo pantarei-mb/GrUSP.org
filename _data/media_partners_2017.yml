@@ -58,3 +58,8 @@
   img: mfm.svg
   url: https://milanofrontend.it/
   tags: [ frontend ]
+
+- name: dotJS
+  img: dotjs.svg
+  url: https://www.dotjs.io/
+  tags: [ js ]
