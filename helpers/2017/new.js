@@ -3,7 +3,7 @@
 (function (d, data) {
     var tags, mp = d.getElementsByClassName('media-partners__list');
 
-    if (!mp.count()) {
+    if (!mp.length) {
         return;
     }
 
