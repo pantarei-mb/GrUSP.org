@@ -1,8 +1,14 @@
 ---
 ---
 (function (d, data) {
-    var mp = d.getElementsByClassName('media-partners__list')[0];
-    var tags = mp.getAttribute('data-tags') ? mp.getAttribute('data-tags').split(/ +/) : [ "main" ];
+    var tags, mp = d.getElementsByClassName('media-partners__list');
+
+    if (!mp) {
+        return;
+    }
+
+    mp = mp[0];
+    tags = mp.getAttribute('data-tags') ? mp.getAttribute('data-tags').split(/ +/) : [ "main" ];
 
     data.forEach(function(v, k) {
         var hd, ha, hi;
