@@ -1,7 +1,7 @@
 ---
 ---
 (function (d, data) {
-    var tags, mp = d.getElementsByClassName('media-partners__list');
+    var tags, mp = d.getElementsByClassName('sponsors__partner');
 
     if (!mp.length) {
         return;
