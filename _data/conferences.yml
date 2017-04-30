@@ -40,20 +40,19 @@
   twitter: wpdayit
   photos: http://flickr.com
   editions: [ { url: 'http://2013.wpday.it', year: 2013 } ]
-- class: angularjsday
-  url: http://www.angularjsday.it/
-  name: angularjsday
+- class: angularday
+  url: http://www.angularday.it/
+  name: angularday
   cfp:
-  cfs: "info@grusp.org?subject=Voglio sponsorizzare l'AngularJsDay"
+  cfs: "info@grusp.org?subject=Voglio sponsorizzare l'Angular Day"
   datetime: 16-06-2017
-  date: November 16th, 2017
+  date: June 15th &ndash; 16th, 2017
   location: Verona
   description: La conferenza italiana dedicata agli sviluppatori Angular
   video: http://vimeo.com/grusp
-  fb: http://fb.com/symfonydayit
-  twitter: wpdayit
-  photos: http://flickr.com
-  editions: [ { url: 'http://2013.wpday.it', year: 2013 } ]
+  fb: http://fb.com/angularday
+  twitter: angularday
+  editions: [ { url: 'http://2014.angularjsday.it/', year: 2014 } ]
 - class: reactjsday
   url: http://www.reactjsday.it
   name: ReactJsDay
