@@ -9,7 +9,7 @@
 
         {% if conf.video %}<a class="tag" href="{{ conf.video }}">Guarda i video</a>{% endif %}
         {% if conf.cfp %}<a class="tag" href="{{ conf.cfp }}">Call for Paper</a>{% endif %}
-        {% if conf.cfs %}<a class="tag" href="{{ conf.cfs }}">Call for Sponsor</a>{% endif %}
+        {% if conf.cfs %}<a class="tag" href="mailto:{{ conf.cfs }}">Call for Sponsor</a>{% endif %}
 
         <p>
             {{ conf.description }}

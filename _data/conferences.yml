@@ -5,7 +5,7 @@
   date: June 13th-14th, 2016
   location: Firenze
   cfp: http://www.bettersoftware.it/call-paper
-  cfs: http://www.bettersoftware.it/sponsor
+  cfs: "info@grusp.org?subject=Voglio sponsorizzare BetterSoftware"
   description: The international conference for IT Managers
   video: https://www.youtube.com/user/BetterSoftware
   fb: https://www.facebook.com/BetterSoftware
@@ -43,7 +43,7 @@
 - class: angularday
   url: http://www.angularday.it/
   name: angularday
-  cfp:
+  cfp: https://docs.google.com/forms/d/e/1FAIpQLSekLIk4oG_CnsihzrPHUURyg9_TlemHmtPXyo4pQEYe07h_cg/viewform
   cfs: "info@grusp.org?subject=Voglio sponsorizzare l'Angular Day"
   datetime: 16-06-2017
   date: June 15th &ndash; 16th, 2017
