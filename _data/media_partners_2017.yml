@@ -63,3 +63,7 @@
   img: dotjs.svg
   url: https://www.dotjs.io/
   tags: [ js ]
+
+- name: Italian PostgreSQL User Group
+  img: itpug.svg
+  url: http://pgday.it
