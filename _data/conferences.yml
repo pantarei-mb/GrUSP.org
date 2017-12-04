@@ -117,7 +117,6 @@
     - { url: 'http://2014.phpday.it', year: 2014 }
     - { url: 'http://2015.phpday.it', year: 2015 }
     - { url: 'http://2016.phpday.it', year: 2016 }
-    - { url: 'http://2015.phpday.it', year: 2016 }
     - { url: 'http://2017.phpday.it', year: 2017 }
 - class: cssday
   url: http://www.cssday.it
