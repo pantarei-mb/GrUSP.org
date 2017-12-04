@@ -99,18 +99,26 @@
 - class: phpday
   name: PHPDay
   url: http://www.phpday.it
-  datetime: 12-06-2017
-  date: May 12rd, 13th 2017
+  datetime: 11-05-2018
+  date: May 11th, 12th 2017
   location: Verona
-  cfp:
-  cfs:
+  cfp: https://cfp.phpday.it/
+  cfs: https://www.phpday.it/sponsor.html
   description: The first international conference in Italy about PHP
   video: https://vimeo.com/channels/phpday
   fb: https://www.facebook.com/pages/phpDay/243655080964
   twitter: phpday
   photos: http://flickr.com
   logo: phpday.svg
-  editions: [ { url: 'http://2011.phpday.it', year: 2011 }, { url: 'http://2012.phpday.it', year: 2012 }, { url: 'http://2013.phpday.it', year: 2013 }, { url: 'http://2014.phpday.it', year: 2014 }, { url: 'http://2015.phpday.it', year: 2015 }, { url: 'http://2016.phpday.it', year: 2016 }, { url: 'http://2015.phpday.it', year: 2016 }]
+  editions:
+    - { url: 'http://2011.phpday.it', year: 2011 }
+    - { url: 'http://2012.phpday.it', year: 2012 }
+    - { url: 'http://2013.phpday.it', year: 2013 }
+    - { url: 'http://2014.phpday.it', year: 2014 }
+    - { url: 'http://2015.phpday.it', year: 2015 }
+    - { url: 'http://2016.phpday.it', year: 2016 }
+    - { url: 'http://2015.phpday.it', year: 2016 }
+    - { url: 'http://2017.phpday.it', year: 2017 }
 - class: cssday
   url: http://www.cssday.it
   name: CSSDay
