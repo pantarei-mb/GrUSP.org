@@ -28,7 +28,12 @@
   twitter: incontrodevops
   fb: https://fb.com/incontrodevops/
   video: https://vimeo.com/album/3949155
-  editions: [ { url: 'http://idi2013.devops.it', year: 2013 },{ url: 'http://idi2014.devops.it', year: 2014 }, { url: 'http://www.incontrodevops.it/events/idi2015/', year. 2015}, { url: 'http://www.incontrodevops.it/events/idi2016/', year. 2016}, { url: 'http://www.incontrodevops.it/events/idi2017/', year. 2016}]
+  editions:
+   - { url: 'http://idi2013.devops.it', year: 2013 }
+   - { url: 'http://idi2014.devops.it', year: 2014 }
+   - { url: 'http://www.incontrodevops.it/events/idi2015/', year: 2015 }
+   - { url: 'http://www.incontrodevops.it/events/idi2016/', year: 2016 }
+   - { url: 'http://www.incontrodevops.it/events/idi2017/', year: 2017 }
 - class: jsday
   url: http://www.jsday.it
   name: JsDay
@@ -95,7 +100,7 @@
 - class: angularday
   url: http://www.angularday.it/
   name: angularday
-  #cfp: https://docs.google.com/forms/d/e/1FAIpQLSekLIk4oG_CnsihzrPHUURyg9_TlemHmtPXyo4pQEYe07h_cg/viewform
+  cfp:
   cfs: "info@grusp.org?subject=Voglio sponsorizzare l'Angular Day"
   datetime: 16-06-2017
   date: June 15th &ndash; 16th, 2017
@@ -104,10 +109,9 @@
   video: http://vimeo.com/grusp
   fb: http://fb.com/angularday
   twitter: angularday
-  editions: [
+  editions:
     - { url: 'http://2014.angularjsday.it/', year: 2014 }
     - { url: 'http://2017.angularday.it/', year: 2017 }
-  ]
 - class: reactjsday
   url: http://www.reactjsday.it
   name: ReactJsDay
@@ -121,11 +125,10 @@
   fb: http://fb.com/symfonydayit
   twitter: reactjsdayit
   photos: http://flickr.com
-  editions: [
+  editions:
     - { url: 'http://2015.reactjsday.it', year: 2015 }
     - { url: 'http://2016.reactjsday.it', year: 2016 }
     - { url: 'http://2017.reactjsday.it', year: 2017 }
-  ]
 - class: sfday
   url: http://www.symfonyday.it
   name: SymfonyDay
@@ -139,7 +142,13 @@
   fb: http://fb.com/symfonydayit
   twitter: symfonydayit
   photos: http://flickr.com
-  editions: [ { url: 'http://2012.symfonyday.it', year: 2012 },{ url: 'http://2013.symfonyday.it', year: 2013 }, { url: 'http://2014.symfonyday.it', year: 2014 }, { url: 'http://2015.symfonyday.it', year: 2015 }, { url: 'http://2016.symfonyday.it', year: 2016 }, { url: 'http://2017.symfonyday.it', year: 2017 }]
+  editions:
+   - { url: 'http://2012.symfonyday.it', year: 2012 }
+   - { url: 'http://2013.symfonyday.it', year: 2013 }
+   - { url: 'http://2014.symfonyday.it', year: 2014 }
+   - { url: 'http://2015.symfonyday.it', year: 2015 }
+   - { url: 'http://2016.symfonyday.it', year: 2016 }
+   - { url: 'http://2017.symfonyday.it', year: 2017 }
 - class: containerday
   name: ContainerDay
   url: http://www.containerday.it
@@ -153,7 +162,9 @@
   logo: containerday.svg
   fb: http://fb.com/ContainerDay/
   video: https://vimeo.com/channels/1054035
-  editions: [ { url: 'http://2016.containerday.it', year: 2016 }, { url: 'http://2017.containerday.it', year: 2017 } ]
+  editions:
+   - { url: 'http://2016.containerday.it', year: 2016 }
+   - { url: 'http://2017.containerday.it', year: 2017 }
 - class: bsw
   url: http://www.bettersoftware.it
   name: BetterSoftware
@@ -167,7 +178,11 @@
   fb: https://www.facebook.com/BetterSoftware
   twitter: better_software
   photos: http://flickr.com
-  editions: [ { url: 'http://www.bettersoftware.it/2013', year: 2013 },{ url: 'http://www.bettersoftware.it/2014', year: 2014 }, {url: 'http://WWW.bettersoftware.it/2015', year: 2015}, {url: 'http://WWW.bettersoftware.it', year: 2016} ]
+  editions:
+   - { url: 'http://www.bettersoftware.it/2013', year: 2013 }
+   - { url: 'http://www.bettersoftware.it/2014', year: 2014 }
+   - { url: 'http://WWW.bettersoftware.it/2015', year: 2015 }
+   - { url: 'http://WWW.bettersoftware.it', year: 2016 }
 - class: zfday
   url: http://www.zfday.it
   name: ZFDay
@@ -181,7 +196,9 @@
   fb: http://fb.com/zfdayit
   twitter: zfdayit
   photos: http://flickr.com
-  editions: [ { url: 'http://2013.zfday.it', year: 2013 },{ url: 'http://2014.zfday.it', year: 2014 }]
+  editions:
+   - { url: 'http://2013.zfday.it', year: 2013 }
+   - { url: 'http://2014.zfday.it', year: 2014 }
 - class: mageday
   name: MageDay
   url: http://www.mageday.it
@@ -195,7 +212,9 @@
   fb: http://fb.com/mageday
   twitter: magedayit
   photos:
-  editions: [ { url: 'http://2013.mageday.it', year: 2013 }, { url: 'http://2014.mageday.it', year: 2014 }]
+  editions:
+   - { url: 'http://2013.mageday.it', year: 2013 }
+   - { url: 'http://2014.mageday.it', year: 2014 }
 - class: nosqlday
   url: http://2014.nosqlday.it
   name: NoSQLDay
@@ -209,7 +228,9 @@
   fb: http://fb.com/nosqldayit
   twitter: nosqldayit
   photos: http://flickr.com
-  editions: [ { url: 'http://2013.nosqlday.it', year: 2013 },{ url: 'http://2014.nosqlday.it', year: 2014 }]
+  editions:
+   - { url: 'http://2013.nosqlday.it', year: 2013 }
+   - { url: 'http://2014.nosqlday.it', year: 2014 }
 - class: wpday
   url: http://2015.wpday.it/
   name: wpDay
@@ -223,4 +244,5 @@
   fb: http://fb.com/symfonydayit
   twitter: wpdayit
   photos: http://flickr.com
-  editions: [ { url: 'http://2013.wpday.it', year: 2013 } ]
+  editions:
+   - { url: 'http://2013.wpday.it', year: 2013 }
