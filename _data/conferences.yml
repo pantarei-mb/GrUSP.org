@@ -93,7 +93,7 @@
   name: PHPDay
   url: http://www.phpday.it
   datetime: 11-05-2018
-  date: May 11th, 12th 2017
+  date: May 11th, 12th 2018
   location: Verona
   cfp: https://cfp.phpday.it/
   cfs: https://2018.phpday.it/sponsor.html
@@ -114,18 +114,21 @@
 - class: cssday
   url: http://www.cssday.it
   name: CSSDay
-  datetime: 17-03-2017
-  date: March 17th 2017
-  cfp:
-  cfs:
+  datetime: 16-03-2018
+  date: March 16th 2018
+  cfp: https://goo.gl/forms/RkHT6PaKrs4kWYu32
+  cfs: 
   location: Faenza (RA)
   logo: cssday.svg
   description: La prima conferenza italiana dedicata ai CSS
   video: https://vimeo.com/channels/italiancssday
-  fb: http://fb.com/grusp
+  fb: https://www.facebook.com/cssday/
   twitter: grusp
   photos: http://flickr.com
-  editions: [ { url: 'http://2015.cssday.it', year: 2015 }, { url: 'http://2016.cssday.it', year: 2016 }, { url: 'http://2017.cssday.it', year: 2017 } ]
+  editions: 
+    - { url: 'http://2015.cssday.it', year: 2015 }
+    - { url: 'http://2016.cssday.it', year: 2016 }
+    - { url: 'http://2017.cssday.it', year: 2017 }
 - class: idi
   name: Incontro DevOps
   url: http://www.incontrodevops.it
