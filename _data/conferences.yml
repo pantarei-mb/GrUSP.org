@@ -58,15 +58,20 @@
   name: Kerning
   cfp:
   cfs:
-  datetime: 09-06-2017
-  date: June 7th-9th, 2019
+  datetime: 06-06-2018
+  date: June 6th-8th, 2018
   location: Faenza (RA)
   description: The first international conference in Italy about Typography and web typography
   video: http://vimeo.com/grusp
   fb: http://fb.com/kerning
   twitter: kerningconf
   photos: http://flickr.com
-  editions: [ { url: 'http://2013.kerning.it', year: 2013 }, { url: 'http://2014.kerning.it', year: 2014 }, { url: 'http://2015.kerning.it', year: 2015 }, { url: 'http://2016.kerning.it', year: 2016 }, { url: 'http://2017.kerning.it', year: 2017 }]
+  editions: 
+   - { url: 'http://2013.kerning.it', year: 2013 }
+   - { url: 'http://2014.kerning.it', year: 2014 }
+   - { url: 'http://2015.kerning.it', year: 2015 }
+   - { url: 'http://2016.kerning.it', year: 2016 }
+   - { url: 'http://2017.kerning.it', year: 2017 }
 - class: jsday
   url: http://www.jsday.it
   name: JsDay
