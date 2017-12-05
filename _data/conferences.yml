@@ -84,10 +84,10 @@
 - class: jsday
   url: http://www.jsday.it
   name: JsDay
-  datetime: 10-05-2017
-  date: May 10th, 11th 2017
-  cfp:
-  cfs:
+  datetime: 09-05-2017
+  date: May 9th, 10th 2018
+  cfp: https://cfp.jsday.it/
+  cfs: https://2018.jsday.it/sponsor.html
   location: Verona
   logo: jsday.svg
   description: The first international conference in Italy about Javascript
@@ -95,7 +95,14 @@
   fb: https://www.facebook.com/jsday.conference
   twitter: jsconfit
   photos: http://flickr.com
-  editions: [ { url: 'http://2011.jsday.it', year: 2011 }, { url: 'http://2012.jsday.it', year: 2012 }, { url: 'http://2013.jsday.it', year: 2013 }, { url: 'http://2014.jsday.it', year: 2014 }, { url: 'http://2015.jsday.it', year: 2015 }, { url: 'http://2016.jsday.it', year: 2016 }, { url: 'http://2017.jsday.it', year: 2017 }]
+  editions:
+   - { url: 'http://2011.jsday.it', year: 2011 }
+   - { url: 'http://2012.jsday.it', year: 2012 }
+   - { url: 'http://2013.jsday.it', year: 2013 }
+   - { url: 'http://2014.jsday.it', year: 2014 }
+   - { url: 'http://2015.jsday.it', year: 2015 }
+   - { url: 'http://2016.jsday.it', year: 2016 }
+   - { url: 'http://2017.jsday.it', year: 2017 }
 - class: phpday
   name: PHPDay
   url: http://www.phpday.it
