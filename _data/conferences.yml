@@ -1,17 +1,3 @@
-- class: bsw
-  url: http://www.bettersoftware.it
-  name: BetterSoftware
-  datetime: 16-11-2015
-  date: June 13th-14th, 2016
-  location: Firenze
-  cfp: http://www.bettersoftware.it/call-paper
-  cfs: "info@grusp.org?subject=Voglio sponsorizzare BetterSoftware"
-  description: The international conference for IT Managers
-  video: https://www.youtube.com/user/BetterSoftware
-  fb: https://www.facebook.com/BetterSoftware
-  twitter: better_software
-  photos: http://flickr.com
-  editions: [ { url: 'http://www.bettersoftware.it/2013', year: 2013 },{ url: 'http://www.bettersoftware.it/2014', year: 2014 }, {url: 'http://WWW.bettersoftware.it/2015', year: 2015}, {url: 'http://WWW.bettersoftware.it', year: 2016} ]
 - class: sfday
   url: http://www.symfonyday.it
   name: SymfonyDay
@@ -181,6 +167,20 @@
   twitter: nosqldayit
   photos: http://flickr.com
   editions: [ { url: 'http://2013.nosqlday.it', year: 2013 },{ url: 'http://2014.nosqlday.it', year: 2014 }]
+- class: bsw
+  url: http://www.bettersoftware.it
+  name: BetterSoftware
+  datetime: 16-11-2015
+  date: June 13th-14th, 2016
+  location: Firenze
+  cfp: http://www.bettersoftware.it/call-paper
+  cfs: "info@grusp.org?subject=Voglio sponsorizzare BetterSoftware"
+  description: The international conference for IT Managers
+  video: https://www.youtube.com/user/BetterSoftware
+  fb: https://www.facebook.com/BetterSoftware
+  twitter: better_software
+  photos: http://flickr.com
+  editions: [ { url: 'http://www.bettersoftware.it/2013', year: 2013 },{ url: 'http://www.bettersoftware.it/2014', year: 2014 }, {url: 'http://WWW.bettersoftware.it/2015', year: 2015}, {url: 'http://WWW.bettersoftware.it', year: 2016} ]
 - class: zfday
   url: http://www.zfday.it
   name: ZFDay
