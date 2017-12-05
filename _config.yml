@@ -1,10 +1,17 @@
-baseurl: //www.grusp.org
 markdown: kramdown
 highlighter: rouge 
 rdiscount:
 extensions: [smart]
-exclude: ["node_modules", "css/frontsize-less-2.0.0"]
+exclude:
+  - "node_modules"
+  - "css/frontsize-less-2.0.0"
+  - "vendor"
+  - "Gemfile*"
+  - "docker-compose.yml"
+  - "README.md"
+  - "package.json"
+  - "Gruntfile.js"
 encoding: utf-8
 
-gems:
-- jekyll-sitemap
+plugins:
+  - jekyll-sitemap

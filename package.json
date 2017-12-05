@@ -38,7 +38,7 @@
         "resemblejs" : "*",
         "phantomcss" : "*",
 
-        "grunt" : ">=0.4.1",
+        "grunt" : "~0.4.1",
 
         "csslint" : "*",
         "grunt-contrib-csslint" : "*",
