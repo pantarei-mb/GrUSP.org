@@ -1,3 +1,21 @@
+- class: idi
+  name: Incontro DevOps
+  url: http://www.incontrodevops.it
+  cfp:
+  cfs:
+  datetime: 08-03-2018
+  date: March 8th, 2018
+  location: Bologna
+  description: Incontro DevOps italiani
+  twitter: incontrodevops
+  fb: https://fb.com/incontrodevops/
+  video: https://vimeo.com/album/3949155
+  editions:
+   - { url: 'http://idi2013.devops.it', year: 2013 }
+   - { url: 'http://idi2014.devops.it', year: 2014 }
+   - { url: 'http://www.incontrodevops.it/events/idi2015/', year: 2015 }
+   - { url: 'http://www.incontrodevops.it/events/idi2016/', year: 2016 }
+   - { url: 'http://www.incontrodevops.it/events/idi2017/', year: 2017 }
 - class: cssday
   url: http://www.cssday.it
   name: CSSDay
@@ -16,24 +34,21 @@
     - { url: 'http://2015.cssday.it', year: 2015 }
     - { url: 'http://2016.cssday.it', year: 2016 }
     - { url: 'http://2017.cssday.it', year: 2017 }
-- class: idi
-  name: Incontro DevOps
-  url: http://www.incontrodevops.it
-  cfp:
-  cfs:
-  datetime: 10-03-2017
-  date: March 10th, 2017
-  location: Bologna
-  description: Incontro DevOps italiani
-  twitter: incontrodevops
-  fb: https://fb.com/incontrodevops/
-  video: https://vimeo.com/album/3949155
+- class: universal
+  name: Universal JS Day
+  url: http://universaljsday.com/
+  cfp: http://2018.universaljsday.com/#cfp
+  cfs: http://2018.universaljsday.com/#sponsor
+  datetime: 13-04-2018
+  date: April 13th, 2018
+  location: Ferrara
+  description: Universal JS Day
+  twitter: universaljsday
+  fb: https://www.facebook.com/ferrarajs
+  video: https://vimeo.com/album/4608737
   editions:
-   - { url: 'http://idi2013.devops.it', year: 2013 }
-   - { url: 'http://idi2014.devops.it', year: 2014 }
-   - { url: 'http://www.incontrodevops.it/events/idi2015/', year: 2015 }
-   - { url: 'http://www.incontrodevops.it/events/idi2016/', year: 2016 }
-   - { url: 'http://www.incontrodevops.it/events/idi2017/', year: 2017 }
+   - { url: 'http://2016.universaljsday.com/', year: 2016 }
+   - { url: 'http://2017.universaljsday.com/', year: 2017 }
 - class: jsday
   url: http://www.jsday.it
   name: JsDay
