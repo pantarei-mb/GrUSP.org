@@ -39,6 +39,11 @@ $ grunt watch:develop
 ### Using Docker to build the website:
 
 ```
-docker-compose run site npm install
-docker-compose run site jekyll build
+docker-compose run --rm site jekyll build
+```
+
+Likewise, Docker can be used to build the frontend:
+```
+docker-compose run --rm site npm install
+docker-compose run --rm site grunt watch:develop
 ```
