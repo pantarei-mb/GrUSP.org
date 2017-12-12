@@ -24,7 +24,7 @@
         }
 
         hi = d.createElement("IMG");
-        hi.setAttribute("src", "{{ site.baseurl }}/img/media-partners/" + v.img);
+        hi.setAttribute("src", "{{ site.helper_baseurl }}/img/media-partners/" + v.img);
         hi.setAttribute("alt", v.name);
         hi.setAttribute("class", "media-partner__logo");
 

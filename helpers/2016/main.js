@@ -15,7 +15,7 @@
             .addClass("banner")
             .append($("<span class=\"ribbon media\">media</span>"))
             .append($("<IMG>")
-                .attr("src", "{{ site.baseurl }}/img/media-partners/" + v.img)
+                .attr("src", "{{ site.helper_baseurl }}/img/media-partners/" + v.img)
                 .attr("alt", v.name)
             )
         );

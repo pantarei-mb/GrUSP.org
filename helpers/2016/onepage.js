@@ -14,7 +14,7 @@
             .attr("title", v.name)
             .addClass("banner")
             .append($("<IMG>")
-                .attr("src", "{{ site.baseurl }}/img/media-partners/" + v.img)
+                .attr("src", "{{ site.helper_baseurl }}/img/media-partners/" + v.img)
                 .attr("alt", v.name)
             )
         );

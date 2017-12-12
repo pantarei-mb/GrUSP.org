@@ -24,7 +24,7 @@
         }
 
         hi = d.createElement("DIV");
-        hi.setAttribute("style", "background-image: url({{ site.baseurl }}/img/media-partners/" + v.img + ')');
+        hi.setAttribute("style", "background-image: url({{ site.helper_baseurl }}/img/media-partners/" + v.img + ')');
         hi.setAttribute("class", "sponsors__image");
 
         ha = d.createElement("A");
