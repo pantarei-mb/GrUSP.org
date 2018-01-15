@@ -117,8 +117,8 @@
   name: angularday
   cfp:
   cfs: "info@grusp.org?subject=Voglio sponsorizzare l'Angular Day"
-  datetime: 16-06-2017
-  date: June 15th &ndash; 16th, 2017
+  datetime: 15-06-2018
+  date: June 15th &ndash; 15th, 2018
   location: Verona
   description: La prima conferenza italiana dedicata agli sviluppatori Angular
   video: http://vimeo.com/grusp
@@ -127,6 +127,7 @@
   editions:
     - { url: 'http://2014.angularjsday.it/', year: 2014 }
     - { url: 'http://2017.angularday.it/', year: 2017 }
+    - { url: 'http://2018.angularday.it/', year: 2018 }
 - class: reactjsday
   url: http://www.reactjsday.it
   name: ReactJsDay
@@ -211,8 +212,8 @@
   editions:
    - { url: 'http://www.bettersoftware.it/2013', year: 2013 }
    - { url: 'http://www.bettersoftware.it/2014', year: 2014 }
-   - { url: 'http://WWW.bettersoftware.it/2015', year: 2015 }
-   - { url: 'http://WWW.bettersoftware.it', year: 2016 }
+   - { url: 'http://www.bettersoftware.it/2015', year: 2015 }
+   - { url: 'http://www.bettersoftware.it', year: 2016 }
 - class: zfday
   url: http://www.zfday.it
   name: ZFDay
