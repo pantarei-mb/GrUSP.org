@@ -138,7 +138,7 @@
   location: Verona
   description: La conferenza italiana dedicata agli sviluppatori ReactJs
   video: https://vimeo.com/channels/reactjsday/videos/sort:preset/format:thumbnail
-  fb: http://fb.com/symfonydayit
+  fb: http://fb.com/reactjsdayit
   twitter: reactjsdayit
   photos: http://flickr.com
   editions:
@@ -164,9 +164,9 @@
   url: http://www.symfonyday.it
   name: SymfonyDay
   cfp:
-  cfs: "info@grusp.org?subject=Voglio sponsorizzare il SymfonyDAY"
-  datetime: 20-10-2017
-  date: October 20th, 2017
+  cfs: "info@grusp.org?subject=Voglio sponsorizzare il SymfonyDay"
+  datetime: 19-10-2018
+  date: October 19th, 2018
   location: Milano
   description: La conferenza italiana dedicata agli sviluppatori Symfony
   video: https://vimeo.com/channels/431863
