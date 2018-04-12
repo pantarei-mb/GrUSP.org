@@ -130,21 +130,21 @@
    - { url: 'http://2015.symfonyday.it', year: 2015 }
    - { url: 'http://2016.symfonyday.it', year: 2016 }
    - { url: 'http://2017.symfonyday.it', year: 2017 }
- - class: laravelday
-   url: http://www.laravelday.it
-   name: LaravelDay
-   cfp:
-   cfs: "info@grusp.org?subject=Voglio sponsorizzare il LaravelDay"
-   datetime: 30-11-2018
-   date: November 30th, 2018
-   location: Verona
-   description: La conferenza italiana dedicata agli sviluppatori Laravel
-   video: https://vimeo.com/channels/431863
-   fb: http://fb.com/laravelday
-   twitter: laraveldayit
-   photos: http://flickr.com
-   editions:
-    - { url: 'http://2017.laravelday.it', year: 2017 }
+- class: laravelday
+  url: http://www.laravelday.it
+  name: LaravelDay
+  cfp:
+  cfs: "info@grusp.org?subject=Voglio sponsorizzare il LaravelDay"
+  datetime: 30-11-2018
+  date: November 30th, 2018
+  location: Verona
+  description: La conferenza italiana dedicata agli sviluppatori Laravel
+  video: https://vimeo.com/channels/431863
+  fb: http://fb.com/laravelday
+  twitter: laraveldayit
+  photos: http://flickr.com
+  editions:
+  - { url: 'http://2017.laravelday.it', year: 2017 }
 - class: cssday
   url: http://www.cssday.it
   name: CSSDay
