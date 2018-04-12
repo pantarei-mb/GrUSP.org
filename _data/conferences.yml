@@ -1,41 +1,3 @@
-- class: idi
-  name: Incontro DevOps
-  url: http://www.incontrodevops.it
-  cfp:
-  cfs:
-  datetime: 09-03-2018
-  date: March 8th-9th, 2018
-  location: Bologna
-  description: Incontro DevOps italiani
-  twitter: incontrodevops
-  fb: https://fb.com/incontrodevops/
-  video: https://vimeo.com/album/3949155
-  editions:
-   - { url: 'http://idi2013.devops.it', year: 2013 }
-   - { url: 'http://idi2014.devops.it', year: 2014 }
-   - { url: 'http://www.incontrodevops.it/events/idi2015/', year: 2015 }
-   - { url: 'http://www.incontrodevops.it/events/idi2016/', year: 2016 }
-   - { url: 'http://www.incontrodevops.it/events/idi2017/', year: 2017 }
-   - { url: 'http://2018.incontrodevops.it/', year: 2018 }   
-- class: cssday
-  url: http://www.cssday.it
-  name: CSSDay
-  datetime: 16-03-2018
-  date: March 16th 2018
-  cfp: 
-  cfs:
-  location: Faenza (RA)
-  logo: cssday.svg
-  description: La prima conferenza italiana dedicata ai CSS
-  video: https://vimeo.com/channels/italiancssday
-  fb: https://www.facebook.com/cssday/
-  twitter: grusp
-  photos: http://flickr.com
-  editions:
-    - { url: 'http://2015.cssday.it', year: 2015 }
-    - { url: 'http://2016.cssday.it', year: 2016 }
-    - { url: 'http://2017.cssday.it', year: 2017 }
-    - { url: 'http://2018.cssday.it', year: 2018 }    
 - class: universal
   name: Universal JS Day
   url: http://universaljsday.com/
@@ -148,21 +110,6 @@
     - { url: 'http://2015.reactjsday.it', year: 2015 }
     - { url: 'http://2016.reactjsday.it', year: 2016 }
     - { url: 'http://2017.reactjsday.it', year: 2017 }
-- class: laravelday
-  url: http://www.laravelday.it
-  name: LaravelDay
-  cfp:
-  cfs: "info@grusp.org?subject=Voglio sponsorizzare il LaravelDay"
-  datetime: 30-11-2018
-  date: November 30th, 2018
-  location: Verona
-  description: La conferenza italiana dedicata agli sviluppatori Laravel
-  video: https://vimeo.com/channels/431863
-  fb: http://fb.com/laravelday
-  twitter: laraveldayit
-  photos: http://flickr.com
-  editions:
-   - { url: 'http://2017.laravelday.it', year: 2017 }
 - class: sfday
   url: http://www.symfonyday.it
   name: SymfonyDay
@@ -183,6 +130,59 @@
    - { url: 'http://2015.symfonyday.it', year: 2015 }
    - { url: 'http://2016.symfonyday.it', year: 2016 }
    - { url: 'http://2017.symfonyday.it', year: 2017 }
+ - class: laravelday
+   url: http://www.laravelday.it
+   name: LaravelDay
+   cfp:
+   cfs: "info@grusp.org?subject=Voglio sponsorizzare il LaravelDay"
+   datetime: 30-11-2018
+   date: November 30th, 2018
+   location: Verona
+   description: La conferenza italiana dedicata agli sviluppatori Laravel
+   video: https://vimeo.com/channels/431863
+   fb: http://fb.com/laravelday
+   twitter: laraveldayit
+   photos: http://flickr.com
+   editions:
+    - { url: 'http://2017.laravelday.it', year: 2017 }
+- class: cssday
+  url: http://www.cssday.it
+  name: CSSDay
+  datetime: 16-03-2018
+  date: March 16th 2018
+  cfp:
+  cfs:
+  location: Faenza (RA)
+  logo: cssday.svg
+  description: La prima conferenza italiana dedicata ai CSS
+  video: https://vimeo.com/channels/italiancssday
+  fb: https://www.facebook.com/cssday/
+  twitter: grusp
+  photos: http://flickr.com
+  editions:
+    - { url: 'http://2015.cssday.it', year: 2015 }
+    - { url: 'http://2016.cssday.it', year: 2016 }
+    - { url: 'http://2017.cssday.it', year: 2017 }
+    - { url: 'http://2018.cssday.it', year: 2018 }
+- class: idi
+  name: Incontro DevOps
+  url: http://www.incontrodevops.it
+  cfp:
+  cfs:
+  datetime: 09-03-2018
+  date: March 8th-9th, 2018
+  location: Bologna
+  description: Incontro DevOps italiani
+  twitter: incontrodevops
+  fb: https://fb.com/incontrodevops/
+  video: https://vimeo.com/album/3949155
+  editions:
+   - { url: 'http://idi2013.devops.it', year: 2013 }
+   - { url: 'http://idi2014.devops.it', year: 2014 }
+   - { url: 'http://www.incontrodevops.it/events/idi2015/', year: 2015 }
+   - { url: 'http://www.incontrodevops.it/events/idi2016/', year: 2016 }
+   - { url: 'http://www.incontrodevops.it/events/idi2017/', year: 2017 }
+   - { url: 'http://2018.incontrodevops.it/', year: 2018 }
 - class: containerday
   name: ContainerDay
   url: http://www.containerday.it
@@ -217,38 +217,21 @@
    - { url: 'http://www.bettersoftware.it/2014', year: 2014 }
    - { url: 'http://www.bettersoftware.it/2015', year: 2015 }
    - { url: 'http://www.bettersoftware.it', year: 2016 }
-- class: zfday
-  url: http://www.zfday.it
-  name: ZFDay
+- class: wpday
+  url: http://2015.wpday.it/
+  name: wpDay
   cfp:
-  cfs:
-  datetime: 21-11-2013
-  date: November 21st, 2013
-  location: Torino
-  description: La conferenza dedicata allo Zend Framework
+  cfs: "info@grusp.org?subject=Voglio sponsorizzare il WPDAY"
+  datetime: 13-11-2015
+  date: November 13th, 2015
+  location: Pordenone
+  description: La conferenza italiana dedicata agli sviluppatori WordPress
   video: http://vimeo.com/grusp
-  fb: http://fb.com/zfdayit
-  twitter: zfdayit
+  fb: http://fb.com/symfonydayit
+  twitter: wpdayit
   photos: http://flickr.com
   editions:
-   - { url: 'http://2013.zfday.it', year: 2013 }
-   - { url: 'http://2014.zfday.it', year: 2014 }
-- class: mageday
-  name: MageDay
-  url: http://www.mageday.it
-  cfp:
-  cfs:
-  datetime: 08-11-2014
-  date: November 7th, 2014
-  location: Parma
-  description: La conferenza italiana dedicata agli sviluppatori Magento
-  video: http://vimeo.com/grusp
-  fb: http://fb.com/mageday
-  twitter: magedayit
-  photos:
-  editions:
-   - { url: 'http://2013.mageday.it', year: 2013 }
-   - { url: 'http://2014.mageday.it', year: 2014 }
+   - { url: 'http://2013.wpday.it', year: 2013 }
 - class: nosqlday
   url: http://2014.nosqlday.it
   name: NoSQLDay
@@ -265,18 +248,35 @@
   editions:
    - { url: 'http://2013.nosqlday.it', year: 2013 }
    - { url: 'http://2014.nosqlday.it', year: 2014 }
-- class: wpday
-  url: http://2015.wpday.it/
-  name: wpDay
+- class: mageday
+  name: MageDay
+  url: http://www.mageday.it
   cfp:
-  cfs: "info@grusp.org?subject=Voglio sponsorizzare il WPDAY"
-  datetime: 13-11-2015
-  date: November 13th, 2015
-  location: Pordenone
-  description: La conferenza italiana dedicata agli sviluppatori WordPress
+  cfs:
+  datetime: 08-11-2014
+  date: November 7th, 2014
+  location: Parma
+  description: La conferenza italiana dedicata agli sviluppatori Magento
   video: http://vimeo.com/grusp
-  fb: http://fb.com/symfonydayit
-  twitter: wpdayit
+  fb: http://fb.com/mageday
+  twitter: magedayit
+  photos:
+  editions:
+   - { url: 'http://2013.mageday.it', year: 2013 }
+   - { url: 'http://2014.mageday.it', year: 2014 }
+- class: zfday
+  url: http://www.zfday.it
+  name: ZFDay
+  cfp:
+  cfs:
+  datetime: 21-11-2013
+  date: November 21st, 2013
+  location: Torino
+  description: La conferenza dedicata allo Zend Framework
+  video: http://vimeo.com/grusp
+  fb: http://fb.com/zfdayit
+  twitter: zfdayit
   photos: http://flickr.com
   editions:
-   - { url: 'http://2013.wpday.it', year: 2013 }
+   - { url: 'http://2013.zfday.it', year: 2013 }
+   - { url: 'http://2014.zfday.it', year: 2014 }
