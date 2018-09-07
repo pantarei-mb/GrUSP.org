@@ -113,7 +113,7 @@
 - class: sfday
   url: http://www.symfonyday.it
   name: SymfonyDay
-  cfp: https://goo.gl/forms/wHSsfrxs388tTV5z2
+  cfp:
   cfs: "info@grusp.org?subject=Voglio sponsorizzare il SymfonyDay"
   datetime: 19-10-2018
   date: October 19th, 2018
