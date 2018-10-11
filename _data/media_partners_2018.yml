@@ -67,3 +67,8 @@
 - name: Italian PostgreSQL User Group
   img: itpug.svg
   url: http://pgday.it
+
+- name: Manning
+  img: manning.svg
+  url: https://www.manning.com/
+  tags: [ nodejs ]
