@@ -1,3 +1,71 @@
+- class: sfday
+  url: https://www.symfonyday.it
+  name: SymfonyDay
+  cfp:
+  cfs: "info@grusp.org?subject=Voglio sponsorizzare il SymfonyDay"
+  datetime: 19-10-2018
+  date: October 19th, 2018
+  location: Verona
+  description: La conferenza italiana dedicata agli sviluppatori Symfony
+  video: https://vimeo.com/channels/431863
+  fb: http://fb.com/symfonydayit
+  twitter: symfonydayit
+  photos: http://flickr.com
+  editions:
+  - { url: 'http://2012.symfonyday.it', year: 2012 }
+  - { url: 'http://2013.symfonyday.it', year: 2013 }
+  - { url: 'http://2014.symfonyday.it', year: 2014 }
+  - { url: 'http://2015.symfonyday.it', year: 2015 }
+  - { url: 'http://2016.symfonyday.it', year: 2016 }
+  - { url: 'http://2017.symfonyday.it', year: 2017 }
+
+- class: containerday
+  name: ContainerDay
+  url: https://www.containerday.it
+  cfp:
+  cfs:
+  datetime: 26-10-2018
+  date: October 26th, 2018
+  location: Verona
+  description: La conferenza italiana dedicata alle tecnologie container, alla virtualizzazione ed alle buone pratiche ad esse associate
+  twitter: containerdayit
+  logo: containerday.svg
+  fb: http://fb.com/ContainerDay/
+  video: https://vimeo.com/channels/1054035
+  editions:
+  - { url: 'http://2016.containerday.it', year: 2016 }
+  - { url: 'http://2017.containerday.it', year: 2017 }
+
+- class: nodejsconfit
+  name: NodeJS Italian Conference
+  url: https://www.nodejsconf.it/
+  cfp:
+  cfs: "info@grusp.org?subject=Voglio sponsorizzare la NodeJS Italian Conference"
+  datetime: 16-11-2018
+  date: November 16th, 2018
+  location: Verona
+  description: The first international conference in Italy about Node.js
+  twitter: nodejsconfit
+  fb: http://fb.com/nodejsconfit/
+  video:
+  editions:
+
+- class: laravelday
+  url: http://www.laravelday.it
+  name: LaravelDay
+  cfp:
+  cfs: "info@grusp.org?subject=Voglio sponsorizzare il LaravelDay"
+  datetime: 30-11-2018
+  date: November 30th, 2018
+  location: Verona
+  description: La conferenza italiana dedicata agli sviluppatori Laravel
+  video: https://vimeo.com/channels/431863
+  fb: http://fb.com/laravelday
+  twitter: laraveldayit
+  photos: http://flickr.com
+  editions:
+  - { url: 'http://2017.laravelday.it', year: 2017 }
+
 - class: universal
   name: Universal JS Day
   url: http://universaljsday.com/
@@ -13,7 +81,8 @@
   editions:
    - { url: 'http://2016.universaljsday.com/', year: 2016 }
    - { url: 'http://2017.universaljsday.com/', year: 2017 }
-   - { url: 'http://2018.universaljsday.com/', year: 2018 }   
+   - { url: 'http://2018.universaljsday.com/', year: 2018 }
+
 - class: jsday
   url: http://www.jsday.it
   name: JsDay
@@ -36,6 +105,7 @@
    - { url: 'http://2015.jsday.it', year: 2015 }
    - { url: 'http://2016.jsday.it', year: 2016 }
    - { url: 'http://2017.jsday.it', year: 2017 }
+
 - class: phpday
   name: PHPDay
   url: http://www.phpday.it
@@ -58,6 +128,7 @@
     - { url: 'http://2015.phpday.it', year: 2015 }
     - { url: 'http://2016.phpday.it', year: 2016 }
     - { url: 'http://2017.phpday.it', year: 2017 }
+
 - class: kerning
   url: http://www.kerning.it
   name: Kerning
@@ -77,6 +148,7 @@
    - { url: 'http://2015.kerning.it', year: 2015 }
    - { url: 'http://2016.kerning.it', year: 2016 }
    - { url: 'http://2017.kerning.it', year: 2017 }
+
 - class: angularday
   url: http://www.angularday.it/
   name: angularday
@@ -93,6 +165,7 @@
     - { url: 'http://2014.angularjsday.it/', year: 2014 }
     - { url: 'http://2017.angularday.it/', year: 2017 }
     - { url: 'http://2018.angularday.it/', year: 2018 }
+
 - class: reactjsday
   url: http://www.reactjsday.it
   name: ReactJsDay
@@ -110,41 +183,7 @@
     - { url: 'http://2015.reactjsday.it', year: 2015 }
     - { url: 'http://2016.reactjsday.it', year: 2016 }
     - { url: 'http://2017.reactjsday.it', year: 2017 }
-- class: sfday
-  url: http://www.symfonyday.it
-  name: SymfonyDay
-  cfp:
-  cfs: "info@grusp.org?subject=Voglio sponsorizzare il SymfonyDay"
-  datetime: 19-10-2018
-  date: October 19th, 2018
-  location: Verona
-  description: La conferenza italiana dedicata agli sviluppatori Symfony
-  video: https://vimeo.com/channels/431863
-  fb: http://fb.com/symfonydayit
-  twitter: symfonydayit
-  photos: http://flickr.com
-  editions:
-   - { url: 'http://2012.symfonyday.it', year: 2012 }
-   - { url: 'http://2013.symfonyday.it', year: 2013 }
-   - { url: 'http://2014.symfonyday.it', year: 2014 }
-   - { url: 'http://2015.symfonyday.it', year: 2015 }
-   - { url: 'http://2016.symfonyday.it', year: 2016 }
-   - { url: 'http://2017.symfonyday.it', year: 2017 }
-- class: laravelday
-  url: http://www.laravelday.it
-  name: LaravelDay
-  cfp:
-  cfs: "info@grusp.org?subject=Voglio sponsorizzare il LaravelDay"
-  datetime: 30-11-2018
-  date: November 30th, 2018
-  location: Verona
-  description: La conferenza italiana dedicata agli sviluppatori Laravel
-  video: https://vimeo.com/channels/431863
-  fb: http://fb.com/laravelday
-  twitter: laraveldayit
-  photos: http://flickr.com
-  editions:
-  - { url: 'http://2017.laravelday.it', year: 2017 }
+
 - class: cssday
   url: http://www.cssday.it
   name: CSSDay
@@ -164,6 +203,7 @@
     - { url: 'http://2016.cssday.it', year: 2016 }
     - { url: 'http://2017.cssday.it', year: 2017 }
     - { url: 'http://2018.cssday.it', year: 2018 }
+
 - class: idi
   name: Incontro DevOps
   url: http://www.incontrodevops.it
@@ -183,22 +223,7 @@
    - { url: 'http://www.incontrodevops.it/events/idi2016/', year: 2016 }
    - { url: 'http://www.incontrodevops.it/events/idi2017/', year: 2017 }
    - { url: 'http://2018.incontrodevops.it/', year: 2018 }
-- class: containerday
-  name: ContainerDay
-  url: http://www.containerday.it
-  cfp:
-  cfs:
-  datetime: 28-04-2017
-  date: April 28th, 2017
-  location: Verona
-  description: ContainerDay
-  twitter: containerdayit
-  logo: containerday.svg
-  fb: http://fb.com/ContainerDay/
-  video: https://vimeo.com/channels/1054035
-  editions:
-   - { url: 'http://2016.containerday.it', year: 2016 }
-   - { url: 'http://2017.containerday.it', year: 2017 }
+
 - class: bsw
   url: http://www.bettersoftware.it
   name: BetterSoftware
@@ -217,6 +242,7 @@
    - { url: 'http://www.bettersoftware.it/2014', year: 2014 }
    - { url: 'http://www.bettersoftware.it/2015', year: 2015 }
    - { url: 'http://www.bettersoftware.it', year: 2016 }
+
 - class: wpday
   url: http://2015.wpday.it/
   name: wpDay
@@ -232,6 +258,7 @@
   photos: http://flickr.com
   editions:
    - { url: 'http://2013.wpday.it', year: 2013 }
+
 - class: nosqlday
   url: http://2014.nosqlday.it
   name: NoSQLDay
@@ -248,6 +275,7 @@
   editions:
    - { url: 'http://2013.nosqlday.it', year: 2013 }
    - { url: 'http://2014.nosqlday.it', year: 2014 }
+
 - class: mageday
   name: MageDay
   url: http://www.mageday.it
@@ -264,6 +292,7 @@
   editions:
    - { url: 'http://2013.mageday.it', year: 2013 }
    - { url: 'http://2014.mageday.it', year: 2014 }
+
 - class: zfday
   url: http://www.zfday.it
   name: ZFDay
