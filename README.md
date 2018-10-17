@@ -44,6 +44,13 @@ docker-compose run --rm site jekyll build
 
 Likewise, Docker can be used to build the frontend:
 ```
-docker-compose run --rm site npm install
-docker-compose run --rm site grunt watch:develop
+docker-compose run --rm site bash
+```
+
+e:
+
+```
+npm install
+npm install --global grunt
+grunt watch:develop
 ```

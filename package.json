@@ -1,66 +1,61 @@
 {
-    "name"         : "GrUSP",
-    "version"      : "1.0.0",
-    "description"  : "Associazione Gruppo Utenti Sviluppatori PHP Italiani",
-    "contributors" : [
+    "name": "GrUSP",
+    "version": "1.0.0",
+    "description": "Associazione Gruppo Utenti Sviluppatori PHP Italiani",
+    "contributors": [
         {
-            "name"  : "Enrico Stradaioli",
-            "url"   : "http://www.stradaioli.com"
-        },{
-            "name"  : "Francesco Fullone",
-            "email" : "ff@ideato.it",
-            "url"   : "http://www.ideato.it"
-        },{
-            "name"  : "Vittorio Vittori",
-            "email" : "me@vittoriovittori.com",
-            "url"   : "http://vittoriovittori.com"
+            "name": "Enrico Stradaioli",
+            "url": "http://www.stradaioli.com"
+        },
+        {
+            "name": "Francesco Fullone",
+            "email": "ff@ideato.it",
+            "url": "http://www.ideato.it"
+        },
+        {
+            "name": "Vittorio Vittori",
+            "email": "me@vittoriovittori.com",
+            "url": "http://vittoriovittori.com"
         }
     ],
-    "license"  : "MIT",
-    "homepage" : "http://grusp.org",
-    "keywords" : [
+    "license": "MIT",
+    "homepage": "http://grusp.org",
+    "keywords": [
         "association",
         "develop",
         "developer",
         "grusp",
         "php"
     ],
-    "repository" : {
-        "type" : "git",
-        "url"  : "https://github.com/GrUSP/GrUSP.org.git"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GrUSP/GrUSP.org.git"
     },
-    "main" : "compile.less",
-    "devDependencies" : {
-
-        "matchdep"   : "*",
-        "casperjs"   : "*",
-        "phantomjs"  : "*",
-        "resemblejs" : "*",
-        "phantomcss" : "*",
-
-        "grunt" : "~0.4.1",
-
-        "csslint" : "*",
-        "grunt-contrib-csslint" : "*",
-
-        "less"    : "1.7.1",
-        "grunt-contrib-less"    : "0.12.0",
-
-        "grunt-autoprefixer"    : "*",
-        "grunt-contrib-watch"   : "*",
-        "grunt-contrib-clean"   : "*",
-        "grunt-contrib-copy"    : "*",
-
-        "pageres" : "*",
-        "grunt-pageres" : "*",
-
-        "svgo" : "*",
-        "grunt-svgmin" : "*"
+    "main": "compile.less",
+    "devDependencies": {
+        "casperjs": "*",
+        "csslint": "*",
+        "grunt": "^0.4.5",
+        "grunt-autoprefixer": "*",
+        "grunt-contrib-clean": "*",
+        "grunt-contrib-copy": "*",
+        "grunt-contrib-csslint": "*",
+        "grunt-contrib-less": "0.12.0",
+        "grunt-contrib-watch": "*",
+        "grunt-pageres": "*",
+        "grunt-svgmin": "*",
+        "less": "1.7.1",
+        "matchdep": "*",
+        "pageres": "*",
+        "phantomcss": "*",
+        "phantomjs": "*",
+        "resemblejs": "*",
+        "svgo": "*"
     },
-    "engines" : {
-        "node" : ">=0.8.0"
+    "engines": {
+        "node": ">=0.8.0"
     },
-    "bugs" : {
-        "url" : "https://github.com/GrUSP/GrUSP.org/issues"
+    "bugs": {
+        "url": "https://github.com/GrUSP/GrUSP.org/issues"
     }
 }
