@@ -1,7 +1,7 @@
 ---
 ---
 (function (d, data) {
-    var tags, mp = d.getElementsByClassName('sponsors__partner');
+    var tags, name, mp = d.getElementsByClassName('sponsors__partner');
 
     if (!mp.length) {
         return;
@@ -9,13 +9,14 @@
 
     mp = mp[0];
     tags = mp.getAttribute('data-tags') ? mp.getAttribute('data-tags').split(/ +/) : ["main"];
+    name = mp.getAttribute('data-name') ?  mp.getAttribute('data-name') : 'grusp';
 
     data.forEach(function(v, k) {
         var hd, ha, hi;
 
         if (v.tags) {
             var c = v.tags.filter(function(n) {
-                return tags.indexOf(n) != -1;
+                return n === name || tags.indexOf(n) !== -1;
             });
 
             if (!c.length) {
@@ -28,7 +29,7 @@
         hi.setAttribute("class", "sponsors__image");
 
         ha = d.createElement("A");
-        ha.setAttribute("href", v.url);
+        ha.setAttribute("href", v.url.replace(/%name%/g, encodeURIComponent(name)));
         ha.setAttribute("title", v.name);
         ha.setAttribute("class", "sponsors__link");
         ha.appendChild(hi);
