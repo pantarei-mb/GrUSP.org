@@ -6,14 +6,6 @@
   img: apogeo.svg
   url: http://www.apogeonline.com/
 
-- name: "CloudConf"
-  img: cloudconf.svg
-  url: http://www.cloudconf.it/
-
-- name: "Tom's Hardware"
-  img: toms-hardware.svg
-  url: http://www.tomshw.it/
-
 - name: "Frontenders Ticino"
   img: frontenders-ticino.svg
   url: http://www.frontenders.ch/
@@ -26,15 +18,6 @@
 - name: "WEBdeBS"
   img: webdebs.svg
   url: http://webdebs.org/
-
-- name: "Web Developer Italiani"
-  img: webdeveloperitaliani.svg
-  url: https://www.facebook.com/groups/webdeveloperitaliani/
-
-- name: Faventia Sales
-  img: faventia.png
-  url: http://www.faventiasales.it/
-  tags: [ faenza ]
 
 - name: FEVR
   img: fevr.svg
@@ -64,3 +47,8 @@
   img: stickermule.svg
   url: https://www.stickermule.com/eu/uses?utm_source=sponsorship&utm_medium=referral&utm_campaign=AproposSrl
   tags: [ angularday, cssday, idi, kerning, jsday, phpday, reactjsday ]
+  
+- name: RubyGarage
+  img: rubygarage.svg
+  url: https://rubygarage.org/blog
+  tags: [ rubyday ]
