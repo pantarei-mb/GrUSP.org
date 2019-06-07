@@ -28,6 +28,10 @@
   img: mfm.svg
   url: https://milanofrontend.it/
   tags: [ frontend ]
+  
+- name: Speck & Tech
+  img: speck-tech.svg
+  url: https://speckand.tech/
 
 - name: dotJS
   img: dotjs.svg
