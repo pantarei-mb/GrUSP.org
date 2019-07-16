@@ -1,15 +1,16 @@
 - class: idi
   name: Incontro DevOps
   url: http://www.incontrodevops.it
-  cfp:
-  cfs:
-  datetime: 07-03-2019
-  date: March 7th-8th, 2019
+  cfp: "devops@grusp.org?subject=talk proposal IDI"
+  cfs: "info@grusp.org?subject=sponsor IDI"
+  datetime: 06-03-2020
+  date: March 6th, 2020
   location: Bologna
-  description: Incontro DevOps italiani
+  description: Incontro DevOps Italia
   twitter: incontrodevops
   fb: https://fb.com/incontrodevops/
-  video: https://vimeo.com/album/3949155
+  video: https://vimeo.com/channels/incontrodevops
+  youtube: https://www.youtube.com/playlist?list=PLWK9j6ps_unlUACo-8CeeEord9hLifbjB 
   editions:
   - { url: 'http://idi2013.devops.it', year: 2013 }
   - { url: 'http://idi2014.devops.it', year: 2014 }
@@ -17,53 +18,75 @@
   - { url: 'http://www.incontrodevops.it/events/idi2016/', year: 2016 }
   - { url: 'http://www.incontrodevops.it/events/idi2017/', year: 2017 }
   - { url: 'http://2018.incontrodevops.it/', year: 2018 }
+  - { url: 'http://2019.incontrodevops.it/', year: 2019 }
 
 - class: cssday
   url: http://www.cssday.it
   name: CSSDay
-  datetime: 15-03-2019
-  date: March 15th 2019
-  cfp: https://goo.gl/forms/c9FuRiQNmyw84pXm1
-  cfs: https://2019.cssday.it/sponsor.html
+  datetime: 13-03-2020
+  date: March 13th, 2020
+  cfp: https://goo.gl/forms/jOzpXYpAZCsE4oH82
+  cfs: https://2020.cssday.it/sponsor.html
   location: Faenza (RA)
   logo: cssday.svg
   description: La prima conferenza italiana dedicata ai CSS
-  video: https://vimeo.com/channels/italiancssday
+  twitter: cssdayit
   fb: https://www.facebook.com/cssday/
-  twitter: grusp
-  photos: http://flickr.com
+  video: https://vimeo.com/channels/italiancssday
+  youtube: https://www.youtube.com/playlist?list=PLWK9j6ps_unkDmLEou8AWcfYxks6Yq9K1
   editions:
   - { url: 'http://2015.cssday.it', year: 2015 }
   - { url: 'http://2016.cssday.it', year: 2016 }
   - { url: 'http://2017.cssday.it', year: 2017 }
   - { url: 'http://2018.cssday.it', year: 2018 }
+  - { url: 'http://2019.cssday.it', year: 2019 }
 
 - class: vueday
-  name: VueDay
+  name: vueday
   url: https://www.vueday.it/
-  cfp: https://goo.gl/forms/FxgybMbIu4F3dSJ72
-  cfs: http://2019.vueday.it/sponsor
-  datetime: 12-04-2019
-  date: April 12th, 2019
+  cfp: 
+  cfs: "info@grusp.org?subject=sponsor vueday"
+  datetime: 03-04-2019
+  date: April 3rd, 2020
   location: Verona
   description: The first international conference in Italy about Vue.js
   twitter: vuedayit
   fb: https://www.facebook.com/vueday
+  video: https://vimeo.com/channels/vueday
+  youtube: https://www.youtube.com/playlist?list=PLWK9j6ps_unnhFRv8uda3vYzj1BnaJB5O
+  editions:
+  - { url: 'http://2019.vueday.it', year: 2019 }
+
+- class: rubyday
+  name: rubyday
+  url: https://www.rubyday.it/
+  cfp: 
+  cfs: "info@grusp.org?subject=sponsor rubyday"
+  datetime: 02-04-2019
+  date: April 2nd, 2020
+  location: Verona
+  description: The first international conference in Italy about Ruby
+  twitter: rubydayit
+  fb: https://www.facebook.com/rubydayit/
+  video: https://vimeo.com/channels/rubyday
+  youtube: https://www.youtube.com/playlist?list=PLWK9j6ps_unmgzGOw3cbjS8ID-b-cF1d9
+  editions:
+  - { url: 'http://2019.rubyday.it', year: 2019 }
 
 - class: jsday
   url: http://www.jsday.it
-  name: JsDay
-  datetime: 08-05-2019
-  date: May 8th, 9th 2019
-  cfp: https://cfp.jsday.it
-  cfs: https://2019.jsday.it/sponsor.html
+  name: jsday
+  datetime: 12-05-2020
+  date: May 12-13th, 2020
+  cfp: 
+  cfs: "info@grusp.org?subject=sponsor jsday"
   location: Verona
   logo: jsday.svg
   description: The first international conference in Italy about Javascript
-  video: https://vimeo.com/channels/jsday
-  fb: https://www.facebook.com/jsday.conference
   twitter: jsconfit
-  photos: http://flickr.com
+  fb: https://www.facebook.com/jsday.conference
+  video: https://vimeo.com/channels/jsday
+  youtube: https://www.youtube.com/playlist?list=PLWK9j6ps_unlcyJiPwO-l-hrw8EVWTxR6
   editions:
   - { url: 'http://2011.jsday.it', year: 2011 }
   - { url: 'http://2012.jsday.it', year: 2012 }
@@ -73,20 +96,21 @@
   - { url: 'http://2016.jsday.it', year: 2016 }
   - { url: 'http://2017.jsday.it', year: 2017 }
   - { url: 'http://2018.jsday.it', year: 2018 }
+  - { url: 'http://2019.jsday.it', year: 2019 }
 
 - class: phpday
-  name: PHPDay
+  name: phpday
   url: http://www.phpday.it
-  datetime: 10-05-2019
-  date: May 10th, 11th 2019
+  datetime: 14-05-2020
+  date: May 14-15th, 2020
   location: Verona
-  cfp: https://cfp.phpday.it
-  cfs: https://2019.phpday.it/sponsor.html
+  cfp: 
+  cfs: "info@grusp.org?subject=sponsor phpday"
   description: The first international conference in Italy about PHP
-  video: https://vimeo.com/channels/phpday
-  fb: https://www.facebook.com/pages/phpDay/243655080964
   twitter: phpday
-  photos: http://flickr.com
+  fb: https://www.facebook.com/phpDay-243655080964/
+  video: https://vimeo.com/channels/phpday
+  youtube: https://www.youtube.com/playlist?list=PLWK9j6ps_unnnmpaIjDuA_WVJIwWkj1Zv
   logo: phpday.svg
   editions:
   - { url: 'http://2011.phpday.it', year: 2011 }
@@ -97,6 +121,7 @@
   - { url: 'http://2016.phpday.it', year: 2016 }
   - { url: 'http://2017.phpday.it', year: 2017 }
   - { url: 'http://2018.phpday.it', year: 2018 }
+  - { url: 'http://2019.phpday.it', year: 2019 }
 
 - class: kerning
   url: http://www.kerning.it
@@ -107,10 +132,10 @@
   date: June 5th-7th, 2019
   location: Faenza (RA)
   description: The first international conference in Italy about Typography and web typography
-  video: http://vimeo.com/grusp
-  fb: http://fb.com/kerning
   twitter: kerningconf
-  photos: http://flickr.com
+  fb: http://fb.com/kerning
+  video: https://vimeo.com/channels/kerning
+  youtube: https://www.youtube.com/playlist?list=PLWK9j6ps_unlC6X4fKtbSC0WgsAWsTE9V
   editions:
   - { url: 'http://2013.kerning.it', year: 2013 }
   - { url: 'http://2014.kerning.it', year: 2014 }
@@ -123,14 +148,15 @@
   url: http://www.angularday.it/
   name: angularday
   cfp:
-  cfs: "info@grusp.org?subject=Voglio sponsorizzare l'Angular Day"
+  cfs: "info@grusp.org?subject=sponsor angularday"
   datetime: 14-06-2019
   date: June 14th-15th, 2019
   location: Verona
-  description: La prima conferenza italiana dedicata agli sviluppatori Angular
-  video: http://vimeo.com/grusp
-  fb: http://fb.com/angularday
+  description: The first international conference in Italy about Angular
   twitter: angularday
+  fb: http://fb.com/angularday
+  video: https://vimeo.com/channels/angularday 
+  youtube: https://www.youtube.com/playlist?list=PLWK9j6ps_unlIl-fs8IqRROFRYtURDHm7
   editions:
   - { url: 'http://2014.angularjsday.it/', year: 2014 }
   - { url: 'http://2017.angularday.it/', year: 2017 }
@@ -139,68 +165,51 @@
 - class: nodejsconfit
   name: nodejsday
   url: https://www.nodejsday.it/
-  cfp:
-  cfs: "info@grusp.org?subject=Voglio sponsorizzare la NodeJS Italian Conference"
-  datetime: 27-09-2019
-  date: Septempber 26th-27th, 2019
+  cfp: 
+  cfs: https://2019.nodejsday.it/sponsor.html
+  datetime: 03-10-2019
+  date: October 3rd, 2019
   location: Verona
   description: The first international conference in Italy about Node.js
   twitter: nodejsconfit
-  fb: http://fb.com/nodejsconfit/
-  video:
+  fb: https://www.facebook.com/nodejsday/
+  video: https://vimeo.com/channels/nodejsday
+  youtube: https://www.youtube.com/playlist?list=PLWK9j6ps_unlNRM1hRpiFo6um-AhFZkOt
   editions:
   - { url: 'http://2018.nodejsconf.it/', year: 2018 }
 
 - class: reactjsday
   url: http://www.reactjsday.it
-  name: ReactJsDay
+  name: reactjsday
   cfp:
-  cfs: "info@grusp.org?subject=Sponsorship information about React JS Day"
+  cfs: https://2019.reactjsday.it/sponsor.html
   datetime: 04-10-2019
   date: October 4th, 2019
   location: Verona
-  description: La conferenza italiana dedicata agli sviluppatori ReactJs
-  video: https://vimeo.com/channels/reactjsday/videos/sort:preset/format:thumbnail
-  fb: http://fb.com/reactjsdayit
+  description: The first international conference in Italy about ReactJs
   twitter: reactjsdayit
-  photos: http://flickr.com
+  fb: http://fb.com/reactjsdayit
+  video: https://vimeo.com/channels/reactjsday
+  youtube: https://www.youtube.com/playlist?list=PLWK9j6ps_unmMFN2xt-qvwhCSxccrLkPO
   editions:
   - { url: 'http://2015.reactjsday.it', year: 2015 }
   - { url: 'http://2016.reactjsday.it', year: 2016 }
   - { url: 'http://2017.reactjsday.it', year: 2017 }
   - { url: 'http://2018.reactjsday.it', year: 2018 }
-
-- class: containerday
-  name: ContainerDay
-  url: https://www.containerday.it
-  cfp:
-  cfs:
-  datetime: 11-10-2019
-  date: October 10th-11th, 2019
-  location: Verona
-  description: La conferenza italiana dedicata alle tecnologie container, alla virtualizzazione ed alle buone pratiche ad esse associate
-  twitter: containerdayit
-  logo: containerday.svg
-  fb: http://fb.com/ContainerDay/
-  video: https://vimeo.com/channels/1054035
-  editions:
-  - { url: 'http://2016.containerday.it', year: 2016 }
-  - { url: 'http://2017.containerday.it', year: 2017 }
-  - { url: 'http://2018.containerday.it', year: 2018 }
-
+  
 - class: sfday
   url: https://www.sfday.it
   name: sfday Italy
   cfp:
-  cfs: "info@grusp.org?subject=Voglio sponsorizzare il SymfonyDay"
+  cfs: https://2019.sfday.it/sponsor.html
   datetime: 18-10-2019
-  date: October 17th-18th, 2019
+  date: October 18th, 2019
   location: Verona
-  description: La conferenza italiana dedicata agli sviluppatori Symfony
-  video: https://vimeo.com/channels/431863
-  fb: http://fb.com/symfonydayit
+  description: The first international conference in Italy about Symfony
   twitter: symfonydayit
-  photos: http://flickr.com
+  fb: http://fb.com/symfonydayit
+  video: https://vimeo.com/channels/symfonyday
+  youtube: https://www.youtube.com/playlist?list=PLWK9j6ps_unnyrbQcGA1cWS1_5LbNKs7i
   editions:
   - { url: 'http://2012.symfonyday.it', year: 2012 }
   - { url: 'http://2013.symfonyday.it', year: 2013 }
@@ -210,19 +219,38 @@
   - { url: 'http://2017.symfonyday.it', year: 2017 }
   - { url: 'http://2018.symfonyday.it', year: 2018 }
 
+- class: containerday
+  name: containerday
+  url: https://www.containerday.it
+  cfp: https://goo.gl/forms/56krLut9xd2WuEtb2
+  cfs: https://2019.containerday.it/sponsor.html
+  datetime: 08-11-2019
+  date: November 8th, 2019
+  location: Bologna 
+  description: La conferenza italiana dedicata alle tecnologie container, alla virtualizzazione ed alle buone pratiche ad esse associate
+  twitter: containerdayit
+  logo: containerday.svg
+  fb: http://fb.com/ContainerDay/
+  video: https://vimeo.com/channels/containerday
+  youtube: https://www.youtube.com/playlist?list=PLWK9j6ps_unnYdnAXE8_6lPX8HTmYG3N0
+  editions:
+  - { url: 'http://2016.containerday.it', year: 2016 }
+  - { url: 'http://2017.containerday.it', year: 2017 }
+  - { url: 'http://2018.containerday.it', year: 2018 }
+
 - class: laravelday
   url: http://www.laravelday.it
-  name: LaravelDay
-  cfp:
-  cfs: "info@grusp.org?subject=Voglio sponsorizzare il LaravelDay"
-  datetime: 29-11-2018
-  date: November 28th-29th, 2018
+  name: laravelday
+  cfp: https://goo.gl/forms/VHd8K5szFOhUQX832
+  cfs: https://2019.laravelday.it/sponsor.html
+  datetime: 29-11-2019
+  date: November 29th, 2019
   location: Verona
   description: La conferenza italiana dedicata agli sviluppatori Laravel
-  video: https://vimeo.com/channels/431863
-  fb: http://fb.com/laravelday
   twitter: laraveldayit
-  photos: http://flickr.com
+  fb: http://fb.com/laravelday
+  video: https://vimeo.com/channels/laravelday
+  youtube: https://www.youtube.com/playlist?list=PLWK9j6ps_unno78l8s3y0_SQDexvCU6x0
   editions:
   - { url: 'http://2017.laravelday.it', year: 2017 }
   - { url: 'http://2018.laravelday.it', year: 2018 }
