@@ -137,11 +137,11 @@
   - { url: 'http://2018.angularday.it/', year: 2018 }
 
 - class: nodejsconfit
-  name: NodeJS Italian Conference
-  url: https://www.nodejsconf.it/
+  name: nodejsday
+  url: https://www.nodejsday.it/
   cfp:
   cfs: "info@grusp.org?subject=Voglio sponsorizzare la NodeJS Italian Conference"
-  datetime: 27-11-2018
+  datetime: 27-09-2019
   date: Septempber 26th-27th, 2019
   location: Verona
   description: The first international conference in Italy about Node.js
