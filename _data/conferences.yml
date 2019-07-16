@@ -189,8 +189,8 @@
   - { url: 'http://2018.containerday.it', year: 2018 }
 
 - class: sfday
-  url: https://www.symfonyday.it
-  name: SymfonyDay
+  url: https://www.sfday.it
+  name: sfday Italy
   cfp:
   cfs: "info@grusp.org?subject=Voglio sponsorizzare il SymfonyDay"
   datetime: 18-10-2019
