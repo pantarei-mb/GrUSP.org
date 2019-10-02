@@ -33,6 +33,10 @@
   img: speck-tech.svg
   url: https://speckand.tech/
 
+- name: Linux Professional Institute
+  img: lpi.svg
+  url: https://www.lpi.org/ 
+
 - name: dotJS
   img: dotjs.svg
   url: https://www.dotjs.io/
