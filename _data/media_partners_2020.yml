@@ -50,4 +50,8 @@
   img: syndicode.svg
   url: https://syndicode.com/
   tags: [ rubyday ]
-  
+
+- name: Solidus
+  img: solidus.svg
+  url: https://solidus.io/
+  tags: [ rubyday ]
