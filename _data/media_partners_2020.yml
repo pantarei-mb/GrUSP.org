@@ -28,14 +28,14 @@
   img: mfm.svg
   url: https://milanofrontend.it/
   tags: [ frontend ]
-  
+
 - name: Speck & Tech
   img: speck-tech.svg
   url: https://speckand.tech/
 
 - name: Linux Professional Institute
   img: lpi.svg
-  url: https://www.lpi.org/ 
+  url: https://www.lpi.org/
 
 - name: dotJS
   img: dotjs.svg
@@ -45,7 +45,12 @@
 - name: Italian PostgreSQL User Group
   img: itpug.svg
   url: http://pgday.it
-  
+
+- name: PHP Serbia
+  img: php-srbija.svg
+  url: https://2020.phpsrbija.rs/
+  tags: [ phpday ]
+
 - name: Syndicode
   img: syndicode.svg
   url: https://syndicode.com/
