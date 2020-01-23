@@ -60,3 +60,8 @@
   img: solidus.svg
   url: https://solidus.io/
   tags: [ rubyday ]
+
+- name: React Day Bangalore
+  img: reactday-bangalore.svg
+  url: https://reactday.in
+  tags: [ js ]
