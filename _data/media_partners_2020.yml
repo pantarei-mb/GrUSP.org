@@ -65,3 +65,8 @@
   img: reactday-bangalore.svg
   url: https://reactday.in
   tags: [ js ]
+  
+- name: Warsaw RUG
+  img: warsawRUG.svg
+  url: https://twitter.com/wrugeu
+  tags: [ rubyday ]  
