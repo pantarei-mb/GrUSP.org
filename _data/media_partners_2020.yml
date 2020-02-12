@@ -70,3 +70,8 @@
   img: warsawRUG.svg
   url: https://twitter.com/wrugeu
   tags: [ rubyday ]  
+  
+- name: Rzeszow RUG
+  img: RRUG.svg
+  url: http://rrug.pl/
+  tags: [ rubyday ]    
