@@ -72,6 +72,6 @@
   tags: [ rubyday ]  
   
 - name: Rzeszow RUG
-  img: RRUG.svg
+  img: rrug.svg
   url: http://rrug.pl/
   tags: [ rubyday ]    
