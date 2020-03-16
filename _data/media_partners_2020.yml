@@ -74,4 +74,9 @@
 - name: Rzeszow RUG
   img: rrug.svg
   url: http://rrug.pl/
-  tags: [ rubyday ]    
+  tags: [ rubyday ]   
+
+- name: GDG Torino
+  img: gdgto.png
+  url: https://gdgtorino.it/
+  tags: [ cssday ]   
