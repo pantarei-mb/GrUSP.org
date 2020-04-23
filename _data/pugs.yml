@@ -1,70 +1,120 @@
-- citta: Roma
-  url: http://roma.grusp.org
-  logo: http://roma.grusp.org/wp-content/uploads/2015/07/logo-pug-roma-h500.png
-  referente: Massimiliano Arione @garakkio
-  incontro: ogni ultimo martedì del mese
+- citta: Bologna
+  url: http://bologna.grusp.org
+  logo: http://bologna.grusp.org/wp-content/uploads/2011/09/logo-pugBO1.png
+  referente: Tassoman @tassoman
+  incontro: ND
+  
+- citta: Cagliari
+  url: https://www.meetup.com/it-IT/pugCagliari-PHP-User-Group-Cagliari/
+  logo: 
+  referente: Leonardo Podda @poldotz 
+  incontro: variabile
+
+- citta: Catania
+  url: https://catania.grusp.org/
+  logo: 
+  referente: Sergio Sicari @sergio
+  incontro: variabile
+
+- citta: Firenze
+  url: 
+  logo:
+  referente: Leonardo Rossi @leorossi
+  incontro: ND
+
 - citta: Milano
   url: http://milano.grusp.org
   logo: http://milano.grusp.org/wp-content/uploads/2017/10/cropped-logo.png
   referente: Alessandro Lai, Gabriele Giuranno, Aurélien Lair (milano@grusp.org)
   incontro: il secondo mercoledì del mese
-- citta: Bologna
-  url: http://bologna.grusp.org
-  logo: http://bologna.grusp.org/wp-content/uploads/2011/09/logo-pugBO1.png
-  referente: Tassoman @tassoman
-  incontro: ogni primo mercoledì del mese
-- citta: Friuli
-  url: http://friuli.grusp.org
-  logo:
-  referente:
-  incontro: ND
+  
 - citta: Modena-ReggioEmilia
   url: http://more.grusp.org
   logo:
-  referente:
-  incontro: Ultimo giovedì del mese
-- citta: Torino
-  url: http://torino.grusp.org
-  logo:
-  referente:
-  incontro: ND
+  referente: Giovanni Albero @johntree 
+  incontro: variabile   
+
 - citta: Palermo
   url: http://palermo.grusp.org
   logo:
   referente:
   incontro: ND
-- citta: Marche
-  url: http://marche.grusp.org
+
+- citta: Pescara
+  url: https://www.meetup.com/it-IT/pugPescara-PHP-User-Group-Pescara/
   logo:
-  referente:
-  incontro: ND
-- citta: Venezia
-  url: http://venezia.grusp.org
-  logo:
-  referente:
-  incontro: ND
-- citta: Alessandria
-  url: http://alessandria.grusp.org
-  logo:
-  referente:
-  incontro: ND
-- citta: Novara
-  url: http://novara.grusp.org
-  logo:
-  referente:
-  incontro: ND
-- citta: Napoli
-  url: http://napoli.grusp.org
-  logo:
-  referente:
-  incontro: ND
+  referente: Teo Miscia @dymor
+  incontro: variabile 
+ 
+- citta: Roma
+  url: http://roma.grusp.org
+  logo: http://roma.grusp.org/wp-content/uploads/2015/07/logo-pug-roma-h500.png
+  referente: Massimiliano Arione @garakkio
+  incontro: ogni ultimo martedì del mese
+
 - citta: Romagna
-  url:
+  url:  https://www.meetup.com/it-IT/PUG-Romagna-PHP-User-Group-Romagnolo/
   logo: https://avatars3.githubusercontent.com/u/34520319?s=200&u=bdb1b6be7a44487d0b34cd6a1ba87270f758b76b&v=4
   referente: Alessandro Minoccheri, Nicole Bartolini, Simone Gentili
   incontro: ogni primo martedì del mese
+  
+- citta: Rovigo
+  url: https://rovigo.grusp.org/
+  logo: 
+  referente: Alessandro Cappellozza @eppak
+  incontro: variabile
+
+- citta: Seregno
+  url: https://www.meetup.com/it-IT/PHP-Seregno/
+  logo: 
+  referente: Daniele Pasi @Daniele Pasi
+  incontro: variabile
+
 - citta: Sondrio
-  url:
+  url: https://www.meetup.com/it-IT/pugSondrio-PHP-User-Group-Sondrio/
   logo: http://www.gianiaz.net/logo-pug.png
   referente: Giovanni B. Lenoci @gianiaz, Luca Pattarini, Gabriele Colombera
-  incontro: ogni primo mercoledì del mese
+  incontro: ogni primo mercoledì del mese 
+  
+- citta: Torino
+  url: http://torino.grusp.org
+  logo:
+  referente:
+  incontro: variabile
+ 
+#- citta: Friuli
+#  url: http://friuli.grusp.org
+#  logo:
+#  referente:
+#  incontro: ND
+  
+#- citta: Marche
+#  url: http://marche.grusp.org
+#  logo:
+#  referente:
+#  incontro: ND
+  
+#- citta: Venezia
+#  url: http://venezia.grusp.org
+#  logo:
+#  referente:
+#  incontro: ND
+  
+#- citta: Alessandria
+#  url: http://alessandria.grusp.org
+#  logo:
+#  referente:
+#  incontro: ND
+  
+#- citta: Novara
+#  url: http://novara.grusp.org
+#  logo:
+#  referente:
+#  incontro: ND
+  
+#- citta: Napoli
+#  url: http://napoli.grusp.org
+#  logo:
+#  referente:
+#  incontro: ND
+  
