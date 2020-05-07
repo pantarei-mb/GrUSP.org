@@ -1,4 +1,4 @@
-FROM jekyll/jekyll
+FROM jekyll/jekyll:3
 
 RUN apk add --update ruby-dev build-base libffi-dev cmake
 
