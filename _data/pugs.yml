@@ -1,120 +1,257 @@
-- citta: Bologna
-  url: http://bologna.grusp.org
-  logo: http://bologna.grusp.org/wp-content/uploads/2011/09/logo-pugBO1.png
-  referente: Tassoman @tassoman
-  incontro: ND
-  
+# - citta: Bologna
+#   url: http://bologna.grusp.org
+#   logo: pug_bologna.png
+#   referente: Tassoman @tassoman
+#   frequenza: ND
+#   facebook:
+#   twitter:
+#   meetup:
+
 - citta: Cagliari
-  url: https://www.meetup.com/it-IT/pugCagliari-PHP-User-Group-Cagliari/
-  logo: 
+  email: cagliari@grusp.org
+  storia: "Il PUG Cagliari apre i battenti con l'frequenza del 10 Aprile 2019 con l'idea di creare
+un gruppo dove gli amanti del PHP e dello sviluppo di soluzioni web in generale potessero
+condividere le loro esperienze. Fin dall'inzio abbiamo sempre cercato di rendere gli incontri aperti a chiunque
+sviluppi software, portando avanti argomenti di ampio respiro sulla programmazione.
+Ci guida il desiderio di conoscere, condividere, sperimentare e crescere."
+  url:
+  logo: pug_cagliari.png
   referente: Leonardo Podda @poldotz 
-  incontro: variabile
+  frequenza: il 3° mercoledì del mese
+  facebook: https://www.facebook.com/pugCagliari/
+  twitter:
+  meetup: https://www.meetup.com/pugCagliari-PHP-User-Group-Cagliari/
 
 - citta: Catania
+  email: catania@grusp.org
+  storia: "Il PUG Catania rinasce dopo qualche anno di inattività a novembre 2019 organizzando il
+primo meetup già a dicembre 2019.
+Lo scopo è quello di ricostruire la community di sviluppatori PHP Catanese e renderla un
+luogo di confronto dove condividere esperienze lavorative e accresce il proprio bagaglio
+culturale permettendo a professionisti e appassionati di fare networking.
+Dopo appena 5 mesi di attività può contare su un centinaio di iscritti e una media di 30
+presenze ad evento."
   url: https://catania.grusp.org/
-  logo: 
+  logo: pug_catania.png
   referente: Sergio Sicari @sergio
-  incontro: variabile
+  frequenza: 1 volta al mese
+  facebook: https://www.facebook.com/pugcatania/
+  twitter: https://twitter.com/CataniaPug
+  meetup: https://www.meetup.com/it-IT/pugCatania-PHP-User-Group-Catania/
 
 - citta: Firenze
+  email: firenze@grusp.org
+  storia: "Il PUG Firenze vuole essere un luogo di incontro e condivisione per la community di 
+  programmatori dell’area di Firenze e dintorni. Non ha ancora potuto fare nessun incontro di persona, 
+  a causa delle limitazioni per il coronavirus, ma partecipa attivamente alle attività della community 
+  GrUSP ed è felice di fare il suo esordio al phpday PUG Edition!"
   url: 
-  logo:
+  logo: pug_firenze.png
   referente: Leonardo Rossi @leorossi
-  incontro: ND
+  frequenza: variabile
+  facebook: https://www.facebook.com/PUGFirenze
+  twitter: https://twitter.com/FirenzePHP
+  meetup:
 
 - citta: Milano
+  email: milano@grusp.org
+  storia: "Nato con un aperitivo informale nel lontano 2012, il PUG di Milano continua a perseguire 
+  l'idea di dare a tutti gli appassionati di PHP e buone pratiche di programmazione un punto di incontro 
+  dove potersi confrontare e poter crescere insieme."
   url: http://milano.grusp.org
-  logo: http://milano.grusp.org/wp-content/uploads/2017/10/cropped-logo.png
+  logo: pug_milano.png
   referente: Alessandro Lai, Gabriele Giuranno, Aurélien Lair (milano@grusp.org)
-  incontro: il secondo mercoledì del mese
-  
-- citta: Modena-ReggioEmilia
-  url: http://more.grusp.org
-  logo:
-  referente: Giovanni Albero @johntree 
-  incontro: variabile   
+  frequenza: il secondo mercoledì del mese
+  facebook: https://www.facebook.com/pugMI/
+  twitter: https://twitter.com/MilanoPHP
+  meetup: https://www.meetup.com/it-IT/MilanoPHP/
 
-- citta: Palermo
-  url: http://palermo.grusp.org
-  logo:
-  referente:
-  incontro: ND
+- citta: Modena-ReggioEmilia
+  email: more@grusp.org
+  storia: "I primi incontri divulgativi organizzati sono avvenuti tra la fine del 2013 e gli inizi del 2014. 
+  Nel 2015 ha organizzato il Symfony Day. Dopo una lunga pausa, con l'intenzione di rinascere dalle ceneri 
+  come l'araba fenice, ha ricominciato ad organizzare approfondimenti ed eventi."
+  url: http://more.grusp.org
+  logo: pug_more.png
+  referente: Giovanni Albero @johntree 
+  frequenza: variabile   
+  facebook:
+  twitter:
+  meetup: https://www.meetup.com/it-IT/pugmore/
+
+# - citta: Palermo
+#   email:
+#   storia:
+#   
+#   url: http://palermo.grusp.org
+#   logo:
+#   referente:
+#   frequenza: ND
+#   facebook:
+#   twitter:
+#   meetup:
 
 - citta: Pescara
-  url: https://www.meetup.com/it-IT/pugPescara-PHP-User-Group-Pescara/
-  logo:
+  email: pescara@grusp.org
+  storia: "Dopo aver finalmente trovato posto e data per il primo incontro da fare a Marzo, il governo ha provveduto 
+  al lockdown di tutta la penisola. La nostra realtà locale vuole diventare un punto di incontro e condivisione per 
+  gli sviluppatori di Pescara e dintorni. Nell'attesa di poter riorganizzare un incontro dal vivo, portiamo timidamente
+   la bandiera della nostra regione al phpday PUG edition e partecipiamo alla community del GrUSP."
+  url:
+  logo: pug_pescara.png
   referente: Teo Miscia @dymor
-  incontro: variabile 
- 
+  frequenza: variabile 
+  facebook:
+  twitter:
+  meetup: https://www.meetup.com/it-IT/pugPescara-PHP-User-Group-Pescara/
+
 - citta: Roma
+  email: roma@grusp.org
+  storia: "Il PUG Roma nasce nel lontano luglio 2010 come costola locale del GrUSP, il Gruppo Utenti e Sviluppatori 
+  PHP Italiani. Ci incontriamo ogni ultimo martedì del mese e spesso parliamo di tecniche di programmazione, di metodologie
+   di sviluppo e di design pattern. Ovviamente parliamo anche di linguaggi e spesso di PHP, ma non ci poniamo limiti in questo senso."
   url: http://roma.grusp.org
-  logo: http://roma.grusp.org/wp-content/uploads/2015/07/logo-pug-roma-h500.png
+  logo: pug_roma.png
   referente: Massimiliano Arione @garakkio
-  incontro: ogni ultimo martedì del mese
+  frequenza: ogni ultimo martedì del mese
+  facebook: https://www.facebook.com/PUGRoma/
+  twitter: https://twitter.com/PUG_Roma
+  meetup: https://www.meetup.com/it-IT/PUG-Roma/
 
 - citta: Romagna
-  url:  https://www.meetup.com/it-IT/PUG-Romagna-PHP-User-Group-Romagnolo/
-  logo: https://avatars3.githubusercontent.com/u/34520319?s=200&u=bdb1b6be7a44487d0b34cd6a1ba87270f758b76b&v=4
+  email: romagna@grusp.org
+  storia: "Il PUG Romagna nasce nel dicembre del 2017 dalla volontà di tre sviluppatori che volevano partecipare 
+  al PHP Dev Test. Inaugurato ufficialmente con una cena nel gennaio 2018, il PUG Romagna si incontra ogni primo 
+  martedì del mese. Come suggerisce il nome, il PUG Romagna si è dato come obiettivo quello di coprire tutto il 
+  territorio romagnolo, da Rimini a Faenza, da Ravenna a Cesena: ogni mese il meetup si svolge in una città diversa, 
+  per avvicinare tutti gli sviluppatori del territorio e condividere insieme conoscenze, esperienze e nuove opportunità."
+  url: https://www.linkedin.com/company/pug-romagna
+  logo: pug_romagna.png
   referente: Alessandro Minoccheri, Nicole Bartolini, Simone Gentili
-  incontro: ogni primo martedì del mese
-  
+  frequenza: primo martedì del mese
+  facebook: https://www.facebook.com/pugromagna
+  twitter: https://twitter.com/pug_romagna
+  meetup: https://www.meetup.com/it-IT/PUG-Romagna-PHP-User-Group-Romagnolo/
+
 - citta: Rovigo
+  email: rovigo@grusp.org
+  storia: "Nato nell'estate del 2019 da un gruppo che voleva confrontarsi con le tematiche del framework Scrum e Agile 
+  in generale; successivamente ci siamo allargati alla programmazione e gestione delle infrastrutture e dei progetti."
   url: https://rovigo.grusp.org/
-  logo: 
+  logo: pug_rovigo.png
   referente: Alessandro Cappellozza @eppak
-  incontro: variabile
+  frequenza: ND
+  facebook:
+  twitter:
+  meetup: https://www.meetup.com/it-IT/pug-rovigo/
 
 - citta: Seregno
-  url: https://www.meetup.com/it-IT/PHP-Seregno/
-  logo: 
+  email: seregno@grusp.org
+  storia: "Abbiamo aperto nel gennaio 2020 per avere un punto di ritrovo per i programmatori che risiedono fuori Milano. 
+  Siamo partiti con i primi meetup in cui abbiamo riscontrato un forte interesse da parte dei membri della community. 
+  Abbiamo in programma svariati interventi su tematiche anche molto diversificate. Seguiteci per rimanere aggiornati."
+  url:
+  logo: pug_seregno.png
   referente: Daniele Pasi @Daniele Pasi
-  incontro: variabile
+  frequenza: ND
+  facebook:
+  twitter:
+  meetup: https://www.meetup.com/it-IT/PHP-Seregno/
 
 - citta: Sondrio
-  url: https://www.meetup.com/it-IT/pugSondrio-PHP-User-Group-Sondrio/
-  logo: http://www.gianiaz.net/logo-pug.png
+  email: sondrio@grusp.org
+  storia: "Il PUG Sondrio é stato fondato nel cuore della Valtellina nel dicembre del 2018.
+  Il gruppo non é solo aperto a chi risiede tra le rocce nere delle Alpi Orobie ed i picchi impervi delle Retiche ma a 
+  tutti coloro che desiderano dare o ricevere qualcosa durante i nostri incontri. Ogni mese partecipano mediamente 20 
+  persone che, dimostrando molto coinvolgimento, ci spingono a far crescere il gruppo cercando di proporre argomenti 
+  sempre piú stimolanti."
+  email: sondrio@grusp.org
+  url: https://t.me/joinchat/CVS5zA3Pkyq8fjc6ckLz_w
+  logo: pug_sondrio.png
   referente: Giovanni B. Lenoci @gianiaz, Luca Pattarini, Gabriele Colombera
-  incontro: ogni primo mercoledì del mese 
-  
+  frequenza: ogni primo mercoledì del mese 
+  facebook: https://www.facebook.com/groups/pugsondrio/
+  twitter:
+  meetup: https://www.meetup.com/it-IT/pugSondrio-PHP-User-Group-Sondrio/
+
 - citta: Torino
+  email: torino@grusp.org
+  storia: "Il PUG Torino nasce nel 2011 dopo una cena in pizzeria tra pochi curiosi (http://torino.grusp.org/2011/06/e-nato-il-pug-torino/).
+  Dopo i primi incontri il gruppo cresce notevolmente di numero al punto da decidere di organizzare delle vere e proprie 
+  conferenze nazionali: PHP.TO.START del 2012 e 2013, il primo Symfony Day del 2012 e lo Zend Framework Day del 2014. 
+  In questi ultimi anni abbiamo organizzato diversi meetup con frequenza bimestrale affrontando diversi argomenti anche 
+  non sempre legati al mondo del PHP. Dal 2018 abbiamo la sponsorship del Toolbox coworking di Torino (https://www.toolboxoffice.it/) 
+  che ci ospita gratuitamente in una sala attrezzata con più di 100 posti a sedere."
   url: http://torino.grusp.org
-  logo:
+  logo: pug_torino.png
   referente:
-  incontro: variabile
- 
+  frequenza: una volta al mese
+  facebook: https://www.facebook.com/PugTorino/
+  twitter: https://twitter.com/pugtorino
+  meetup: https://www.meetup.com/it-IT/pugTO-PHP-User-Group-Torino/
+
 #- citta: Friuli
+#  email:
+#  storia:
 #  url: http://friuli.grusp.org
 #  logo:
 #  referente:
-#  incontro: ND
-  
+#  frequenza: ND
+#  facebook:
+#  twitter:
+#  meetup:
+
 #- citta: Marche
+#  email:
+#  storia:
 #  url: http://marche.grusp.org
 #  logo:
 #  referente:
-#  incontro: ND
-  
+#  frequenza: ND
+#  facebook:
+#  twitter:
+#  meetup:
+
 #- citta: Venezia
+#  email:
+#  storia:
 #  url: http://venezia.grusp.org
 #  logo:
 #  referente:
-#  incontro: ND
-  
+#  frequenza: ND
+#  facebook:
+#  twitter:
+#  meetup:
+
 #- citta: Alessandria
+#  email:
+#  storia:
 #  url: http://alessandria.grusp.org
 #  logo:
 #  referente:
-#  incontro: ND
+#  frequenza: ND
+#  facebook:
+#  twitter:
+#  meetup:
   
 #- citta: Novara
+#  email:
+#  storia:
 #  url: http://novara.grusp.org
 #  logo:
 #  referente:
-#  incontro: ND
-  
+#  frequenza: ND
+#  facebook:
+#  twitter:
+#  meetup:
+
 #- citta: Napoli
+#  email:
+#  storia:
 #  url: http://napoli.grusp.org
 #  logo:
 #  referente:
-#  incontro: ND
-  
+#  frequenza: ND
+#  facebook:
+#  twitter:
+#  meetup:
