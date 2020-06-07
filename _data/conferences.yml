@@ -1,4 +1,20 @@
 - class: idi
+  name: GrUSP Academy
+  url: https://academy.grusp.org/masterclass
+  cfp: 
+  cfs: 
+  datetime: 
+  date: 
+  location: Online
+  description: Masterclass - corsi online, interattivi, in aule virtuali 
+  twitter: 
+  fb: 
+  video: 
+  youtube: 
+  editions:
+
+  
+- class: idi
   name: Incontro DevOps
   url: http://www.incontrodevops.it
   cfp: "devops@grusp.org?subject=talk proposal IDI"
