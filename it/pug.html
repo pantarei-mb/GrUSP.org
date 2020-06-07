@@ -10,8 +10,9 @@ title: PUGs
         <img class="grusp-logo-about fill-till-smartphone-landscape" src="{{ site.baseurl }}/img/theme/grusp-logo-lettering-black.svg">
     </div>
     <div class="row visible">
-        <div class="hd-6-of-12">
-            Negli anni abbiamo favorito la nascita di diversi PHP user group locali, i quali hanno totale autonomia di gestione e coordinano le conferenze locali a nome del GrUSP. Qui di seguito una lista dei PUGs attualmente presenti sul territorio italiano.
+        <div class="hd-6-of-12" style="text-align: justify">
+            Vogliamo favorire l'incontro tra sviluppatori incentivando la creazione di community locali supportandole nell'organizzazione,
+            nella promozione degli eventi e finanziando gli strumenti che possono essere usati.
         </div>
         <div class="hd-6-of-12 not-till-tablet-portrait">
             <span class="block fill relative">
@@ -23,22 +24,95 @@ title: PUGs
 
 </div>
 
-<section class="white-bg padding-vertical">
-    <div class="use-steps with-padding">
-        <div class="row">
+<section class="white-bg">
+    <div class="use-steps">
+        <div style="padding-left: 32px;">
+            <div class="hd-6-of-12 tablet-12-of-12" style="padding-top: 25px;text-align: justify"">
+                GrUSP è una community con più di 4000 membri. Confronto, opportunità, inclusione e diversità sono al centro delle nostre iniziative.
+            </div>
+            <div style="height: 121px;">
+                &nbsp
+            </div>
             <div class="hd-6-of-12 tablet-12-of-12 smartphone-offset-disabled">
+                <img style="width: 70%; margin-top: 70px;" src="/img/theme/pug_base.png">
+            </div>
+            <div class="hd-6-of-12 tablet-12-of-12 smartphone-offset-disabled" style="padding-top: 78px;">
+                <h2>Chi sono i PUG?</h2>
+                <p>I PUG sono i PHP User Group: community locali dislocate su tutto il territorio nazionale che organizzano meetup verticali php e non
+                solo. Negli anni GrUSP ha favorito la nascita dei PUG supportando i vari gruppi da un punto di vista operativo, promozionale ed 
+                economico.
+                </p>
             </div>
         </div>
-        <div class="row" id="pugs">
+    </div>
+    <span class="fill clear"></span>
+</section>
 
-            {% for pug in site.data.pugs %}
-            <div class="hd-6-of-12 tablet-12-of-12 smartphone-offset-disabled">
-                <a href="{{ pug.url }}"><img src="{{ pug.logo }}" class="pug-logo"></a>
-                <h2><a href="{{ pug.url }}">{{ pug.citta }}</a></h2>
-                <p>si incontra: {{ pug.incontro }}, per maggiori informazioni {{ pug.referente }}</p>
+<section class="white-bg" style="height: 512px">
+    <div style="background-color: #fff576; text-align: center;">
+        <strong class="title">Trova il PUG più vicino a te</strong>
+    </div>
+    <iframe src="https://www.google.com/maps/d/embed?mid=1y27GE7AxF4pW6UZokWreH81mprt2qbgw" width="100%" height="480px" frameBorder="0"></iframe>
+</section>
+
+<section class="white-bg">
+    <div style="background-color: #fff576; text-align: center;">
+        <strong class="title">Mettiti in contatto</strong>
+    </div>
+    <div class="use-steps with-padding">
+        {% for pug in site.data.pugs %}
+            <div class="row">
+                <div style="display:inline-block;">
+                    <a href="{{ pug.url }}">
+                        <div style="display: inline-block;">
+                            <img src="/img/theme/{{ pug.logo }}" width="200px" height="200px">
+                        </div>
+                    </a>
+                </div>
+                <div style="float:right;max-width: 80%;text-align: justify">
+                    <p>
+                        <strong>Storia:</strong> {{ pug.storia }}
+                    </p>
+                    <p>
+                        <strong>Frequenza meetup:</strong> {{ pug.frequenza }}
+                    </p>
+                    <p>
+                        <strong>Dove:</strong> {{ pug.citta }}
+                    </p>
+                    <div>
+                        <div>
+                            {% if pug.url != nil %}
+                            <p>
+                                <strong>Sito:</strong> 
+                                <a href="{{ pug.url }}" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'">{{ pug.url }}</a>
+                            </p>
+                            {% endif %}
+                            <p>
+                                <strong>Contatti:</strong> 
+                                <a href="mailto:{{ pug.email }}" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'">{{ pug.email }}</a> 
+                            </p>
+                        </div>
+                        <div>
+                            {% if pug.facebook != nil %}
+                            <a href="{{ pug.facebook }}">
+                                <img src="/img/theme//facebook.png" alt="facebook" width="30px" height="30px">
+                            </a>                   
+                            {% endif %}
+                            {% if pug.twitter != nil %}
+                            <a href="{{ pug.twitter }}">
+                                <img src="/img/theme//twitter.png" alt="twitter" width="30px" height="30px">
+                            </a>
+                            {% endif %}
+                            {% if pug.facebook != nil %}
+                            <a href="{{ pug.meetup }}">
+                                <img src="/img/theme//meetup.png" alt="meetup" width="30px" height="30px">
+                            </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
             </div>
-            {% endfor %}
-        </div>
+        {% endfor %}
     </div>
 </section>
 
