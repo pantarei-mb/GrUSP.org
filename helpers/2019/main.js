@@ -29,4 +29,4 @@
     });
 
     $mp.append($("<DIV>").addClass("clear"));
-})(jQuery, {{ site.data.media_partners_2019 | sort: 'name' | jsonify }});
+})(jQuery, {{ site.data.media_partners_2019 | sort_natural: 'name' | jsonify }});

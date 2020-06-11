@@ -41,4 +41,4 @@
         mp.appendChild(hd);
     });
 
-})(document, {{ site.data.media_partners_2020 | sort_natural: 'name' | jsonify }});
+})(document, {{ site.data.media_partners_2021 | sort_natural: 'name' | jsonify }});

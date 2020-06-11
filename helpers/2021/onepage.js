@@ -2,12 +2,13 @@
 ---
 (function (data) {
     var $mp = $("#media-partners");
+    var name = $mp.data("name") ?  $mp.data("name") : 'grusp';
     var tags = $mp.data("tags") ?  $mp.data("tags").split(/ +/) : [];
 
     $.each(data, function(k, v) {
         if (v.tags) {
             var c = v.tags.filter(function(n) {
-                return tags.indexOf(n) != -1;
+                return n === name || tags.indexOf(n) !== -1;
             });
 
             if (!c.length) {
@@ -16,7 +17,7 @@
         }
 
         $mp.append($("<A>")
-            .attr("href", v.url)
+            .attr("href", v.url.replace(/%name%/g, encodeURIComponent(name)))
             .attr("title", v.name)
             .addClass("banner")
             .append($("<IMG>")
@@ -27,4 +28,4 @@
     });
 
     $mp.append($("<DIV>").addClass("clear"));
-})({{ site.data.media_partners_2018 | sort_natural: 'name' | jsonify }});
+})({{ site.data.media_partners_2021 | sort_natural: 'name' | jsonify }});

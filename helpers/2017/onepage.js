@@ -27,4 +27,4 @@
     });
 
     $mp.append($("<DIV>").addClass("clear"));
-})({{ site.data.media_partners_2017 | sort: 'name' | jsonify }});
+})({{ site.data.media_partners_2017 | sort_natural: 'name' | jsonify }});

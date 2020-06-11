@@ -1,7 +1,7 @@
 ---
 ---
 (function (d, data) {
-    var tags, mp = d.getElementsByClassName('media-partners__list');
+    var tags, name, mp = d.getElementsByClassName('media-partners__list');
 
     if (!mp.length) {
         return;
@@ -9,13 +9,14 @@
 
     mp = mp[0];
     tags = mp.getAttribute('data-tags') ? mp.getAttribute('data-tags').split(/ +/) : [ "main" ];
+    name = mp.getAttribute('data-name') ?  mp.getAttribute('data-name') : 'jsday';
 
     data.forEach(function(v, k) {
         var hd, ha, hi;
 
         if (v.tags) {
             var c = v.tags.filter(function(n) {
-                return tags.indexOf(n) != -1;
+                return n === name || tags.indexOf(n) !== -1;
             });
 
             if (!c.length) {
@@ -29,7 +30,7 @@
         hi.setAttribute("class", "media-partner__logo");
 
         ha = d.createElement("A");
-        ha.setAttribute("href", v.url);
+        ha.setAttribute("href", v.url.replace(/%name%/g, encodeURIComponent(name)));
         ha.setAttribute("title", v.name);
         ha.setAttribute("class", "media-partner__card");
         ha.appendChild(hi);
@@ -41,4 +42,4 @@
         mp.appendChild(hd);
     });
 
-})(document, {{ site.data.media_partners_2018 | sort_natural: 'name' | jsonify }});
+})(document, {{ site.data.media_partners_2021 | sort_natural: 'name' | jsonify }});
