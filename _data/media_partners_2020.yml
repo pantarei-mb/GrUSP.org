@@ -65,18 +65,33 @@
   img: reactday-bangalore.svg
   url: https://reactday.in
   tags: [ js ]
-  
+
 - name: Warsaw RUG
   img: warsawRUG.svg
   url: https://twitter.com/wrugeu
-  tags: [ rubyday ]  
-  
+  tags: [ rubyday ]
+
 - name: Rzeszow RUG
   img: rrug.svg
   url: http://rrug.pl/
-  tags: [ rubyday ]   
+  tags: [ rubyday ]
 
 - name: GDG Torino
   img: gdgto.png
   url: https://gdgtorino.it/
-  tags: [ cssday ]   
+  tags: [ cssday ]
+
+- name: Angular Roma
+  img: angular-roma.svg
+  url: https://twitter.com/angularrome
+  tags: [ cssday ]
+
+- name: The Communities Bay
+  img: communities-bay.svg
+  url: https://thecmmbay.com/
+  tags: [ cssday ]
+
+- name: devRomagna
+  img: devromagna.svg
+  url: https://devromagna.org/
+  tags: [ cssday ]
