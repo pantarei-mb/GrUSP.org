@@ -53,6 +53,17 @@ presenze ad evento."
   twitter: https://twitter.com/FirenzePHP
   meetup:
 
+- citta: Foggia
+  email: foggia@grusp.org
+  storia: "Il PUG Foggia nasce con l'intento di condividere esperienze professionali e di studio sul mondo della programmazione; il focus è sul linguaggio PHP. E' a Foggia, ma è aperto a tutta la provincia e non solo."
+  url: http://foggia.grusp.org
+  logo: pug_foggia.png
+  referente: Francesco Lettera @Francesco Lettera
+  frequenza: Mensile
+  facebook: 
+  twitter: 
+  meetup:
+
 - citta: Milano
   email: milano@grusp.org
   storia: "Nato con un aperitivo informale nel lontano 2012, il PUG di Milano continua a perseguire 
