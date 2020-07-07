@@ -95,3 +95,8 @@
   img: devromagna.svg
   url: https://devromagna.org/
   tags: [ cssday ]
+
+- name: RubyConfBY
+  img: rubyconfby.svg
+  url: https://rubyconference.by/
+  tags: [ rubyday ]
