@@ -20,8 +20,8 @@
   cfp: "devops@grusp.org?subject=talk proposal IDI"
   cfs: "info@grusp.org?subject=sponsor IDI"
   datetime: 22-10-2020
-  date: October 22nd, 2020
-  location: Bologna
+  date: October 21st 22nd, 2020
+  location: Online
   description: Incontro DevOps Italia
   twitter: incontrodevops
   fb: https://fb.com/incontrodevops/
@@ -43,7 +43,7 @@
   date: 19 Giugno 2020
   cfp: 
   cfs: https://2020.cssday.it/sponsor.html
-  location: Faenza (RA)
+  location: Online
   logo: cssday.svg
   description: La prima conferenza italiana dedicata ai CSS
   twitter: cssdayit
@@ -64,7 +64,7 @@
   cfs: "info@grusp.org?subject=sponsor vueday"
   datetime: 15-09-2019
   date: September 15th, 2020
-  location: Verona
+  location: Online
   description: The first international conference in Italy about Vue.js
   twitter: vuedayit
   fb: https://www.facebook.com/vueday
@@ -80,7 +80,7 @@
   cfs: "info@grusp.org?subject=sponsor rubyday"
   datetime: 16-09-2019
   date: September 16th, 2020
-  location: Verona
+  location: Online
   description: The first international conference in Italy about Ruby
   twitter: rubydayit
   fb: https://www.facebook.com/rubydayit/
@@ -93,10 +93,10 @@
   url: http://www.jsday.it
   name: jsday
   datetime: 10-09-2020
-  date: September 10-11th, 2020
+  date: September 10th, 2020
   cfp: 
   cfs: "info@grusp.org?subject=sponsor jsday"
-  location: Verona
+  location: Online
   logo: jsday.svg
   description: The first international conference in Italy about Javascript
   twitter: jsconfit
@@ -118,8 +118,8 @@
   name: phpday
   url: http://www.phpday.it
   datetime: 08-09-2020
-  date: September 8-9th, 2020
-  location: Verona
+  date: September 8th, 2020
+  location: Online
   cfp: 
   cfs: "info@grusp.org?subject=sponsor phpday"
   description: The first international conference in Italy about PHP
@@ -167,7 +167,7 @@
   cfs: "info@grusp.org?subject=sponsor angularday"
   datetime: 04-12-2020
   date: December 4th, 2020
-  location: Verona
+  location: Online
   description: The first international conference in Italy about Angular
   twitter: angularday
   fb: http://fb.com/angularday
@@ -184,9 +184,9 @@
   url: https://www.nodejsday.it/
   cfp: https://forms.gle/qMCJKqHMAgqdsqxz6
   cfs: https://2020.nodejsday.it/sponsor.html
-  datetime: 14-10-2020
-  date: October 14th, 2020
-  location: Verona
+  datetime: 02-10-2020
+  date: October 2nd, 2020
+  location: Online
   description: The first international conference in Italy about Node.js
   twitter: nodejsconfit
   fb: https://www.facebook.com/nodejsday/
@@ -203,7 +203,7 @@
   cfs: https://2020.reactjsday.it/sponsor.html
   datetime: 15-10-2020
   date: October 15th, 2020
-  location: Verona
+  location: Online
   description: The first international conference in Italy about ReactJs
   twitter: reactjsdayit
   fb: http://fb.com/reactjsdayit
@@ -221,9 +221,9 @@
   name: sfday Italy
   cfp: 
   cfs: https://2019.sfday.it/sponsor.html
-  datetime: 27-11-2020
-  date: November 27th, 2020
-  location: Verona
+  datetime: 20-11-2020
+  date: November 20th, 2020
+  location: Online
   description: The first international conference in Italy about Symfony
   twitter: sfdayit
   fb: http://fb.com/sfdayit
@@ -246,7 +246,7 @@
   cfs: https://2020.containerday.it/sponsor.html
   datetime: 23-10-2020
   date: 23 Ottobre 2020
-  location: Bologna 
+  location: Online 
   description: La conferenza italiana dedicata alle tecnologie container, alla virtualizzazione ed alle buone pratiche ad esse associate
   twitter: containerdayit
   logo: containerday.svg
@@ -266,7 +266,7 @@
   cfs: https://2020.laravelday.it/sponsor.html
   datetime: 26-11-2020
   date: 26 Novembre 2020
-  location: Verona
+  location: Online
   description: La conferenza italiana dedicata agli sviluppatori Laravel
   twitter: laraveldayit
   fb: http://fb.com/laravelday
