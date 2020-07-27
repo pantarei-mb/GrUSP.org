@@ -100,3 +100,8 @@
   img: rubyconfby.svg
   url: https://rubyconference.by/
   tags: [ rubyday ]
+
+- name: Frontend Love
+  img: frontend-love.svg
+  url: https://www.frontenddeveloperlove.com/
+  tags: [ angular ]
