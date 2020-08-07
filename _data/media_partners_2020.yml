@@ -1,3 +1,7 @@
+- name: Manning
+  img: manning.svg
+  url: https://www.manning.com/
+  
 - name: "Codemotion"
   img: codemotion.svg
   url: http://www.codemotionworld.com/
