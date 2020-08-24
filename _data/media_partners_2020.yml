@@ -1,7 +1,7 @@
 - name: Manning
   img: manning.svg
   url: https://www.manning.com/
-  
+
 - name: "Codemotion"
   img: codemotion.svg
   url: http://www.codemotionworld.com/
@@ -113,4 +113,4 @@
 - name: ngVikngs
   img: ng-vikings.svg
   url: https://www.ngvikings.org/
-  tags: [ jsday angularday ]
+  tags: [ jsday, angularday ]
