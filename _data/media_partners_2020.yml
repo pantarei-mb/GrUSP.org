@@ -114,3 +114,8 @@
   img: ng-vikings.svg
   url: https://www.ngvikings.org/
   tags: [ jsday, angularday ]
+
+- name: Gamedev.js Weekly
+  img: gamedevjs-weekly.svg
+  url: https://gamedevjsweekly.com/
+  tags: [ js ]
