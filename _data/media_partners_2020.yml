@@ -133,3 +133,8 @@
   img: js-nation.svg
   url: https://jsnation.com
   tags: [ js, phpday ]
+
+- name: fwdays
+  img: fwdays.svg
+  url: https://fwdays.com/
+  tags: [ jsday, vueday, idi ]
