@@ -123,3 +123,13 @@
 - name: GDG Trento
   img: gdg-trento.svg
   url: https://gdgtrento.it/
+
+- name: React Summit
+  img: react-summit.svg
+  url: https://reactsummit.com
+  tags: [ js, phpday ]
+
+- name: JSNation
+  img: js-nation.svg
+  url: https://jsnation.com
+  tags: [ js, phpday ]
