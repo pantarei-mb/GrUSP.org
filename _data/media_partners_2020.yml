@@ -138,3 +138,8 @@
   img: fwdays.svg
   url: https://fwdays.com/
   tags: [ jsday, vueday, idi ]
+
+- name: TechEvents.online
+  img: techevents-online.svg
+  url: https://www.techevents.online/
+  tags: [ nodejsday, idi, containerday, reactjsday, angularday, sfday, laravelday ]
