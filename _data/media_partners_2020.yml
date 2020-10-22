@@ -93,7 +93,7 @@
 - name: The Communities Bay
   img: communities-bay.svg
   url: https://thecmmbay.com/
-  tags: [ cssday ]
+  tags: [ cssdaym, idi, containerday, reactjsday, angularday, sfday, laravelday ]
 
 - name: devRomagna
   img: devromagna.svg
