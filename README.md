@@ -47,10 +47,16 @@ Likewise, Docker can be used to build the frontend:
 docker-compose run --rm site bash
 ```
 
-e:
+and:
 
 ```
 npm install
 npm install --global grunt
 grunt watch:develop
+```
+
+In case of Ruby / Gems errors:
+
+```
+./update-gems-with-docker.sh
 ```
