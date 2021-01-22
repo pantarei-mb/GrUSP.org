@@ -7,5 +7,5 @@ media:
 community:
     - name: GDG Trento
       img: gdg-trento.svg
-      url: https://gdgtrento.it/
+      url: http://gdgtrento.it/
       tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]
