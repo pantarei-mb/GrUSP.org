@@ -22,8 +22,8 @@ media:
     - name: Devmy
       img: devmy.png
       url: https://devmy.it/
-      tags: [ cssday, vueday, phpday, idi, jsday, containerday, angularday ]       
-      
+      tags: [ cssday, vueday, phpday, idi, jsday, containerday, angularday ]
+
 community:
     - name: GDG Trento
       img: gdg-trento.svg
