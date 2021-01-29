@@ -22,10 +22,105 @@ media:
     - name: Devmy
       img: devmy.png
       url: https://devmy.it/
-      tags: [ cssday, vueday, phpday, idi, jsday, containerday, angularday ]   
+      tags: [ cssday, vueday, phpday, idi, jsday, containerday, angularday ]
 
 community:
     - name: GDG Trento
       img: gdg-trento.svg
       url: http://gdgtrento.it/
       tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]
+
+    - name: Frontenders Ticino
+      img: frontendersticino.png
+      url: https://twitter.com/FrontEndersTI
+      tags: [ cssday, vueday, phpday, jsday, angularday ]
+
+    - name: Laravel Italia
+      img: https://laravelitalia.png
+      url: laravel-italia.it
+      tags: [ vueday, phpday, containerday ]
+
+    - name: PUG Rovigo
+      img: pugrovigo.png
+      url: https://rovigo.grusp.org/
+      tags: [ phpday, jsday, containerday, angularday ]
+
+    - name: PUG Cagliari
+      img: pugcagliari.png
+      url: https://www.meetup.com/it-IT/pugCagliari-PHP-User-Group-Cagliari/
+      tags: [ phpday, jsday, containerday ]
+
+    - name: Ladies that UX Milan
+      img: nome.png
+      url: https://ladiesthatux.com
+      tags: [ cssday ]
+
+    - name: AWS UG Catania
+      img: awscatania.png
+      url: https://www.meetup.com/it-IT/AWS-User-Group-Catania/
+      tags: [ cssday, vueday, phpday, idi, jsday, containerday, angularday ]
+
+    - name: Bologna JS
+      img: bolognajs.png
+      url: http://www.bolognajs.com/
+      tags: [ jsday ]
+
+    - name: GDG Valle d'Aosta
+      img: gdgvda.png
+      url: https://gdg.community.dev/gdg-valle-daosta/
+      tags: [ cssday, phpday, idi, jsday, containerday, angularday ]
+
+    - name: GDG Bari
+      img: gdgberi.png
+      url: https://gdg.community.dev/gdg-bari/
+      tags: [ idi, containerday, angularday ]
+    
+    - name: JavaScript Kingdom
+      img: jsk.png
+      url: https://javascriptkingdom.github.io
+      tags: [ vueday, idi, jsday, angularday ]
+
+    - name: Bologna Front End
+      img: bolognafrontend.png
+      url: https://tinyletter.com/bolognafrontend
+      tags: [ cssday, vueday, jsday ]
+
+    - name: Django Girls Italia
+      img: djangogirls.png
+      url: https://www.facebook.com/djangogirlsIT/
+      tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]
+
+    - name: Framsia
+      img: framsia.png
+      url: https://www.meetup.com/framsia/
+      tags: [ vueday, jsday, angularday ]
+
+    - name: Gamedev.js
+      img: gamedevjs.png
+      url: https://gamedevjs.com/
+      tags: [ vueday, jsday, angularday ]
+
+    - name: Gamedev.js Weekly
+      img: gamedevjsweekly.png
+      url: https://gamedevjsweekly.com/
+      tags: [ vueday, jsday, angularday ]
+
+    - name: GDG Cloud Torino
+      img: gdgcloudtorino.png
+      url: https://www.gdgcloudtorino.it/
+      tags: [ vueday, idi, jsday, containerday, angularday ]
+
+    - name: js13kGames
+      img: js13kgames.png
+      url: https://js13kgames.com
+      tags: [ vueday, jsday, angularday ]
+
+    - name: SheTech 
+      img: shetech.png
+      url: https://shetechitaly.org/
+      tags: [ cssday, rubyday, phpday, idi, jsday, containerday, angularday ]
+
+    - name: Vue Basel
+      img: vuebasel.png
+      url: https://www.meetup.com/Vue-Basel/
+      tags: [ vueday, jsday ]
