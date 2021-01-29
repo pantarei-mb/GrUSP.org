@@ -4,6 +4,26 @@ media:
       url: https://www.techevents.online/
       tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]
 
+    - name: Inside Dev
+      img: insidedev.png
+      url: https://inside.com/dev
+      tags: [ rubyday, vueday, phpday, idi, jsday, angularday ]
+
+    - name: Manning Publications
+      img: manning.png
+      url: https://www.manning.com
+      tags: [ rubyday, vueday, phpday, idi, jsday, angularday ]
+
+    - name: Codemotion Tech Community 
+      img: codemotion.png
+      url: https://www.codemotion.com/
+      tags: [ cssday, angularday ]
+
+    - name: Devmy
+      img: devmy.png
+      url: https://devmy.it/
+      tags: [ cssday, vueday, phpday, idi, jsday, containerday, angularday ]   
+
 community:
     - name: GDG Trento
       img: gdg-trento.svg
