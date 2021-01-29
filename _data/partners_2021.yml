@@ -51,7 +51,7 @@ community:
       tags: [ phpday, jsday, containerday ]
 
     - name: Ladies that UX Milan
-      img: nome.png
+      img: ltumilano.png
       url: https://ladiesthatux.com
       tags: [ cssday ]
 
@@ -81,7 +81,7 @@ community:
       tags: [ vueday, idi, jsday, angularday ]
 
     - name: Bologna Front End
-      img: bolognafrontend.png
+      img: bolognafrontend.svg
       url: https://tinyletter.com/bolognafrontend
       tags: [ cssday, vueday, jsday ]
 
