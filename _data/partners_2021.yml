@@ -124,3 +124,33 @@ community:
       img: vuebasel.png
       url: https://www.meetup.com/Vue-Basel/
       tags: [ vueday, jsday ]
+
+    - name: Roma JS
+      img: romajs.svg
+      url: http://romajs.org
+      tags: [ cssday, phpday, jsday, angularday ]
+
+    - name: GDG Venezia
+      img: gdgvenezia.svg
+      url: https://gdg.community.dev/gdg-venezia/
+      tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]
+    
+    - name: ReactBolivia
+      img: reactbolivia.png
+      url: http://reactbolivia.com
+      tags: [ jsday ]
+
+    - name: Torino DevOps Meetup Group
+      img: devopsmeetupgroup.png
+      url: https://www.meetup.com/Torino-DevOps-Meetup-Group-Culture-Processes-and-Tools/
+      tags: [ idi, containerday ]
+
+    - name: Milano JS
+      img: milanojs.png
+      url: https://milanojs.com/
+      tags: [ cssday, vueday, jsday, angularday ]
+
+    - name: PUG Torino
+      img: pugtorino.png
+      url: http://torino.grusp.org/
+      tags: [ vueday, phpday, jsday ]
