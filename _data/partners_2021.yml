@@ -36,8 +36,8 @@ community:
       tags: [ cssday, vueday, phpday, jsday, angularday ]
 
     - name: Laravel Italia
-      img: https://laravelitalia.png
-      url: laravel-italia.it
+      img: laravelitalia.png
+      url: http://laravel-italia.it/
       tags: [ vueday, phpday, containerday ]
 
     - name: PUG Rovigo
@@ -101,7 +101,7 @@ community:
       tags: [ vueday, jsday, angularday ]
 
     - name: Gamedev.js Weekly
-      img: gamedevjsweekly.png
+      img: gamedevjsweekly.svg
       url: https://gamedevjsweekly.com/
       tags: [ vueday, jsday, angularday ]
 
@@ -111,7 +111,7 @@ community:
       tags: [ vueday, idi, jsday, containerday, angularday ]
 
     - name: js13kGames
-      img: js13kgames.png
+      img: js13kgames.svg
       url: https://js13kgames.com
       tags: [ vueday, jsday, angularday ]
 
@@ -121,7 +121,7 @@ community:
       tags: [ cssday, rubyday, phpday, idi, jsday, containerday, angularday ]
 
     - name: Vue Basel
-      img: vuebasel.png
+      img: vuebasel.svg
       url: https://www.meetup.com/Vue-Basel/
       tags: [ vueday, jsday ]
 
