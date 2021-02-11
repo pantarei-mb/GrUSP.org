@@ -219,10 +219,13 @@ community:
       img: wmf.png
       url: https://www.webmarketingfestival.it/
       tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]
-      
+
     - name: Women TechMakers Italia
       img: wtmitalia.png
       url: https://www.facebook.com/womentechmakersit
       tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]
       
-      
+    - name: Gitbar
+      img: gitbar.png
+      url: https://www.gitbar.it
+      tags: [ vueday, phpday, idi, jsday ]      
