@@ -154,3 +154,68 @@ community:
       img: pugtorino.png
       url: http://torino.grusp.org/
       tags: [ vueday, phpday, jsday ]
+
+    - name: MUG - Marca User Group
+      img: mug.svg
+      url: https://m-u-g.github.io/
+      tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]
+
+    - name: AngularRoma
+      img: ngrome.svg
+      url: https://www.facebook.com/angularRome
+      tags: [ cssday, jsday, angularday ]
+
+    - name: Programmers in Padua
+      img: pip.svg
+      url: http://www.programmersinpadua.it
+      tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]
+
+    - name: PUG Milano
+      img: pugmilano.svg
+      url: https://www.meetup.com/it-IT/MilanoPHP/
+      tags: [ phpday ]
+
+    - name: Kubernetes & Cloud Native Milano
+      img: kubemi.png
+      url: https://www.meetup.com/kubernetes-and-cloud-native-milano/
+      tags: [ idi, containerday ]
+
+    - name: Rzeszów Ruby User Group
+      img: rur.png
+      url: http://rrug.pl
+      tags: [ rubyday ]      
+
+    - name: ngVikings
+      img: ngviking.png
+      url: https://www.ngvikings.org/
+      tags: [ angularday ]  
+
+    - name: Vue.js Italia
+      img: vuejsitalia.svg
+      url: https://t.me/vue_ita
+      tags: [ cssday, vueday, jsday, angularday ]
+
+    - name: PUG Roma
+      img: pugroma.svg
+      url: https://www.meetup.com/it-IT/PUG-Roma/
+      tags: [ phpday ]
+
+     - name: FEVR
+      img: fevr.png
+      url: http://www.fevr.it
+      tags: [ cssday, vueday, phpday, jsday, containerday, angularday ]   
+
+    - name: Torino DevOps Meetup Group
+      img: devopstorino.png
+      url: https://www.meetup.com/Torino-DevOps-Meetup-Group-Culture-Processes-and-Tools/
+      tags: [ idi, containerday ]  
+
+    - name: WomenXImpact
+      img: wxi.png
+      url: https://www.womenximpact.com/
+      tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]
+
+    - name: Web Marketing Festival
+      img: wmf.png
+      url: https://www.webmarketingfestival.it/
+      tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]
