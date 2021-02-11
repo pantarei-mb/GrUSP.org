@@ -200,7 +200,7 @@ community:
       url: https://www.meetup.com/it-IT/PUG-Roma/
       tags: [ phpday ]
 
-     - name: FEVR
+    - name: FEVR
       img: fevr.png
       url: http://www.fevr.it
       tags: [ cssday, vueday, phpday, jsday, containerday, angularday ]   
