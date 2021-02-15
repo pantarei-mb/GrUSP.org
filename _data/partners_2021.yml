@@ -24,6 +24,16 @@ media:
       url: https://devmy.it/
       tags: [ cssday, vueday, phpday, idi, jsday, containerday, angularday ]
 
+    - name: WomenXImpact
+      img: wxi.png
+      url: https://www.womenximpact.com/
+      tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]
+
+    - name: Web Marketing Festival
+      img: wmf.png
+      url: https://www.webmarketingfestival.it/
+      tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]
+
 community:
     - name: GDG Trento
       img: gdg-trento.svg
@@ -210,16 +220,6 @@ community:
       url: https://www.meetup.com/Torino-DevOps-Meetup-Group-Culture-Processes-and-Tools/
       tags: [ idi, containerday ]  
 
-    - name: WomenXImpact
-      img: wxi.png
-      url: https://www.womenximpact.com/
-      tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]
-
-    - name: Web Marketing Festival
-      img: wmf.png
-      url: https://www.webmarketingfestival.it/
-      tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]
-
     - name: Women Techmakers Italia
       img: wtmitalia.png
       url: https://www.facebook.com/womentechmakersit
@@ -228,4 +228,24 @@ community:
     - name: Gitbar
       img: gitbar.png
       url: https://www.gitbar.it
-      tags: [ vueday, phpday, idi, jsday ]      
+      tags: [ vueday, phpday, idi, jsday ]   
+
+    - name: JS League
+      img: jsleague.png
+      url: https://www.jsleague.ro/
+      tags: [ vueday, jsday, angularday ]   
+
+    - name: RubyConf By
+      img: rubyconfby.svg
+      url: https://rubyconference.by/
+      tags: [ rubyday ]    
+
+    - name: GDG Torino
+      img: gdgtorino.svg
+      url: https://gdgtorino.it/
+      tags: [ cssday, jsday, containerday, angularday ]
+
+    - name: Agile Community Torino
+      img: agiletorino.svg
+      url: https://www.meetup.com/it-IT/Agile-Community-Torino/
+      tags: [ idi, containerday ]     
