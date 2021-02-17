@@ -248,4 +248,14 @@ community:
     - name: Agile Community Torino
       img: agiletorino.svg
       url: https://www.meetup.com/it-IT/Agile-Community-Torino/
-      tags: [ idi, containerday ]     
+      tags: [ idi, containerday ]   
+      
+    - name: We Hate Pink
+      img: wehatepink.png
+      url: https://www.wehatepink.com/
+      tags: [ cssday, rubyday, vueday, jsday ] 
+      
+    - name: GDG Pisa
+      img: gdgpisa.png
+      url: https://gdgpisa.it/
+      tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ] 
