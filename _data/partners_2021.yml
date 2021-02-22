@@ -259,3 +259,18 @@ community:
       img: gdgpisa.png
       url: https://gdgpisa.it/
       tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ] 
+
+    - name: UX/UI Designer Italia
+      img: uxuidesigneritalia.svg
+      url: https://www.uxuidesigner.org/
+      tags: [ cssday, jsday ] 
+      
+    - name: Vue.js Manchester
+      img: vuemanchester.png
+      url: https://www.vuejsmcr.dev
+      tags: [ vueday, jsday ] 
+      
+    - name: Vue Spain
+      img: vuespain.png
+      url: https://www.meetup.com/es-ES/Vuejs-Spain/
+      tags: [ vueday ]    
