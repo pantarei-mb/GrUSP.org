@@ -274,3 +274,8 @@ community:
       img: vuespain.png
       url: https://www.meetup.com/es-ES/Vuejs-Spain/
       tags: [ vueday ]    
+      
+    - name: VueJS Dublin
+      img: vuedublin.svg
+      url: https://www.vuejsdublin.com/
+      tags: [ rubyday, vueday ]  
