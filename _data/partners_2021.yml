@@ -279,3 +279,8 @@ community:
       img: vuedublin.svg
       url: https://www.vuejsdublin.com/
       tags: [ rubyday, vueday ]  
+
+    - name: Vue Berne
+      img: vueberne.svg
+      url: https://vueberne.ch/
+      tags: [ vueday, jsday ]  
