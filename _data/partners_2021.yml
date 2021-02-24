@@ -283,4 +283,14 @@ community:
     - name: Vue Berne
       img: vueberne.svg
       url: https://vueberne.ch/
-      tags: [ vueday, jsday ]  
+      tags: [ vueday, jsday ] 
+      
+    - name: Python Italia
+      img: pytonit.svg
+      url: https://pycon.it/
+      tags: [ cssday, vueday, phpday, idi, jsday, containerday, angularday ]  
+      
+    - name: The Communities Bay
+      img: thecmmbay.png
+      url: www.thecmmbay.com
+      tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]  
