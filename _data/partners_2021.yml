@@ -292,5 +292,10 @@ community:
       
     - name: The Communities Bay
       img: thecmmbay.png
-      url: www.thecmmbay.com
+      url: http://www.thecmmbay.com
       tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]  
+      
+    - name: GDG Campobasso
+      img: gdgcampobasso.png
+      url: https://www.meetup.com/it-IT/GDG-Campobasso/
+      tags: [ vueday, phpday, idi, angularday ]  
