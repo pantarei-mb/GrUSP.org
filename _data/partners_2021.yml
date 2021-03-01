@@ -299,3 +299,8 @@ community:
       img: gdgcampobasso.png
       url: https://www.meetup.com/it-IT/GDG-Campobasso/
       tags: [ vueday, phpday, idi, angularday ]  
+      
+    - name: RLadies Italy
+      img: rladiesialy.png
+      url: https://rladiesitaly2.webnode.com/
+      tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]  
