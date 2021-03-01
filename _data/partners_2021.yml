@@ -301,6 +301,6 @@ community:
       tags: [ vueday, phpday, idi, angularday ]  
       
     - name: RLadies Italy
-      img: rladiesialy.png
+      img: rladiesitaly.png
       url: https://rladiesitaly2.webnode.com/
       tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]  
