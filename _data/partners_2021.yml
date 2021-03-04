@@ -33,6 +33,11 @@ media:
       img: wmf.png
       url: https://www.webmarketingfestival.it/
       tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]
+      
+    - name: Vuejs Amsterdam
+      img: vuejsamsterdam.png
+      url: https://vuejs.amsterdam/?ref=grusp
+      tags: [ vueday, jsday ]
 
 community:
     - name: GDG Trento
