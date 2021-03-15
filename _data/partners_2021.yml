@@ -34,11 +34,11 @@ media:
       url: https://www.webmarketingfestival.it/
       tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]
       
-    - name: Vuejs Amsterdam
-      img: vuejsamsterdam.png
-      url: https://vuejs.amsterdam/?ref=grusp
-      tags: [ vueday, jsday ]
-
+    - name: Hypernova Società Cooperativa
+      img: hypernova.png
+      url: https://hypernovacoop.retedoc.net/
+      tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]
+      
 community:
     - name: GDG Trento
       img: gdg-trento.svg
@@ -309,3 +309,13 @@ community:
       img: rladiesitaly.png
       url: https://rladiesitaly2.webnode.com/
       tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]  
+      
+    - name: Vuejs Amsterdam
+      img: vuejsamsterdam.png
+      url: https://vuejs.amsterdam/?ref=grusp
+      tags: [ vueday, jsday ]
+      
+    - name: WEBdeBS
+      img: webdebs.svg
+      url: http://webdebs.org
+      tags: [ vueday, phpday, jsday, containerday, angularday ]
