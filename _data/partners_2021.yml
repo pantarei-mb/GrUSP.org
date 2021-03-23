@@ -319,3 +319,14 @@ community:
       img: webdebs.svg
       url: http://webdebs.org
       tags: [ vueday, phpday, jsday, containerday, angularday ]
+      
+    - name: ReactJS Girls
+      img: reactjsgirls.png
+      url: https://www.meetup.com/ReactJS-Girls-London/
+      tags: [ jsday ]
+      
+    - name: Vuejs Nigeria
+      img: vuejsnigeria.png
+      url: https://www.meetup.com/vuejs-nigeria/
+      tags: [ vueday, jsday ]
+      
