@@ -39,6 +39,11 @@ media:
       url: https://hypernovacoop.retedoc.net/
       tags: [ cssday, rubyday, vueday, phpday, idi, jsday, containerday, angularday ]
       
+    - name: Ruby Central
+      img: rubycentral.png
+      url: https://www.rubycentral.org/
+      tags: [ rubyday ]
+      
 community:
     - name: GDG Trento
       img: gdg-trento.svg
