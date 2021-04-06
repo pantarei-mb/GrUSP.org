@@ -44,6 +44,16 @@ media:
       url: https://www.rubycentral.org/
       tags: [ rubyday ]
       
+    - name: Codica
+      img: codica.svg
+      url: https://www.codica.com/
+      tags: [ rubyday, vueday, jsday ]
+      
+    - name: Fabio Biondi
+      img: fabio-biondi.png
+      url: www.fabiobiondi.io
+      tags: [ vueday, phpday, idi, jsday, angularday ]
+      
 community:
     - name: GDG Trento
       img: gdg-trento.svg
@@ -335,3 +345,47 @@ community:
       url: https://www.meetup.com/vuejs-nigeria/
       tags: [ vueday, jsday ]
       
+    - name: PUG Catania
+      img: pugcatania.png
+      url: https://www.meetup.com/it-IT/pugCatania-PHP-User-Group-Catania/
+      tags: [ phpday ]
+      
+    - name: PUG Firenze
+      img: pugfirenze.png
+      url: https://www.facebook.com/PUGFirenze
+      tags: [ phpday ]
+      
+    - name: PUG Foggia
+      img: pugfoggia.png
+      url: https://foggia.grusp.org/
+      tags: [ phpday ]
+      
+    - name: PUG MoRe
+      img: pugmore.png
+      url: https://www.meetup.com/it-IT/pugmore/
+      tags: [ phpday ]
+      
+    - name: PUG Palermo
+      img: pugpalermo.png
+      url: https://www.grusp.org/it/pug.html
+      tags: [ phpday ]
+      
+    - name: PUG Pescara
+      img: pugpescara.png
+      url: https://www.meetup.com/it-IT/pugPescara-PHP-User-Group-Pescara/
+      tags: [ phpday ]
+      
+    - name: Pug Romagna
+      img: pugromagna.png
+      url: https://www.meetup.com/it-IT/PUG-Romagna-PHP-User-Group-Romagnolo/
+      tags: [ phpday ]
+      
+    - name: PUG Sondrio
+      img: pugsondrio.png
+      url: https://www.meetup.com/it-IT/pugSondrio-PHP-User-Group-Sondrio/
+      tags: [ phpday ]
+      
+    - name: PUG Seregno
+      img: pugseregno.png
+      url: https://www.meetup.com/it-IT/PUG-PHP-Seregno/
+      tags: [ phpday ]
