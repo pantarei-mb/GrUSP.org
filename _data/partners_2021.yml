@@ -389,3 +389,13 @@ community:
       img: pugseregno.png
       url: https://www.meetup.com/it-IT/PUG-PHP-Seregno/
       tags: [ phpday ]
+
+    - name: revo.js
+      img: revojs.png
+      url: https://revojs.ro/
+      tags: [ vueday, jsday, angularday ]
+      
+    - name: GDG Ranchi
+      img: gdgranchi.png
+      url: https://gdgranchi.in
+      tags: [ vueday ]
