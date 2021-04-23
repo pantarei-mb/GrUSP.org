@@ -54,6 +54,11 @@ media:
       url: www.fabiobiondi.io
       tags: [ vueday, phpday, idi, jsday, angularday ]
       
+    - name: Accessibility Days
+      img: accessibilitydays.png
+      url: https://accessibilitydays.it/
+      tags: [ phpday, jsday ]
+      
 community:
     - name: GDG Trento
       img: gdg-trento.svg
@@ -399,3 +404,9 @@ community:
       img: gdgranchi.png
       url: https://gdgranchi.in
       tags: [ vueday ]
+      
+    - name: Frontend Hub
+      img: frontendhub.png
+      url: https://www.facebook.com/frontendhub
+      tags: [ vueday, jsday, angularday ]
+      
